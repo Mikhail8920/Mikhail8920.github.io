@@ -1,0 +1,261 @@
+@media (min-width: 769px) and (max-width: 1023px) {
+  .header {
+    height: 8.3rem;
+  }
+  .header__logo {
+    font-size: 5rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+  }
+  .header__nav {
+    justify-content: center;
+    flex-basis: 77%;
+    margin: 1.2rem 0rem 0rem 0rem;
+  }
+  .header__nav__link {
+    font-size: 1.1rem;
+  }
+  .first__block {
+    width: 100%;
+    height: 29rem;
+  }
+  .first__block h1 {
+    font-size: 12rem;
+    margin-top: 2.5rem;
+  }
+  .first__block p {
+    font-size: 2.7rem;
+    margin-top: 1rem;
+  }
+  .background-wrap {
+    width: 100%;
+    height: 32rem;
+  }
+  .reservation__and__about {
+    width: 69rem;
+    height: 38rem;
+    left: 2.8rem;
+    top: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .reservation,
+  .about {
+    height: 19.5rem;
+  }
+  .reservation img {
+    width: 63%;
+    height: 19.5rem;
+  }
+  .about img {
+    width: 37%;
+    height: 19rem;
+  }
+  .background-wrap {
+    height: 36rem;
+  }
+  .reservation__left-block {
+    padding: 1.8rem;
+  }
+  .reservation__left-block h2,
+  .about__right-block h2 {
+    font-size: 4rem;
+  }
+  .reservation__left-block p,
+  .about__right-block p {
+    font-size: 1.3rem;
+    margin-bottom: .8rem;
+  }
+  .reservation__left-block button {
+    width: 11rem;
+    font-size: 1rem;
+    padding: .6rem .5rem;
+  }
+  .about__right-block {
+    padding: 1.8rem;
+    justify-content: space-around;
+  }
+  .our__spesialities {
+    height: 40rem;
+  }
+  .our__spesialities h1 {
+    font-size: 10rem;
+  }
+  .background-wrap {
+    height: 34rem;
+  }
+  .dishes {
+    height: 98.5rem;
+    width: 69rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    top: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #272727;
+  }
+  .langsta,
+  .pizza,
+  .idlis,
+  .burger {
+    width: 65rem;
+    height: 23rem;
+    background: #000;
+    border-radius: 1.5rem;
+    margin: .2rem 0rem;
+    position: relative;
+  }
+  .pizza__left-block {
+    position: relative;
+    flex-basis: 64%;
+    right: -23.5rem;
+  }
+  .idlis__right-block {
+    position: relative;
+    right: 24rem;
+  }
+  .pizza__right-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .pizza__right-block img {
+    height: 23rem;
+  }
+  .idlis__left-block {
+    position: absolute;
+    height: 23rem;
+    top: 0;
+    right: 0;
+  }
+  .idlis__right-block {
+    position: relative;
+    flex-basis: 64%;
+    right: 0;
+  }
+  .dishes__description {
+    color: #fff;
+  }
+  .dishes__image {
+    height: 100%;
+    border-radius: 1.5rem;
+  }
+  .skewers__and__menu {
+    width: 100%;
+    margin-top: 61rem;
+    height: 48rem;
+  }
+  .menu {
+    width: 100%;
+    margin-top: 32rem;
+  }
+  .menu__header__menu {
+    margin-top: -29rem;
+  }
+  .triangle {
+    border-right: 77rem solid transparent;
+  }
+  .menu__food,
+  .menu__deserts {
+    width: 100%;
+    height: 67rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .food__item,
+  .deserts__item {
+    width: 48rem;
+    height: 6rem;
+  }
+  .food__item p,
+  .deserts__item p {
+    text-align: satrt;
+  }
+  .menu__dish__image1 {
+    width: 17rem;
+    top: -38rem;
+  }
+  .menu__dish__image2 {
+    width: 15rem;
+    top: -33rem;
+  }
+  .menu__dish__image3 {
+    width: 10rem;
+    top: 42rem;
+  }
+  .menu__dish__image4 {
+    width: 9rem;
+    top: 45rem;
+  }
+  .menu__dish__image5 {
+    width: 18rem;
+    bottom: -27rem;
+  }
+  .menu__dish__image6 {
+    width: 16rem;
+    bottom: -15rem;
+  }
+  .menu__dish__image7 {
+    width: 16rem;
+    bottom: -22rem;
+  }
+  .locations {
+    width: 100%;
+    margin-top: 16rem;
+    height: 140rem;
+  }
+  .wrap__location {
+    width: 54rem;
+    height: 92.5rem;
+  }
+  .main__location__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .left__block {
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+  }
+  .join {
+    font-size: 2.9rem;
+  }
+  .location__sing__me__up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .location__sing__me__up input {
+    font-size: 1.4rem;
+    width: 50rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  .location__sing__me__up button {
+    width: 13rem;
+    font-size: 1.4rem;
+    margin-left: 0rem;
+    padding: 1rem 2rem;
+  }
+  .wrap__block {
+    padding: 5rem 0rem;
+    height: 18rem;
+  }
+  .social__background {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .social__icon__item {
+    width: 4rem;
+    height: 4rem;
+  }
+  .footer__link__item {
+    font-size: 1.2rem;
+  }
+}
