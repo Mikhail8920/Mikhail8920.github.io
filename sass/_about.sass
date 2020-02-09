@@ -1,0 +1,239 @@
+.about
+    max-width: 1240px
+    margin-left: auto
+    margin-right: auto
+    
+.about-wrap
+    margin-top: 55px
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.about-header
+    font-family: 'Raleway'
+    font-size: 25px
+    color: #000
+    & span
+        color: #ff0036
+
+.about-main-text
+    font-family: 'Raleway'
+    font-size: 15px
+    margin-bottom: 60px
+    & span
+        color #ff0036
+
+.about-content
+    display: flex
+    flex-direction: row
+    margin: 0px 60px
+
+.about-left-content
+    flex-basis: 50%
+    display: flex
+    flex-direction: column
+
+.about-text
+    font-size: 16px
+    font-weight: 100
+
+.about-left-blocks
+    margin-bottom: 20px
+
+.about-tr-color
+    background-color: #f7f7f7
+
+table, tr, td
+    border: 1px solid #e7e7e7
+    border-collapse: collapse
+
+.about-left-table-text 
+    font-size: 14px    
+
+.spoiler
+    width: 45px
+    height: 45px
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+
+
+.about-table-td 
+    font-family: 'Raleway'
+    font-size: 16px
+    font-weight: 600
+    color: #000
+    &:hover
+        color: #ff0036
+
+.about-photo
+    width: 512px
+    position: relative
+
+.main-hexagon-wrap
+    position: absolute
+    top: 20px
+    right: 27%
+    z-index: 3
+    width: 250px
+    height: 200px
+    &::after
+        content: ''
+        width: 320px
+        height: 280px
+        position: absolute
+        top: 0
+        left: 0
+        background-color: #000
+        opacity: 0.7
+        clip-path: polygon(26% 1%, 74% 1%, 99% 50%, 74% 99%, 26% 99%, 1% 50%)       
+    &:hover::after
+        opacity: 0.1
+        background-color: #000
+
+.child-left-hexagon-wrap
+    position: absolute
+    top: 40px
+    right: 46%
+    width: 220px
+    height: 180px
+    z-index: 2
+    &::after
+        content: ''
+        width: 280px
+        height: 220px
+        position: absolute
+        top: 0
+        left: 0
+        background-color: #000
+        opacity: 0.7
+        clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)
+    &:hover::after
+        opacity: 0.1
+        background-color: #000
+        
+.child-right-hexagon-wrap
+    position: absolute
+    top: 40px
+    right: 13%
+    width: 220px
+    height: 180px
+    z-index: 2
+    &::after
+        content: ''
+        width: 280px
+        height: 220px
+        position: absolute
+        top: 0
+        left: 0
+        background-color: #000
+        opacity: 0.7
+        clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)
+    &:hover::after
+        opacity: 0.1
+        background-color: #000
+
+.main-hexagon
+    width: 320px
+    height: 280px
+
+.child-left-hexagon,
+.child-right-hexagon
+    width: 280px
+    height: 220px
+
+.about-separate
+    margin-top: 50px
+    width: 1024px 
+    display: flex
+    align-items: center
+    justify-content: center
+
+.about-line
+    width: 450px
+    height: 1px
+    border: 0
+    border-top: 1px solid #000
+    margin: 50px 100px
+    position: relative
+
+.about-hexagon
+    width: 10px
+    height: 20px
+    background: #000000
+    position: absolute
+    &::after,
+    &::before
+        content: ''
+        position: absolute
+        width: 0
+        height: 0
+    &::before
+        top: 0
+        right: -6px
+        border-top: 10px solid transparent
+        border-bottom: 10px solid transparent
+        border-left: 6px solid #000
+    &::after
+        top: 0
+        left: -6px
+        border-top: 10px solid transparent
+        border-bottom: 10px solid transparent
+        border-right: 6px solid #000
+
+.about-adaptation
+    max-width: 1240px
+    margin: 50px 
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-between
+    align-items: center
+
+.about-adaptation-item
+    height: 300px
+    flex-basis: 20%
+    margin: 0px 5px
+    padding: 10px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+
+.about-adaptattion-hexagon
+    position: absolute
+    width: 340px
+    height: 200px
+    border: 4px solid #000
+    border-top: none
+    border-bottom: none
+    left: 200px
+    top: 200px
+    &:nth-child(2) 
+        transform:rotate(60deg)
+    &:nth-child(3) 
+        transform:rotate(-60deg)
+    &:hover
+        background-color: #ff0036
+
+.about-adaptation-header
+    font-size: 20px
+
+.about-adaptation-text
+    font-family: 'Lato'
+    font-size: 14px
+
+
+        
+    
+    
+    
+
+
+
+
+
+
+
+
+
