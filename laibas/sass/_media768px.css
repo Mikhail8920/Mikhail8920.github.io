@@ -170,6 +170,18 @@
   .food__item p,
   .deserts__item p {
     text-align: satrt;
+    position: relative;
+  }
+  .food__item__wrap p::after,
+  .desert__item__wrap p::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: .2rem;
+    left: 6.9rem;
+    width: 27.2rem;
+    height: .1rem;
+    background: #000;
   }
   .menu__dish__image1 {
     width: 17rem;

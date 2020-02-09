@@ -976,17 +976,6 @@ body {
   .menu__header__menu {
     margin-top: -29rem;
   }
-  .triangle {
-    position: absolute;
-    top: -35rem;
-    left: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-bottom: 172rem solid #dbefe4;
-    border-right: 64rem solid transparent;
-    z-index: -1;
-  }
   .menu__food,
   .menu__deserts {
     width: 100%;
@@ -1041,7 +1030,7 @@ body {
     top: -33rem;
   }
   .menu__dish__image3 {
-    width: 10rem;
+    width: 9rem;
     top: 42rem;
   }
   .menu__dish__image4 {
@@ -1325,6 +1314,18 @@ body {
   .food__item p,
   .deserts__item p {
     text-align: satrt;
+    position: relative;
+  }
+  .food__item__wrap p::after,
+  .desert__item__wrap p::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: .2rem;
+    left: 6.9rem;
+    width: 27.2rem;
+    height: .1rem;
+    background: #000;
   }
   .menu__dish__image1 {
     width: 17rem;
@@ -1623,6 +1624,18 @@ body {
   .food__item p,
   .deserts__item p {
     text-align: satrt;
+    position: relative;
+  }
+  .food__item__wrap p::after,
+  .desert__item__wrap p::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: .2rem;
+    left: 6.9rem;
+    width: 27.2rem;
+    height: .1rem;
+    background: #000;
   }
   .menu__dish__image1 {
     width: 17rem;
@@ -1725,6 +1738,22 @@ body {
 @media (min-width: 1024px) and (max-width: 1365px) {
   .skewers__and__menu {
     height: 67rem;
+  }
+  .food__item p,
+  .deserts__item p {
+    text-align: satrt;
+    position: relative;
+  }
+  .food__item__wrap p::after,
+  .desert__item__wrap p::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: .2rem;
+    left: 14.2rem;
+    width: 12.2rem;
+    height: .1rem;
+    background: #000;
   }
 }
 /*# sourceMappingURL=main.css.map */
