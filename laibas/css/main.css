@@ -409,18 +409,6 @@ body {
   position: relative;
 }
 
-.triangle {
-  position: absolute;
-  top: -52rem;
-  left: 0;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-bottom: 188rem solid #dbefe4;
-  border-right: 68rem solid transparent;
-  z-index: -1;
-}
-
 .menu__header__menu {
   font-family: 'Tangerine', cursive;
   font-weight: 600;
@@ -988,17 +976,6 @@ body {
   .menu__header__menu {
     margin-top: -29rem;
   }
-  .triangle {
-    position: absolute;
-    top: -35rem;
-    left: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-bottom: 172rem solid #dbefe4;
-    border-right: 64rem solid transparent;
-    z-index: -1;
-  }
   .menu__food,
   .menu__deserts {
     width: 100%;
@@ -1309,9 +1286,6 @@ body {
   .menu__header__menu {
     margin-top: -29rem;
   }
-  .triangle {
-    border-right: 64rem solid transparent;
-  }
   .menu__food,
   .menu__deserts {
     width: 100%;
@@ -1609,9 +1583,6 @@ body {
   }
   .menu__header__menu {
     margin-top: -29rem;
-  }
-  .triangle {
-    border-right: 77rem solid transparent;
   }
   .menu__food,
   .menu__deserts {

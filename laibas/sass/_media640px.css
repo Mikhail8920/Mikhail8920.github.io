@@ -145,17 +145,6 @@
   .menu__header__menu {
     margin-top: -29rem;
   }
-  .triangle {
-    position: absolute;
-    top: -35rem;
-    left: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-bottom: 172rem solid #dbefe4;
-    border-right: 64rem solid transparent;
-    z-index: -1;
-  }
   .menu__food,
   .menu__deserts {
     width: 100%;
