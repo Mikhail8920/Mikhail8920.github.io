@@ -174,7 +174,7 @@ body {
 
 .reservation__left-block p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #8a8a8a;
   margin-bottom: 2rem;
 }
@@ -254,7 +254,7 @@ body {
 
 .about__right-block p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #8a8a8a;
 }
 
@@ -879,7 +879,7 @@ body {
   }
   .reservation__left-block p,
   .about__right-block p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-bottom: .8rem;
   }
   .reservation__left-block button {
@@ -1189,8 +1189,7 @@ body {
   }
   .reservation__left-block p,
   .about__right-block p {
-    font-size: 1.3rem;
-    margin-bottom: .8rem;
+    font-size: 1.5rem;
   }
   .reservation__left-block button {
     width: 11rem;
@@ -1313,6 +1312,7 @@ body {
   }
   .food__item p,
   .deserts__item p {
+    font-size: 1.5rem;
     text-align: satrt;
     position: relative;
   }
