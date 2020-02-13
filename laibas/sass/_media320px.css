@@ -250,19 +250,78 @@
   .menu__dish__image7 {
     bottom: -3rem;
   }
+  .locations {
+    height: 100rem;
+  }
   .wrap__location {
     width: 28rem;
+    height: 63rem;
+    padding: 1.5rem 0rem;
   }
-  .main__location__block {
-    width: 28rem;
+  .location_header {
+    font-size: 7rem;
+  }
+  .location_header::after {
+    bottom: 0rem;
   }
   .main__location__block {
     flex-direction: column;
   }
-  .location__image {
+  .left__block {
+    margin-bottom: 3rem;
+  }
+  .adress,
+  .phone {
+    font-size: 1.2rem;
+    text-align: start;
+  }
+  .main__location__block {
     width: 28rem;
   }
+  .location__image {
+    width: 23rem;
+    border-radius: .8rem;
+  }
+  .join {
+    font-size: 1.3rem;
+  }
+  .location__sing__me__up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .location__sing__me__up input {
-    width: 30rem;
+    width: 28rem;
+    font-size: 1.4rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  .location__sing__me__up button {
+    width: 13rem;
+    font-size: 1.4rem;
+    padding: .4rem 1rem;
+    margin-left: 0rem;
+  }
+  .wrap__block {
+    height: 15rem;
+  }
+  .social__icon {
+    height: 3rem;
+  }
+  .social__background {
+    width: 3rem;
+    height: 3rem;
+  }
+  .social__icon__item {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .footer__link {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .footer__link__item {
+    font-size: 1.1rem;
+    padding: 0rem .6rem;
   }
 }
