@@ -1205,6 +1205,7 @@ body {
     width: 90%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin: 0 auto;
   }
   .footer__link__item {
     font-size: 1.1rem;
