@@ -109,6 +109,17 @@
   text-align: right;
 }
 
+.price {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fc4263;
+}
+
+.price span {
+  font-size: 2rem;
+}
+
 .menu__dish__image1 {
   position: absolute;
   width: 22rem;

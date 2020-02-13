@@ -1,4 +1,4 @@
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 640px) {
   body {
     background-size: 100%;
     background-position: top;
@@ -49,7 +49,7 @@
     height: 19.5rem;
   }
   .reservation__left-block {
-    padding: 1.8rem;
+    padding: 0.3rem 1.2rem 1.8rem 1.2rem;
   }
   .reservation__left-block h2,
   .about__right-block h2 {
@@ -58,7 +58,7 @@
   .reservation__left-block p,
   .about__right-block p {
     font-size: 1.4rem;
-    margin-bottom: .8rem;
+    margin-bottom: 0rem;
   }
   .reservation__left-block button {
     width: 11rem;
@@ -70,8 +70,8 @@
     height: 19.5rem;
   }
   .about__right-block {
-    padding: 1.8rem;
-    justify-content: space-around;
+    padding: .5rem 1.2rem 1.8rem 1.2rem;
+    justify-content: baseline;
   }
   .about__left-block img {
     width: 21.5rem;
@@ -157,17 +157,22 @@
   }
   .food__item,
   .deserts__item {
-    width: 49rem;
+    width: 40rem;
     height: 6rem;
+    align-items: flex-end;
   }
   .food__item p,
   .deserts__item p {
-    text-align: satrt;
+    text-align: start;
     position: relative;
   }
   .food__item__wrap,
   .desert__item__wrap {
     padding-right: 2rem;
+  }
+  .food__item__wrap p,
+  .desert__item__wrap p {
+    font-size: 1.4rem;
   }
   .food__item__wrap p::after,
   .desert__item__wrap p::after {
@@ -175,8 +180,8 @@
     position: absolute;
     display: block;
     bottom: .2rem;
-    left: 6.9rem;
-    width: 27.2rem;
+    left: 15.4rem;
+    width: 13.2rem;
     height: .1rem;
     background: #000;
   }
@@ -202,7 +207,7 @@
   }
   .menu__dish__image6 {
     width: 16rem;
-    bottom: -15rem;
+    bottom: -20rem;
   }
   .menu__dish__image7 {
     width: 16rem;
@@ -227,7 +232,7 @@
     margin-bottom: 3rem;
   }
   .join {
-    font-size: 2.9rem;
+    font-size: 2.5rem;
   }
   .location__sing__me__up {
     display: flex;

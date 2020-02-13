@@ -174,7 +174,7 @@ body {
 
 .reservation__left-block p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #8a8a8a;
   margin-bottom: 2rem;
 }
@@ -254,7 +254,7 @@ body {
 
 .about__right-block p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #8a8a8a;
 }
 
@@ -524,6 +524,17 @@ body {
   color: #fc4263;
   margin-top: 2.5rem;
   text-align: right;
+}
+
+.price {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fc4263;
+}
+
+.price span {
+  font-size: 2rem;
 }
 
 .menu__dish__image1 {
@@ -817,7 +828,324 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 320px) and (max-width: 639px) {
+  body {
+    background-position: right;
+  }
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .header__logo {
+    font-size: 6rem;
+    margin-top: 3rem;
+    margin-left: 0rem;
+  }
+  .header__nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1rem 0rem 0rem 0rem;
+    position: relative;
+  }
+  .header__nav__link {
+    display: none;
+    font-size: 1.2rem;
+    padding-right: 0rem;
+    padding-bottom: 1rem;
+  }
+  .header__nav span {
+    display: none;
+  }
+  .first__block {
+    height: 42rem;
+  }
+  .first__block h1 {
+    font-size: 13rem;
+    margin-top: 7rem;
+  }
+  .first__block p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .8rem;
+  }
+  .background-wrap {
+    height: 80rem;
+  }
+  .reservation__and__about {
+    width: 28rem;
+    height: 84rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .reservation,
+  .about {
+    height: 41rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .reservation__left-block h2,
+  .about__right-block h2 {
+    font-size: 5rem;
+  }
+  .reservation__left-block p,
+  .about__right-block p {
+    width: 24rem;
+  }
+  .reservation__left-block button {
+    width: 13rem;
+    padding: .7rem .5rem;
+  }
+  .reservation img {
+    position: static;
+    width: 25rem;
+    height: 15rem;
+    border-radius: .8rem;
+  }
+  .reservation__left-block,
+  .about__right-block {
+    width: 100%;
+    padding: 2rem;
+  }
+  .reservation__left-block button {
+    margin-bottom: 1rem;
+  }
+  .about {
+    position: relative;
+  }
+  .about__right-block {
+    position: absolute;
+    top: -2.5rem;
+  }
+  .about img {
+    width: 24.5rem;
+    height: 15rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    border-radius: .8rem;
+  }
+  .our__spesialities {
+    height: 30rem;
+  }
+  .our__spesialities h1 {
+    width: 28rem;
+    font-size: 7rem;
+    line-height: 6rem;
+  }
+  .dishes {
+    width: 30rem;
+    height: 105rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 0rem 0rem 2rem 0rem;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    overflow: auto;
+  }
+  .langsta,
+  .pizza,
+  .idlis,
+  .burger {
+    width: 30rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2rem;
+  }
+  .idlis,
+  .burger {
+    position: relative;
+  }
+  .langsta__right-block,
+  .pizza__right-block,
+  .idlis__left-block,
+  .burger__left-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .idlis__left-block {
+    position: absolute;
+    bottom: -46rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .idlis__right-block {
+    width: 85%;
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .burger__left-block {
+    position: absolute;
+    margin: 2rem 0rem;
+    bottom: -98rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .burger__right-block {
+    width: 85%;
+    position: absolute;
+    top: 52rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .langsta__left-block,
+  .pizza__left-block,
+  .idlis__right-block,
+  .burger__right-block {
+    margin-bottom: 2rem;
+  }
+  .dishes__image {
+    width: 25rem;
+    border-radius: 1rem;
+  }
+  .wrap__skewers__and__menu {
+    height: 177rem;
+  }
+  .skewers__and__menu {
+    margin-top: 21rem;
+    height: 20rem;
+  }
+  .menu {
+    height: 156rem;
+  }
+  .menu__header__menu {
+    font-size: 6rem;
+    margin-top: 0rem;
+  }
+  .menu__header {
+    font-size: 1.6rem;
+    margin: 0rem 0rem;
+    padding: 2rem 0rem;
+  }
+  .menu__food,
+  .menu__deserts {
+    width: 100%;
+    height: 68rem;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .food__item,
+  .deserts__item {
+    width: 28rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: .7rem;
+  }
+  .food__item__wrap,
+  .desert__item__wrap {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .food__item__wrap p,
+  .desert__item__wrap p {
+    text-align: center;
+  }
+  .food__item h2,
+  .deserts__item h2 {
+    font-size: 1.4rem;
+    padding-bottom: .5rem;
+  }
+  .price {
+    font-size: 2rem;
+  }
+  .price span {
+    font-size: 1.2rem;
+  }
+  .menu__dish__image1,
+  .menu__dish__image2,
+  .menu__dish__image3,
+  .menu__dish__image4,
+  .menu__dish__image5,
+  .menu__dish__image6,
+  .menu__dish__image7 {
+    width: 5rem;
+  }
+  .menu__dish__image1 {
+    top: -2rem;
+  }
+  .menu__dish__image2 {
+    top: -0.5rem;
+  }
+  .menu__dish__image3 {
+    top: 53.5rem;
+  }
+  .menu__dish__image4 {
+    width: 4rem;
+    top: 52rem;
+  }
+  .menu__dish__image5 {
+    bottom: -5rem;
+  }
+  .menu__dish__image6 {
+    bottom: -3rem;
+  }
+  .menu__dish__image7 {
+    bottom: -3rem;
+  }
+  .wrap__location {
+    width: 28rem;
+  }
+  .main__location__block {
+    width: 28rem;
+  }
+  .main__location__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .location__image {
+    width: 28rem;
+  }
+  .location__sing__me__up input {
+    width: 30rem;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 640px) {
   body {
     background-size: 100%;
     background-position: top;
@@ -871,7 +1199,7 @@ body {
     height: 19.5rem;
   }
   .reservation__left-block {
-    padding: 1.8rem;
+    padding: 0.3rem 1.2rem 1.8rem 1.2rem;
   }
   .reservation__left-block h2,
   .about__right-block h2 {
@@ -879,8 +1207,8 @@ body {
   }
   .reservation__left-block p,
   .about__right-block p {
-    font-size: 1.3rem;
-    margin-bottom: .8rem;
+    font-size: 1.4rem;
+    margin-bottom: 0rem;
   }
   .reservation__left-block button {
     width: 11rem;
@@ -892,9 +1220,10 @@ body {
     height: 19.5rem;
   }
   .about__right-block {
-    padding: 1.8rem;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    padding: .5rem 1.2rem 1.8rem 1.2rem;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
   }
   .about__left-block img {
     width: 21.5rem;
@@ -998,17 +1327,24 @@ body {
   }
   .food__item,
   .deserts__item {
-    width: 49rem;
+    width: 40rem;
     height: 6rem;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
   .food__item p,
   .deserts__item p {
-    text-align: satrt;
+    text-align: start;
     position: relative;
   }
   .food__item__wrap,
   .desert__item__wrap {
     padding-right: 2rem;
+  }
+  .food__item__wrap p,
+  .desert__item__wrap p {
+    font-size: 1.4rem;
   }
   .food__item__wrap p::after,
   .desert__item__wrap p::after {
@@ -1016,8 +1352,8 @@ body {
     position: absolute;
     display: block;
     bottom: .2rem;
-    left: 6.9rem;
-    width: 27.2rem;
+    left: 15.4rem;
+    width: 13.2rem;
     height: .1rem;
     background: #000;
   }
@@ -1043,7 +1379,7 @@ body {
   }
   .menu__dish__image6 {
     width: 16rem;
-    bottom: -15rem;
+    bottom: -20rem;
   }
   .menu__dish__image7 {
     width: 16rem;
@@ -1073,7 +1409,7 @@ body {
     margin-bottom: 3rem;
   }
   .join {
-    font-size: 2.9rem;
+    font-size: 2.5rem;
   }
   .location__sing__me__up {
     display: -webkit-box;
@@ -1136,9 +1472,6 @@ body {
         flex-basis: 77%;
     margin: 1.2rem 0rem 0rem 0rem;
   }
-  .header__nav__link {
-    font-size: 1.1rem;
-  }
   .first__block {
     width: 100%;
     height: 29rem;
@@ -1181,7 +1514,10 @@ body {
     height: 36rem;
   }
   .reservation__left-block {
-    padding: 1.8rem;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+    padding: 0.8rem 1.2rem 1.8rem 1.2rem;
   }
   .reservation__left-block h2,
   .about__right-block h2 {
@@ -1189,8 +1525,8 @@ body {
   }
   .reservation__left-block p,
   .about__right-block p {
-    font-size: 1.3rem;
-    margin-bottom: .8rem;
+    font-size: 1.4rem;
+    margin-bottom: 0rem;
   }
   .reservation__left-block button {
     width: 11rem;
@@ -1198,9 +1534,10 @@ body {
     padding: .6rem .5rem;
   }
   .about__right-block {
-    padding: 1.8rem;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    padding: .5rem 1.2rem 1.8rem 1.2rem;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
   }
   .our__spesialities {
     height: 40rem;
@@ -1308,11 +1645,15 @@ body {
   }
   .food__item,
   .deserts__item {
-    width: 48rem;
+    width: 40rem;
     height: 6rem;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
   .food__item p,
   .deserts__item p {
+    font-size: 1.5rem;
     text-align: satrt;
     position: relative;
   }
@@ -1322,8 +1663,8 @@ body {
     position: absolute;
     display: block;
     bottom: .2rem;
-    left: 6.9rem;
-    width: 27.2rem;
+    left: 16.4rem;
+    width: 14.2rem;
     height: .1rem;
     background: #000;
   }
@@ -1349,7 +1690,7 @@ body {
   }
   .menu__dish__image6 {
     width: 16rem;
-    bottom: -15rem;
+    bottom: -20rem;
   }
   .menu__dish__image7 {
     width: 16rem;
@@ -1379,7 +1720,7 @@ body {
     margin-bottom: 3rem;
   }
   .join {
-    font-size: 2.9rem;
+    font-size: 2.5rem;
   }
   .location__sing__me__up {
     display: -webkit-box;
@@ -1441,9 +1782,6 @@ body {
     -ms-flex-preferred-size: 77%;
         flex-basis: 77%;
     margin: 1.2rem 0rem 0rem 0rem;
-  }
-  .header__nav__link {
-    font-size: 1.1rem;
   }
   .first__block {
     width: 100%;
@@ -1624,12 +1962,15 @@ body {
   }
   .food__item,
   .deserts__item {
-    width: 55rem;
+    width: 48rem;
     height: 6rem;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
   .food__item p,
   .deserts__item p {
-    text-align: satrt;
+    text-align: start;
     position: relative;
   }
   .food__item__wrap p,
@@ -1724,7 +2065,7 @@ body {
   }
   .location__sing__me__up button {
     width: 13rem;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-left: 0rem;
     padding: 1rem 2rem;
   }
@@ -1746,6 +2087,9 @@ body {
 }
 
 @media (min-width: 1024px) and (max-width: 1365px) {
+  .header__nav__link {
+    font-size: 1.5rem;
+  }
   .reservation__left-block p,
   .about__right-block p {
     font-size: 1.5rem;
@@ -1763,7 +2107,10 @@ body {
   }
   .food__item,
   .deserts__item {
-    width: 38rem;
+    width: 40rem;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
   .food__item p,
   .deserts__item p {
@@ -1771,10 +2118,28 @@ body {
   }
   .food__item__wrap p,
   .desert__item__wrap p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+  }
+  .food__item__wrap p::after,
+  .desert__item__wrap p::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: .2rem;
+    left: 16.5rem;
+    width: 14.3rem;
+    height: .1rem;
+    background: #000;
   }
   .menu__dish__image4 {
     width: 10rem;
+  }
+  .join {
+    width: 50rem;
+    font-size: 3rem;
+  }
+  .location__sing__me__up button {
+    font-size: 1.6rem;
   }
 }
 
@@ -1790,13 +2155,19 @@ body {
   .skewers__and__menu {
     height: 95rem;
   }
+  .header__nav__link {
+    font-size: 1.5rem;
+  }
   .menu__food,
   .menu__deserts {
     width: 105rem;
   }
   .food__item,
   .deserts__item {
-    width: 45rem;
+    width: 40rem;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
   .food__item p,
   .deserts__item p {
@@ -1816,6 +2187,10 @@ body {
     width: 14.2rem;
     height: .1rem;
     background: #000;
+  }
+  .join {
+    width: 55rem;
+    font-size: 3.4rem;
   }
 }
 

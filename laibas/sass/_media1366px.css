@@ -1,4 +1,7 @@
 @media (min-width: 1024px) and (max-width: 1365px) {
+  .header__nav__link {
+    font-size: 1.5rem;
+  }
   .reservation__left-block p,
   .about__right-block p {
     font-size: 1.5rem;
@@ -16,7 +19,8 @@
   }
   .food__item,
   .deserts__item {
-    width: 38rem;
+    width: 40rem;
+    align-items: flex-end;
   }
   .food__item p,
   .deserts__item p {
@@ -24,9 +28,27 @@
   }
   .food__item__wrap p,
   .desert__item__wrap p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+  }
+  .food__item__wrap p::after,
+  .desert__item__wrap p::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: .2rem;
+    left: 16.5rem;
+    width: 14.3rem;
+    height: .1rem;
+    background: #000;
   }
   .menu__dish__image4 {
     width: 10rem;
+  }
+  .join {
+    width: 50rem;
+    font-size: 3rem;
+  }
+  .location__sing__me__up button {
+    font-size: 1.6rem;
   }
 }

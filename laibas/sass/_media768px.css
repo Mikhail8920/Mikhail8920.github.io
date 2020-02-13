@@ -12,9 +12,6 @@
     flex-basis: 77%;
     margin: 1.2rem 0rem 0rem 0rem;
   }
-  .header__nav__link {
-    font-size: 1.1rem;
-  }
   .first__block {
     width: 100%;
     height: 29rem;
@@ -56,7 +53,8 @@
     height: 36rem;
   }
   .reservation__left-block {
-    padding: 1.8rem;
+    justify-content: baseline;
+    padding: 0.8rem 1.2rem 1.8rem 1.2rem;
   }
   .reservation__left-block h2,
   .about__right-block h2 {
@@ -64,7 +62,8 @@
   }
   .reservation__left-block p,
   .about__right-block p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 0rem;
   }
   .reservation__left-block button {
     width: 11rem;
@@ -72,8 +71,8 @@
     padding: .6rem .5rem;
   }
   .about__right-block {
-    padding: 1.8rem;
-    justify-content: space-around;
+    padding: .5rem 1.2rem 1.8rem 1.2rem;
+    justify-content: baseline;
   }
   .our__spesialities {
     height: 40rem;
@@ -163,8 +162,9 @@
   }
   .food__item,
   .deserts__item {
-    width: 48rem;
+    width: 40rem;
     height: 6rem;
+    align-items: flex-end;
   }
   .food__item p,
   .deserts__item p {
@@ -178,8 +178,8 @@
     position: absolute;
     display: block;
     bottom: .2rem;
-    left: 6.9rem;
-    width: 27.2rem;
+    left: 16.4rem;
+    width: 14.2rem;
     height: .1rem;
     background: #000;
   }
@@ -205,7 +205,7 @@
   }
   .menu__dish__image6 {
     width: 16rem;
-    bottom: -15rem;
+    bottom: -20rem;
   }
   .menu__dish__image7 {
     width: 16rem;
@@ -230,7 +230,7 @@
     margin-bottom: 3rem;
   }
   .join {
-    font-size: 2.9rem;
+    font-size: 2.5rem;
   }
   .location__sing__me__up {
     display: flex;

@@ -1,265 +1,268 @@
 @media (min-width: 320px) and (max-width: 639px) {
   body {
-    background-size: 100%;
-    background-position: top;
-    height: 60rem;
+    background-position: right;
   }
   .header {
-    height: 8.3rem;
+    flex-direction: column;
+    text-align: center;
   }
   .header__logo {
-    font-size: 4rem;
+    font-size: 6rem;
     margin-top: 3rem;
-    margin-left: 3rem;
+    margin-left: 0rem;
   }
   .header__nav {
-    display: flex;
-    margin: -.2rem .5rem 0rem .5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem 0rem 0rem;
+    position: relative;
   }
   .header__nav__link {
+    display: none;
     font-size: 1.2rem;
+    padding-right: 0rem;
+    padding-bottom: 1rem;
+  }
+  .header__nav span {
+    display: none;
   }
   .first__block {
-    width: 100%;
-    height: 29rem;
+    height: 42rem;
   }
   .first__block h1 {
-    font-size: 10rem;
-    margin-top: 2.5rem;
+    font-size: 13rem;
+    margin-top: 7rem;
   }
   .first__block p {
-    font-size: 2.7rem;
-    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .8rem;
   }
   .background-wrap {
-    width: 100%;
-    height: 32rem;
+    height: 80rem;
   }
   .reservation__and__about {
-    width: 29.4rem;
-    height: 38.5rem;
-    left: 2.8rem;
-    position: relative;
-    top: -3rem;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 28rem;
+    height: 84rem;
+    display: flex;
+    flex-direction: column;
   }
   .reservation,
   .about {
-    height: 19.5rem;
-  }
-  .reservation__left-block {
-    padding: 1.8rem;
+    height: 41rem;
+    flex-direction: column;
+    align-items: center;
   }
   .reservation__left-block h2,
   .about__right-block h2 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   .reservation__left-block p,
   .about__right-block p {
-    font-size: 1.4rem;
-    margin-bottom: .8rem;
+    width: 24rem;
   }
   .reservation__left-block button {
-    width: 11rem;
-    font-size: 1rem;
-    padding: .6rem .5rem;
+    width: 13rem;
+    padding: .7rem .5rem;
   }
-  .reservation__right-block img {
-    width: 37rem;
-    height: 19.5rem;
+  .reservation img {
+    position: static;
+    width: 25rem;
+    height: 15rem;
+    border-radius: .8rem;
+  }
+  .reservation__left-block,
+  .about__right-block {
+    width: 100%;
+    padding: 2rem;
+  }
+  .reservation__left-block button {
+    margin-bottom: 1rem;
+  }
+  .about {
+    position: relative;
   }
   .about__right-block {
-    padding: 1.8rem;
-    justify-content: space-around;
+    position: absolute;
+    top: -2.5rem;
   }
-  .about__left-block img {
-    width: 21.5rem;
-    height: 20rem;
-  }
-  .our__spesialities {
-    height: 40rem;
-  }
-  .our__spesialities h1 {
-    font-size: 10rem;
-  }
-  .background-wrap {
-    height: 34rem;
-  }
-  .dishes {
-    width: 59rem;
-    height: 99rem;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    top: -2rem;
+  .about img {
+    width: 24.5rem;
+    height: 15rem;
+    position: absolute;
+    bottom: 1.5rem;
     left: 50%;
     transform: translateX(-50%);
-    background: #272727;
+    border-radius: .8rem;
+  }
+  .our__spesialities {
+    height: 30rem;
+  }
+  .our__spesialities h1 {
+    width: 28rem;
+    font-size: 7rem;
+    line-height: 6rem;
+  }
+  .dishes {
+    width: 30rem;
+    height: 105rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0rem 0rem 2rem 0rem;
+    justify-content: flex-start;
+    overflow: auto;
   }
   .langsta,
   .pizza,
   .idlis,
   .burger {
-    width: 57rem;
-    height: 23rem;
-    background: #000;
-    border-radius: 1.5rem;
-    margin: .2rem 0rem;
+    width: 30rem;
+    flex-direction: column;
+    padding: 2rem;
   }
-  .pizza__left-block {
+  .idlis,
+  .burger {
     position: relative;
-    right: -23rem;
   }
-  .idlis__right-block {
-    position: relative;
-    right: 24rem;
-  }
-  .pizza__right-block {
-    position: relative;
-    top: 0rem;
-    left: -33.5rem;
+  .langsta__right-block,
+  .pizza__right-block,
+  .idlis__left-block,
+  .burger__left-block {
+    display: flex;
+    justify-content: center;
   }
   .idlis__left-block {
-    position: relative;
-    top: 0rem;
-    left: 33.5rem;
+    position: absolute;
+    bottom: -46rem;
+    left: 50%;
+    transform: translateX(-50%);
   }
-  .dishes__description {
-    color: #fff;
+  .idlis__right-block {
+    width: 85%;
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .burger__left-block {
+    position: absolute;
+    margin: 2rem 0rem;
+    bottom: -98rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .burger__right-block {
+    width: 85%;
+    position: absolute;
+    top: 52rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .langsta__left-block,
+  .pizza__left-block,
+  .idlis__right-block,
+  .burger__right-block {
+    margin-bottom: 2rem;
   }
   .dishes__image {
-    height: 100%;
-    border-radius: 1.5rem;
+    width: 25rem;
+    border-radius: 1rem;
+  }
+  .wrap__skewers__and__menu {
+    height: 177rem;
   }
   .skewers__and__menu {
-    width: 100%;
-    margin-top: 61rem;
-    height: 41rem;
+    margin-top: 21rem;
+    height: 20rem;
   }
   .menu {
-    width: 100%;
-    margin-top: 32rem;
+    height: 156rem;
   }
   .menu__header__menu {
-    margin-top: -29rem;
+    font-size: 6rem;
+    margin-top: 0rem;
+  }
+  .menu__header {
+    font-size: 1.6rem;
+    margin: 0rem 0rem;
+    padding: 2rem 0rem;
   }
   .menu__food,
   .menu__deserts {
     width: 100%;
-    height: 67rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    height: 68rem;
+    justify-content: flex-start;
   }
   .food__item,
   .deserts__item {
-    width: 49rem;
-    height: 6rem;
-  }
-  .food__item p,
-  .deserts__item p {
-    text-align: satrt;
-    position: relative;
+    width: 28rem;
+    flex-direction: column;
+    padding: .7rem;
   }
   .food__item__wrap,
   .desert__item__wrap {
-    padding-right: 2rem;
-  }
-  .food__item__wrap p::after,
-  .desert__item__wrap p::after {
-    content: '';
-    position: absolute;
-    display: block;
-    bottom: .2rem;
-    left: 6.9rem;
-    width: 27.2rem;
-    height: .1rem;
-    background: #000;
-  }
-  .menu__dish__image1 {
-    width: 17rem;
-    top: -38rem;
-  }
-  .menu__dish__image2 {
-    width: 15rem;
-    top: -33rem;
-  }
-  .menu__dish__image3 {
-    width: 9rem;
-    top: 42rem;
-  }
-  .menu__dish__image4 {
-    width: 9rem;
-    top: 45rem;
-  }
-  .menu__dish__image5 {
-    width: 18rem;
-    bottom: -27rem;
-  }
-  .menu__dish__image6 {
-    width: 16rem;
-    bottom: -15rem;
-  }
-  .menu__dish__image7 {
-    width: 16rem;
-    bottom: -22rem;
-  }
-  .locations {
-    width: 100%;
-    margin-top: 16rem;
-    height: 140rem;
-  }
-  .wrap__location {
-    width: 54rem;
-    height: 92.5rem;
-  }
-  .main__location__block {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  .left__block {
-    margin-top: -1rem;
-    margin-bottom: 3rem;
-  }
-  .join {
-    font-size: 2.9rem;
-  }
-  .location__sing__me__up {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
-  .location__sing__me__up input {
+  .food__item__wrap p,
+  .desert__item__wrap p {
+    text-align: center;
+  }
+  .food__item h2,
+  .deserts__item h2 {
     font-size: 1.4rem;
-    width: 50rem;
-    padding: 1rem;
-    margin-bottom: 2rem;
+    padding-bottom: .5rem;
   }
-  .location__sing__me__up button {
-    width: 13rem;
-    font-size: 1.4rem;
-    margin-left: 0rem;
-    padding: 1rem 2rem;
+  .price {
+    font-size: 2rem;
   }
-  .wrap__block {
-    padding: 5rem 0rem;
-    height: 18rem;
-  }
-  .social__background {
-    width: 3.5rem;
-    height: 3.5rem;
-  }
-  .social__icon__item {
-    width: 4rem;
-    height: 4rem;
-  }
-  .footer__link__item {
+  .price span {
     font-size: 1.2rem;
+  }
+  .menu__dish__image1,
+  .menu__dish__image2,
+  .menu__dish__image3,
+  .menu__dish__image4,
+  .menu__dish__image5,
+  .menu__dish__image6,
+  .menu__dish__image7 {
+    width: 5rem;
+  }
+  .menu__dish__image1 {
+    top: -2rem;
+  }
+  .menu__dish__image2 {
+    top: -0.5rem;
+  }
+  .menu__dish__image3 {
+    top: 53.5rem;
+  }
+  .menu__dish__image4 {
+    width: 4rem;
+    top: 52rem;
+  }
+  .menu__dish__image5 {
+    bottom: -5rem;
+  }
+  .menu__dish__image6 {
+    bottom: -3rem;
+  }
+  .menu__dish__image7 {
+    bottom: -3rem;
+  }
+  .wrap__location {
+    width: 28rem;
+  }
+  .main__location__block {
+    width: 28rem;
+  }
+  .main__location__block {
+    flex-direction: column;
+  }
+  .location__image {
+    width: 28rem;
+  }
+  .location__sing__me__up input {
+    width: 30rem;
   }
 }

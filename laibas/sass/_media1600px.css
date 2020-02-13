@@ -10,13 +10,17 @@
   .skewers__and__menu {
     height: 95rem;
   }
+  .header__nav__link {
+    font-size: 1.5rem;
+  }
   .menu__food,
   .menu__deserts {
     width: 105rem;
   }
   .food__item,
   .deserts__item {
-    width: 45rem;
+    width: 40rem;
+    align-items: flex-end;
   }
   .food__item p,
   .deserts__item p {
@@ -36,5 +40,9 @@
     width: 14.2rem;
     height: .1rem;
     background: #000;
+  }
+  .join {
+    width: 55rem;
+    font-size: 3.4rem;
   }
 }
