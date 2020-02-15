@@ -817,6 +817,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer__link__item {
@@ -843,6 +846,9 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .header__logo {
     font-size: 6rem;

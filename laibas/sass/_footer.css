@@ -39,6 +39,7 @@
 
 .footer__link {
   display: flex;
+  justify-content: center;
 }
 
 .footer__link__item {
