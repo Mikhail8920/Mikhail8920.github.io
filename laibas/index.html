@@ -19,18 +19,25 @@
 
         <header class="header">
             <div class="header__logo">Laibas</div>
-            <div class="header__nav">
-                <a href="#reserv" class="header__nav__link">Reservation</a>
-                <span></span>
-                <a href="#spesialities" class="header__nav__link">Our specialities</a>
-                <span></span>
-                <a href="#menu" class="header__nav__link">menu</a>
-                <span></span>
-                <a href="#location" class="header__nav__link">location</a>
-                <span></span>
-                <a href="#contact" class="header__nav__link">contact</a>
-            </div>
-        </header> <!--/.header-->
+            <div class="hamburger__menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__button" for="menu__toggle">
+                  <span></span>
+                </label>
+                <ul class="header__nav">
+                  <li><a class="header__nav__link" href="#reserv">Reservation</a></li>
+                  <span></span>
+                  <li><a class="header__nav__link" href="#spesialities">Our specialities</a></li>
+                  <span></span>
+                  <li><a class="header__nav__link" href="#menu">menu</a></li>
+                  <span></span>
+                  <li><a class="header__nav__link" href="#location">location</a></li>
+                  <span></span>
+                  <li><a class="header__nav__link" href="#contact">contact</a></li>
+                  <span></span>
+                </ul>
+              </div>
+            </header> <!--/.header-->
 
     <!--------- F I R S T - B L O C K ------------------------------------------------------------------------------->
 
@@ -302,6 +309,6 @@
             </div>
         </FOOter>
     </div> <!--/.full__container-->
-
+    <script src="../laibas/js/one.js"></script>
 </body>
 </html>

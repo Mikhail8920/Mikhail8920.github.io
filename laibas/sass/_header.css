@@ -20,6 +20,10 @@
   margin-left: 5rem;
 }
 
+#menu__toggle {
+  opacity: 0;
+}
+
 .header__nav {
   display: flex;
   margin: 1.5rem 5rem 0rem 0rem;

@@ -26,13 +26,13 @@
   }
   .background-wrap {
     width: 100%;
-    height: 32rem;
+    height: 35rem;
   }
   .reservation__and__about {
     width: 69rem;
     height: 38rem;
     left: 2.8rem;
-    top: -2rem;
+    top: -1.5rem;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -51,9 +51,6 @@
   .about img {
     width: 37%;
     height: 19rem;
-  }
-  .background-wrap {
-    height: 36rem;
   }
   .reservation__left-block {
     padding: 1.8rem;
@@ -82,9 +79,6 @@
   .our__spesialities h1 {
     font-size: 10rem;
   }
-  .background-wrap {
-    height: 34rem;
-  }
   .dishes {
     height: 98.5rem;
     width: 69rem;
@@ -92,7 +86,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    top: -2rem;
+    top: -1.5rem;
     left: 50%;
     transform: translateX(-50%);
     background: #272727;

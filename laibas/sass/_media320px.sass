@@ -14,20 +14,85 @@
         margin-top: 3rem
         margin-left: 0rem
 
-    .header__nav
-        flex-direction: row
-        flex-wrap: no wrap
-        justify-content: center
+    #menu__toggle
+        opacity: 0
+
+    .menu__button
+        display: flex
         align-items: center
-        margin: 1rem 0rem 0rem 0rem
-        position: relative
+        position: fixed
+        top: 2rem
+        left: 1.5rem
+        width: 2rem
+        height: 2rem
+        cursor: pointer
+        z-index: 1
+        span,
+        span::before,
+        span::after
+            display: block
+            position: absolute
+            width: 100%
+            height: 0.2rem
+            background-color: #b4b2b2
+            transition: 0.2s
+
+    .menu__button span::before
+        content: ""
+        top: -1rem
+
+    .menu__button span::after
+        content: ""
+        top: 1rem
+
+    .header__nav
+        display: flex
+        flex-direction: column
+        align-items: start
+        margin: 0
+        padding: 8rem 0rem
+        position: fixed
+        top: 0
+        left: -100%
+        width: 32rem
+        height: 100%
+        opacity: 0.6
+        background-color: #fc4263 
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2)
+        visibility: hidden
+        transition: 0.2s
 
     .header__nav__link
-        font-size: .8rem
-        padding-right: 1rem
+        display: block
+        top: 0
+        left: 0
+        font-size: 1.4rem
+        font-weight: bold
+        padding: 0rem 0rem 2rem 2rem 
+        color: #222222
+        transition: 0.2s
+        &:hover
+            color: #fff
+
 
     .header__nav span
         display: none
+
+    #menu__toggle:checked ~ .menu__button span
+
+        transform: rotate(45deg)
+
+    #menu__toggle:checked ~ .menu__button span::before
+        top: 0
+        transform: rotate(0)
+
+    #menu__toggle:checked ~ .menu__button span::after
+        top: 0rem
+        transform: rotate(90deg)
+
+    #menu__toggle:checked ~ .header__nav
+        visibility: visible
+        left: 0rem
 
     //first-block
     .first__block
