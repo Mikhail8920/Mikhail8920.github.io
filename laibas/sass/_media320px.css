@@ -52,14 +52,17 @@
     padding: 8rem 0rem;
     position: fixed;
     top: 0;
-    left: -100%;
+    left: 0;
     width: 32rem;
     height: 100%;
     opacity: 0.6;
     background-color: #fc4263;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
-    visibility: hidden;
     transition: 0.2s;
+    visibility: hidden;
+  }
+  .header__nav_open {
+    visibility: visible;
   }
   .header__nav__link {
     display: block;
@@ -87,10 +90,6 @@
   #menu__toggle:checked ~ .menu__button span::after {
     top: 0rem;
     transform: rotate(90deg);
-  }
-  #menu__toggle:checked ~ .header__nav {
-    visibility: visible;
-    left: 0rem;
   }
   .first__block {
     height: 42rem;

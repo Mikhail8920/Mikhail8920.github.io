@@ -54,3 +54,7 @@
   top: .7rem;
   left: -1.9rem;
 }
+
+.header__nav span:last-child {
+  display: none;
+}
