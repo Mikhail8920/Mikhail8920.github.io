@@ -8,7 +8,7 @@
 document.querySelector(".header__nav__link").onclick = function change() {
     document.querySelector(".header__nav").style.visibility = "hidden";
     let off = document.querySelector('#menu__toggle');
-    off.checked = false
+    off.checked = "false"
 }
 document.querySelector("#menu__toggle").onclick = function change2() {
     let off = document.querySelector('#menu__toggle')
