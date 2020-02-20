@@ -3,6 +3,7 @@
     background-position: right;
   }
   .header {
+    height: 5rem;
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -13,13 +14,13 @@
     margin-left: 0rem;
   }
   #menu__toggle {
-    opacity: 0;
+    opacity: 1;
   }
   .menu__button {
     display: flex;
     align-items: center;
-    position: fixed;
-    top: 2rem;
+    position: absolute;
+    top: 1.5rem;
     left: 1.5rem;
     width: 2rem;
     height: 2rem;
@@ -50,19 +51,16 @@
     align-items: start;
     margin: 0;
     padding: 8rem 0rem;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    width: 32rem;
+    width: 215%;
     height: 100%;
-    opacity: 0.6;
+    opacity: 0.9;
     background-color: #fc4263;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
     transition: 0.2s;
     visibility: hidden;
-  }
-  .header__nav_open {
-    visibility: visible;
   }
   .header__nav__link {
     display: block;
