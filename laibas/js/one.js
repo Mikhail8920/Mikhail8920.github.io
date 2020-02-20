@@ -15,7 +15,7 @@ document.querySelector("#menu__toggle").onclick = function change2() {
     if ((document.querySelector(".header__nav").style.visibility == "hidden") && (off.checked == true)) {
         document.querySelector(".header__nav").style.visibility = "visible";
      alert("первый")
-    } else if ((document.querySelector(".header__nav").style.visibility == "visible") && (off.checked == false)) {
+    } else if ((document.querySelector(".header__nav").style.visibility == "visible") && (off.checked == true)) {
         document.querySelector(".header__nav").style.visibility = "hidden";
     alert("второй")
     } else if (off.checked == true) {
