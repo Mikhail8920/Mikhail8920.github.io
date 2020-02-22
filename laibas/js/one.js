@@ -13,9 +13,9 @@ if (window.innerWidth < 639) {
 
 
 
-    for (item of document.querySelector('header__nav__link')) {
+    for (item of document.getElementsByClassName('header__nav__link')) {
         item.onclick = function() {
-            const navigation = document.querySelector('header__nav')[0];
+            const navigation = document.querySelector('header__nav');
             navigation.style.visibility = "hidden";
             let off = document.querySelector('#menu__toggle');    
             off.checked = false
