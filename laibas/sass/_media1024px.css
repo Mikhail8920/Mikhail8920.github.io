@@ -12,6 +12,9 @@
     flex-basis: 77%;
     margin: 1.2rem 0rem 0rem 0rem;
   }
+  .header__nav__link {
+    font-size: 1.2rem;
+  }
   .first__block {
     width: 100%;
     height: 29rem;

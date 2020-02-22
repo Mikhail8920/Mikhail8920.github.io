@@ -9,7 +9,7 @@
     height: 63.5rem;
   }
   .reservation__and__about {
-    width: 135rem;
+    width: 130rem;
     height: 66.5rem;
     top: -1.5rem;
   }
@@ -17,11 +17,11 @@
     height: 33.5rem;
   }
   .reservation__right-block img {
-    width: 83rem;
+    width: 82.6rem;
     height: 33.5rem;
   }
   .about__left-block img {
-    width: 52rem;
+    width: 47.4rem;
     height: 33rem;
   }
   .reservation__left-block p,
@@ -29,7 +29,7 @@
     font-size: 1.5rem;
   }
   .dishes {
-    width: 135rem;
+    width: 130rem;
     height: 68rem;
     top: -1.5rem;
   }
@@ -37,10 +37,10 @@
   .pizza,
   .idlis,
   .burger {
-    width: 67.5rem;
+    width: 65rem;
   }
   .dishes__image {
-    width: 33.7rem;
+    width: 32.5rem;
   }
   .dishes__description {
     font-size: 1.4rem;
@@ -80,6 +80,30 @@
     width: 14.2rem;
     height: .1rem;
     background: #000;
+  }
+  .wrap__location {
+    width: 130rem;
+    height: 65rem;
+  }
+  .location_header {
+    margin: 2rem 0rem 5rem 0rem;
+  }
+  .main__location__block {
+    width: 130rem;
+    height: 60rem;
+  }
+  .wrap__adress,
+  .wrap__phone {
+    width: 40rem;
+  }
+  .adress,
+  .phone {
+    width: 40rem;
+    text-align: start;
+    margin-left: 1.5rem;
+  }
+  .location__image {
+    width: 60rem;
   }
   .join {
     width: 55rem;

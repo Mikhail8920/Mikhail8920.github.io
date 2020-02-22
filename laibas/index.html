@@ -17,7 +17,7 @@
 
     <!--------- H E A D E R ----------------------------------------------------------------------------------------->
 
-        <header class="header">
+        <header id = "top" class="header">
             <div class="header__logo">Laibas</div>
             <div class="hamburger__menu">
                 <input id="menu__toggle" type="checkbox" />
@@ -29,11 +29,11 @@
                   <span></span>
                   <li><a class="header__nav__link" href="#spesialities">Our specialities</a></li>
                   <span></span>
-                  <li><a class="header__nav__link" href="#menu">menu</a></li>
+                  <li><a class="header__nav__link" href="#menu">Menu</a></li>
                   <span></span>
-                  <li><a class="header__nav__link" href="#location">location</a></li>
+                  <li><a class="header__nav__link" href="#location">Location</a></li>
                   <span></span>
-                  <li><a class="header__nav__link" href="#contact">contact</a></li>
+                  <li><a class="header__nav__link" href="#contact">Contact</a></li>
                   <span></span>
                 </ul>
               </div>
@@ -249,24 +249,24 @@
                     <div class="left__block">
                         <div class="wrap__adress">
                             <img class="icon__adress" src="../laibas/image/locations/adress_icon.png" alt="adress">
-                            <div class="adress">INDIRANAGUR 218, Double Rd,
-                            Near BDA Complex, Indiranagar</div>
+                            <p class="adress">INDIRANAGUR 218, Double Rd,
+                            Near BDA Complex, Indiranagar</p>
                         </div>
                         <div class="wrap__phone">
                             <img class="icon__phone" src="../laibas/image/locations/phone_icon.png" alt="phone">
-                            <div class="phone">94074261703</div>
+                            <p class="phone">94074261703</p>
                         </div>
                         <img class="location__image" src="../laibas/image/locations/left.png" alt="left_block">                            
                     </div> <!--/.left__block-->
                     <div class="rigth__block">
                         <div class="wrap__adress">
                             <img class="icon__adress" src="../laibas/image/locations/adress_icon.png" alt="adress">
-                            <div class="adress">KORAMANGALA 911, 5th Cross,
-                            Near TDA Complex, Koramangala</div>
+                            <p class="adress">KORAMANGALA 911, 5th Cross,
+                            Near TDA Complex, Koramangala</p>
                         </div>
                         <div class="wrap__phone">
                             <img class="icon__phone" src="../laibas/image/locations/phone_icon.png" alt="phone">
-                            <div class="phone">9402393493</div>
+                            <p class="phone">9402393493</p>
                         </div>
                         <img class="location__image" src="../laibas/image/locations/right.png" alt="rigth_block">                    
                     </div> <!--/.rigth__block-->
@@ -287,6 +287,7 @@
             <div id="contact" class="wrap__block">
                 <nav class="social__icon">
                     <div class="social__background">
+                        
                         <img src="../laibas/image/footer/iconmonstr-facebook-4-240.png" alt="" class="social__icon__item">
                     </div>   
                     <div class="social__background">
@@ -300,15 +301,17 @@
                     </div>    
 
                 </nav> 
-                <nav class="footer__link">
-                    <div class="footer__link__item">home</div>
-                    <div class="footer__link__item">our Spesialities</div>
-                    <div class="footer__link__item">menu</div>
-                    <div class="footer__link__item">locations</div>
-                </nav>
+                <ul class="footer__link">
+                    <li>  <a class="footer__link__item" href="#top">home</a></li>
+                    <li> <a class="footer__link__item" href="#spesialities">our Spesialities</a></li>
+                    <li> <a class="footer__link__item" href="#menu">menu</a></li>
+                    <li> <a class="footer__link__item" href="#location">locations</a></li>
+                </ul>
             </div>
         </FOOter>
     </div> <!--/.full__container-->
+    
     <script src="../laibas/js/one.js"></script>
+
 </body>
 </html>

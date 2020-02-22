@@ -20,6 +20,15 @@ body {
   margin: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
 .full__container {
   overflow: hidden;
 }
@@ -131,7 +140,7 @@ body {
 .background-wrap {
   width: 100%;
   height: 44rem;
-  background: #f6f4f1;
+  background: #fff;
   position: relative;
 }
 
@@ -301,14 +310,13 @@ body {
 .background-wrap {
   width: 100%;
   height: 39rem;
-  background: #f6f4f1;
+  background: #fff;
   position: relative;
 }
 
 .background-wrap {
   width: 100%;
   height: 44rem;
-  background: #f6f4f1;
   position: relative;
 }
 
@@ -837,6 +845,7 @@ body {
   text-transform: uppercase;
   color: #fff;
   padding: 0rem 2rem;
+  text-decoration: none;
 }
 
 .footer__link__item:hover {
@@ -861,11 +870,11 @@ body {
   }
   .header__logo {
     font-size: 6rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
     margin-left: 0rem;
   }
   #menu__toggle {
-    opacity: 1;
+    opacity: 0;
   }
   .menu__button {
     display: -webkit-box;
@@ -917,7 +926,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 215%;
+    width: 100%;
     height: 100%;
     opacity: 0.9;
     background-color: #fc4263;
@@ -928,11 +937,12 @@ body {
     visibility: hidden;
   }
   .header__nav__link {
+    font-family: 'Tangerine', cursive;
     display: block;
     top: 0;
     left: 0;
-    font-size: 1.4rem;
-    font-weight: bold;
+    font-size: 1.8rem;
+    font-weight: 700;
     padding: 0rem 0rem 2rem 2rem;
     color: #222222;
     -webkit-transition: 0.2s;
@@ -963,7 +973,7 @@ body {
   }
   .first__block h1 {
     font-size: 13rem;
-    margin-top: 7rem;
+    margin-top: 10rem;
   }
   .first__block p {
     font-size: 1.5rem;
@@ -974,7 +984,7 @@ body {
     height: 80rem;
   }
   .reservation__and__about {
-    width: 28rem;
+    width: 30rem;
     height: 84rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1017,6 +1027,12 @@ body {
   .about__right-block {
     width: 100%;
     padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .reservation__left-block button {
     margin-bottom: 1rem;
@@ -1633,6 +1649,9 @@ body {
         flex-basis: 77%;
     margin: 1.2rem 0rem 0rem 0rem;
   }
+  .header__nav__link {
+    font-size: 1.2rem;
+  }
   .first__block {
     width: 100%;
     height: 29rem;
@@ -2001,7 +2020,7 @@ body {
     height: 63.5rem;
   }
   .reservation__and__about {
-    width: 135rem;
+    width: 130rem;
     height: 66.5rem;
     top: -1.5rem;
   }
@@ -2009,11 +2028,11 @@ body {
     height: 33.5rem;
   }
   .reservation__right-block img {
-    width: 83rem;
+    width: 82.6rem;
     height: 33.5rem;
   }
   .about__left-block img {
-    width: 52rem;
+    width: 47.4rem;
     height: 33rem;
   }
   .reservation__left-block p,
@@ -2021,7 +2040,7 @@ body {
     font-size: 1.5rem;
   }
   .dishes {
-    width: 135rem;
+    width: 130rem;
     height: 68rem;
     top: -1.5rem;
   }
@@ -2029,10 +2048,10 @@ body {
   .pizza,
   .idlis,
   .burger {
-    width: 67.5rem;
+    width: 65rem;
   }
   .dishes__image {
-    width: 33.7rem;
+    width: 32.5rem;
   }
   .dishes__description {
     font-size: 1.4rem;
@@ -2075,6 +2094,30 @@ body {
     height: .1rem;
     background: #000;
   }
+  .wrap__location {
+    width: 130rem;
+    height: 65rem;
+  }
+  .location_header {
+    margin: 2rem 0rem 5rem 0rem;
+  }
+  .main__location__block {
+    width: 130rem;
+    height: 60rem;
+  }
+  .wrap__adress,
+  .wrap__phone {
+    width: 40rem;
+  }
+  .adress,
+  .phone {
+    width: 40rem;
+    text-align: start;
+    margin-left: 1.5rem;
+  }
+  .location__image {
+    width: 60rem;
+  }
   .join {
     width: 55rem;
     font-size: 3.4rem;
@@ -2092,7 +2135,7 @@ body {
     height: 69.5rem;
   }
   .reservation__and__about {
-    width: 155rem;
+    width: 150rem;
     height: 72.5rem;
     top: -1.5rem;
   }
@@ -2100,11 +2143,11 @@ body {
     height: 36.5rem;
   }
   .reservation__right-block img {
-    width: 98.5rem;
+    width: 95.3rem;
     height: 36.5rem;
   }
   .about__left-block img {
-    width: 56.5rem;
+    width: 54.7rem;
     height: 36rem;
   }
   .reservation__left-block p,
@@ -2112,7 +2155,7 @@ body {
     font-size: 1.5rem;
   }
   .dishes {
-    width: 155rem;
+    width: 150rem;
     height: 78rem;
     top: -1.5rem;
   }
@@ -2120,10 +2163,10 @@ body {
   .pizza,
   .idlis,
   .burger {
-    width: 77.5rem;
+    width: 75rem;
   }
   .dishes__image {
-    width: 38.7rem;
+    width: 37.5rem;
   }
   .dishes__description {
     font-size: 1.4rem;
@@ -2169,6 +2212,30 @@ body {
     height: .1rem;
     background: #000;
   }
+  .wrap__location {
+    width: 150rem;
+    height: 68rem;
+  }
+  .location_header {
+    margin: 2rem 0rem 5rem 0rem;
+  }
+  .main__location__block {
+    width: 145rem;
+    height: 65.5rem;
+  }
+  .wrap__adress,
+  .wrap__phone {
+    width: 37rem;
+  }
+  .adress,
+  .phone {
+    width: 42rem;
+    text-align: start;
+    margin-left: 1.5rem;
+  }
+  .location__image {
+    width: 70rem;
+  }
   .price {
     text-align: end;
   }
@@ -2188,7 +2255,7 @@ body {
     height: 86.5rem;
   }
   .reservation__and__about {
-    width: 185rem;
+    width: 180rem;
     height: 89.5rem;
     top: -1.5rem;
   }
@@ -2196,11 +2263,11 @@ body {
     height: 46.5rem;
   }
   .reservation__right-block img {
-    width: 117.5rem;
+    width: 114.4rem;
     height: 46.5rem;
   }
   .about__left-block img {
-    width: 67.5rem;
+    width: 65.7rem;
     height: 43rem;
   }
   .reservation__left-block p,
@@ -2208,7 +2275,7 @@ body {
     font-size: 1.8rem;
   }
   .dishes {
-    width: 185rem;
+    width: 180rem;
     height: 93rem;
     top: -1.5rem;
   }
@@ -2216,10 +2283,10 @@ body {
   .pizza,
   .idlis,
   .burger {
-    width: 92.5rem;
+    width: 90rem;
   }
   .dishes__image {
-    width: 46.2rem;
+    width: 45rem;
   }
   .dishes__description {
     font-size: 1.8rem;
@@ -2298,6 +2365,7 @@ body {
   .adress,
   .phone {
     width: 42rem;
+    text-align: start;
     font-size: 1.8rem;
   }
   .location__image {

@@ -19,6 +19,15 @@ body {
   margin: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
 .full__container {
   overflow: hidden;
 }
