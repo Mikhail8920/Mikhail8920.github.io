@@ -1339,6 +1339,7 @@ ul {
     display: -ms-flexbox;
     display: flex;
     margin: -.2rem .5rem 0rem .5rem;
+    visibility: visible;
   }
   .header__nav__link {
     font-size: 1rem;

@@ -1,5 +1,7 @@
-if (window.innerWidth < 639) {    
+
+   
     document.querySelector("#menu__toggle").onclick = function change2() {
+        
         let off = document.querySelector('#menu__toggle')
         if ((document.querySelector(".header__nav").style.visibility == "hidden") && (off.checked == true)) {
             document.querySelector(".header__nav").style.visibility = "visible";
@@ -13,7 +15,7 @@ if (window.innerWidth < 639) {
 
 
 
-    for (item of document.getElementsByClassName('header__nav__link')) {
+    for (item of document.querySelector('header__nav__link')) {
         item.onclick = function() {
             const navigation = document.querySelector('header__nav');
             navigation.style.visibility = "hidden";
@@ -21,4 +23,6 @@ if (window.innerWidth < 639) {
             off.checked = false
         }
     }
+if (window.innerWidth > 639) { 
+    alert(",jkmit")
 }
