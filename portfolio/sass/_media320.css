@@ -1,0 +1,23 @@
+@media (min-width: 320px) and (max-width: 639px) {
+  .about__text__about,
+  .skills {
+    width: 30rem;
+  }
+  .photo__and__personal__wrap {
+    width: 30rem;
+    flex-direction: column;
+  }
+  .about__text__peronal {
+    width: 28rem;
+  }
+  .work__block {
+    width: 30rem;
+    flex-direction: column;
+  }
+  .contact__block {
+    width: 28rem;
+  }
+  .contact__phone__and__mail {
+    flex-direction: column;
+  }
+}
