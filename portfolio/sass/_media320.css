@@ -1,0 +1,156 @@
+@media (min-width: 320px) and (max-width: 639px) {
+  header {
+    background-position: top;
+  }
+  .navigation {
+    width: 100%;
+    height: 40rem;
+    float: none;
+    background: rgba(0, 0, 0, 0.1);
+    justify-content: flex-start;
+  }
+  .navigation img {
+    width: 10rem;
+    margin: 4rem 0rem 2rem 0rem;
+  }
+  .header__nav {
+    justify-content: start;
+  }
+  .header__nav__item {
+    width: 100%;
+    height: 4rem;
+  }
+  .name__and__position {
+    width: 100%;
+    left: 50%;
+  }
+  .name__and__position h1 {
+    width: 100%;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+  .name__and__position h2 {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  .about__me {
+    font-size: 3.8rem;
+  }
+  .about__me::after {
+    width: 28%;
+    left: 36%;
+  }
+  .about__text__peronal {
+    font-size: 1.6rem;
+  }
+  .about__text__peronal h4,
+  .about__text__about h4,
+  .skills h4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .skills h3 {
+    font-size: 1.6rem;
+    margin: 1rem 0rem;
+  }
+  .about__text__about,
+  .skills {
+    font-size: 1.6rem;
+    width: 28rem;
+  }
+  .photo__and__personal__wrap {
+    width: 28rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo__and__personal__wrap img {
+    margin-bottom: 3rem;
+  }
+  .about__text__peronal {
+    width: 28rem;
+    margin-left: 0rem;
+  }
+  .portfolio {
+    height: 60rem;
+  }
+  .my__works {
+    font-size: 3.8rem;
+  }
+  .my__works::after {
+    width: 28%;
+    left: 36%;
+  }
+  .work__block {
+    width: 28rem;
+    height: 45rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .work__item {
+    width: 26rem;
+    height: 35rem;
+    margin: 0rem 0rem 3rem 0rem;
+    justify-content: flex-start;
+  }
+  .work__item h3 {
+    font-size: 1.8rem;
+  }
+  .work__item p {
+    font-size: 1.4rem;
+    margin-bottom: .6rem;
+  }
+  .work__item__background {
+    width: 26rem;
+    left: .5rem;
+  }
+  .work__wrap img {
+    width: 26rem;
+  }
+  .work__item__soon {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+  }
+  .work__button {
+    font-size: 1.2rem;
+  }
+  .work__item__empty {
+    display: none;
+  }
+  .my__contacts {
+    font-size: 3.8rem;
+  }
+  .my__contacts::after {
+    width: 28%;
+    left: 36%;
+  }
+  .contacts p {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0rem 2rem;
+    margin-bottom: 3rem;
+  }
+  .contact__block {
+    width: 28rem;
+    height: 14rem;
+    align-items: center;
+  }
+  .contact__phone__and__mail {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact__phone,
+  .contact__mail,
+  .contact__git {
+    margin: 0rem 0rem 1rem 0rem;
+  }
+  .contact__git {
+    justify-content: center;
+  }
+  .contact__phone a,
+  .contact__mail a,
+  .contact__git a {
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,86 @@
+.contacts {
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c2c2c233;
+}
+
+.my__contacts {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 2rem;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.my__contacts::after {
+  content: '';
+  background-color: #000;
+  display: block;
+  position: absolute;
+  bottom: -1.5rem;
+  left: 44%;
+  width: 12%;
+  height: 0.2rem;
+}
+
+.contacts p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.contact__block {
+  width: 68rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact__phone__and__mail {
+  display: flex;
+}
+
+.contact__phone,
+.contact__mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 4rem 2rem 4rem;
+}
+
+.contact__git {
+  display: flex;
+  align-items: center;
+}
+
+.contact__phone img,
+.contact__mail img {
+  width: 2.5rem;
+  padding-right: .8rem;
+}
+
+.contact__git img {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.contact__phone a,
+.contact__mail a,
+.contact__git a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  text-transform: lowercase;
+  color: #000;
+  cursor: pointer;
+}
+
+.contact__git a {
+  padding-left: .8rem;
+}

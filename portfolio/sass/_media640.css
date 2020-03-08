@@ -1,0 +1,46 @@
+@media (min-width: 640px) and (max-width: 1023px) {
+  .header__nav__item {
+    width: 100%;
+  }
+  .navigation img {
+    width: 10rem;
+    margin: 0;
+  }
+  .photo__and__personal__wrap {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about img {
+    margin-bottom: 3rem;
+  }
+  .about__text__peronal {
+    margin-left: 0rem;
+    width: 96%;
+  }
+  .about__text__about,
+  .skills {
+    width: 93.5%;
+  }
+  .portfolio {
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    margin: 0 auto;
+  }
+  .work__block {
+    width: 96%;
+    height: 50rem;
+  }
+  .work__item,
+  .work__item__soon {
+    width: 28rem;
+  }
+  .work__item__empty {
+    display: none;
+  }
+  .contacts p {
+    text-align: center;
+    width: 96%;
+  }
+}
