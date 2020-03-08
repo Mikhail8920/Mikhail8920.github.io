@@ -1,0 +1,112 @@
+.background-wrap {
+  width: 100%;
+  height: 44rem;
+  background: #fff;
+  position: relative;
+}
+
+.reservation__and__about {
+  width: 94.5rem;
+  height: 47.5rem;
+  position: absolute;
+  background: #fff;
+  top: -2rem;
+  left: 4rem;
+  border-radius: .8rem;
+  background: #000;
+  box-shadow: 2px 2px 5px #000, 0px 0px 5px #000;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.reservation {
+  display: flex;
+  flex-direction: row;
+  height: 23.5rem;
+}
+
+.reservation__left-block {
+  width: 36.5%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.reservation__left-block h2 {
+  font-size: 7rem;
+  color: #fc4263;
+}
+
+.reservation__left-block p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #8a8a8a;
+  margin-bottom: 2rem;
+}
+
+.reservation__left-block button {
+  width: 15rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem 1rem;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  background: #000;
+  outline: none;
+  transition: .2s;
+}
+
+.reservation__left-block button:hover {
+  color: #fc4263;
+  border: 1px solid #fc4263;
+  cursor: pointer;
+}
+
+.reservation img {
+  width: 60rem;
+  height: 23.5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 0rem .8rem 0rem 0rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 24rem;
+}
+
+.about img {
+  width: 34.5rem;
+  height: 24rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 0rem 0rem 0rem .8rem;
+}
+
+.about__right-block {
+  width: 63.5%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.about__right-block h2 {
+  font-size: 7rem;
+  color: #fc4263;
+}
+
+.about__right-block p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #8a8a8a;
+}
