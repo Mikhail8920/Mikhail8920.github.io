@@ -1,0 +1,85 @@
+.our__tariffs
+    height: 47.5rem
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-top: 3.5rem
+    & h2
+        font-size: 2.5rem
+        color: #f0c536
+        text-transform: uppercase
+        margin-bottom: 2rem
+        & span
+            font-size: 3.5rem
+            color: #000
+
+.class__block
+    width: 95%
+    display: flex
+    justify-content: center
+    margin-top: 7rem
+
+.class__item
+    width: 30%
+    height: 30rem
+    background: #f1f1f1
+    position: relative
+    margin: 0 1.2rem
+    transition: all 0.2s 
+    &:hover .class__content button
+        background: #1b1b1b
+        color: #fff
+    &:hover 
+        background: #ffc61a
+    &:hover .triangle
+        display: block
+    &:hover #class__cost
+        color: #121212
+
+.class__content
+    height: 25rem
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+
+.class__content h3 
+    font-size: 2rem
+    text-transform: uppercase
+    margin-top: 10rem
+
+.class__content p
+    font-size: 1.4rem 
+    text-align: center
+    padding: 1rem 2rem
+
+#class__cost
+    font-size: 3rem
+    color: #ffc61a
+
+.class__content button
+    width: 14rem
+    padding: 1rem 0rem
+    align-items: center
+    margin: 3rem auto 0rem auto
+    background: #ffc61a
+    border-radius: .8rem
+    font-size: 1.4rem
+    color: #000
+    text-transform: uppercase
+    border: none
+
+.class__car
+    width: 26rem
+    position: absolute
+    top: -26%
+    left: 50%
+    transform: translate(-50%, 0)
+
+.triangle
+    width: 5rem
+    position: absolute
+    bottom: 0
+    right: 0
+    display: none
