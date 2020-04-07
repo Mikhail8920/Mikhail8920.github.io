@@ -457,17 +457,6 @@ a {
   background: rgba(0, 0, 0, 0.4);
 }
 
-.work__item__soon {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.6rem;
-  width: 30rem;
-  height: 33rem;
-  text-align: center;
-  border-radius: 1rem;
-  margin: 0rem 1rem;
-  padding-top: 1rem;
-}
-
 .work__item__empty {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem;
@@ -679,7 +668,7 @@ a {
     margin-left: 0rem;
   }
   .portfolio {
-    height: 60rem;
+    height: 86rem;
   }
   .my__works {
     font-size: 3.8rem;
@@ -690,7 +679,7 @@ a {
   }
   .work__block {
     width: 28rem;
-    height: 45rem;
+    height: 72rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
