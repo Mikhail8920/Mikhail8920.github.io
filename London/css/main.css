@@ -4,6 +4,8 @@ html {
 
 body {
   font-size: 1rem;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .full__block {
@@ -36,7 +38,7 @@ a {
   overflow: hidden;
 }
 
-.header_line {
+.header__line {
   width: 100%;
   height: 13rem;
   display: -webkit-box;
@@ -47,7 +49,7 @@ a {
           align-items: center;
 }
 
-.header_logo {
+.header__logo {
   margin: 0 4.3% 0 14.5%;
 }
 
@@ -73,6 +75,7 @@ a {
 }
 
 .header__menu__nav__item {
+  font-family: 'Lato', sans-serif;
   font-size: 1.4rem;
   color: #585c62;
   text-transform: uppercase;
@@ -92,11 +95,13 @@ a {
 }
 
 .welcome p {
-  font-size: 2.4rem;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 3rem;
   font-style: italic;
 }
 
-.welcome_image_and_text_wrap {
+.welcome__image__and__text__wrap {
   width: 87.3%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,7 +111,8 @@ a {
           align-items: flex-end;
 }
 
-.welcome_image_and_text_wrap .span_london {
+.welcome__image__and__text__wrap .span__london {
+  font-family: 'Playfair Display', serif;
   width: 16rem;
   height: 16rem;
   font-size: 14.3rem;
@@ -116,21 +122,23 @@ a {
           transform: rotate(-90deg);
 }
 
-.welcome_image_and_text_wrap img {
+.welcome__image__and__text__wrap img {
   width: 119%;
 }
 
 .history {
   width: 100%;
+  height: 75rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin-top: 9rem;
 }
 
-.history_wrap {
+.history__wrap {
   width: 72%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -143,57 +151,132 @@ a {
       -ms-flex-align: end;
           align-items: flex-end;
   margin-right: 7%;
+  position: relative;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
-.history_wrap img {
+.history__wrap img {
   width: 23%;
-  float: right;
+  position: absolute;
+  right: -10%;
+  top: 22%;
 }
 
-.the_square_mile {
-  width: 54%;
+.the__square__mile__wrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.the__square__mile {
+  width: 65%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-align: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: left;
 }
 
-.the_square_mile h2 {
+.the__square__mile h2 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 500;
+  width: 52%;
   font-size: 4.6rem;
   font-style: italic;
+  margin-right: 4rem;
 }
 
-.the_square_mile p {
+.the__square__mile p {
+  font-family: 'Lato', sans-serif;
+  width: 67%;
   font-size: 1.6rem;
+  text-align: left;
 }
 
-.roman_london {
-  width: 31%;
+.roman__london {
+  width: 37%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 23rem;
 }
 
-.roman_london h3 {
+.roman__london h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
   font-size: 3.2rem;
+  margin-bottom: 1.4rem;
 }
 
-.roman_london p {
+.roman__london p {
+  font-family: 'Lato', sans-serif;
   font-size: 1.6rem;
 }
 
-.prehistory_of_london {
-  width: 43%;
+.about {
+  font-size: 1.4rem;
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+  margin-top: 12rem;
+}
+
+.prehistory__of__london {
+  width: 47%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
-.prehistory_of_london h2 {
+.prehistory__of__london h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
   font-size: 4.8rem;
+  margin-right: 4rem;
 }
 
-.prehistory_of_london p {
+.prehistory__of__london p {
+  font-family: 'Lato', sans-serif;
   font-size: 1.6rem;
+}
+
+.transport {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.transport__wrap {
+  width: 79%;
+}
+
+.transport__wrap h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 10rem;
+}
+
+.transport__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
