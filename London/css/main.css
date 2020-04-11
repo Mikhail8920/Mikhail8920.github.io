@@ -285,6 +285,7 @@ p {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin-bottom: 7rem;
 }
 
 .transport__wrap {
@@ -324,5 +325,141 @@ p {
   font-weight: bolder;
   text-align: right;
   padding-right: .5rem;
+}
+
+.transports {
+  height: 80rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.transports p {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.6rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.transports p:first-child {
+  height: 1rem;
+}
+
+.transports__block {
+  width: 138rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.transports__block h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.5rem;
+  margin-top: 1.2rem;
+}
+
+.transports__block p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+  padding-left: 29.5rem;
+  margin-bottom: 4rem;
+}
+
+.image__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.image__block img {
+  width: 44rem;
+}
+
+.facts {
+  height: 65rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 30rem;
+}
+
+.facts__wrap {
+  width: 138rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.facts__wrap h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4.7rem;
+  font-weight: 400;
+  margin-bottom: .5rem;
+}
+
+.facts__wrap h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 20rem;
+  margin-bottom: 3rem;
+}
+
+.facts__text__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.facts__text__block .facts__text__block__item {
+  width: 52rem;
+  margin-right: 10rem;
+}
+
+.facts__text__block .facts__text__block__item p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+}
+
+.facts__text__block div:first-child {
+  width: 22rem;
+}
+
+.big__L {
+  width: 40rem;
+  position: absolute;
+  top: 44rem;
+  left: 6rem;
 }
 /*# sourceMappingURL=main.css.map */
