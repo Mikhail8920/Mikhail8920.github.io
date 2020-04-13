@@ -639,4 +639,92 @@ p {
   font-family: 'Lato', sans-serif;
   font-size: 1.6rem;
 }
+
+.other__img__item__wrap {
+  position: relative;
+  margin-bottom: 2.7rem;
+}
+
+.other__img__item__wrap p {
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  top: .5rem;
+  right: 2rem;
+  color: #ffffff;
+}
+
+.other__img__item__wrap .Big__Ben {
+  font-family: 'Playfair Display', serif;
+  color: #000;
+}
+
+.interested {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 50rem;
+}
+
+.interested__wrap {
+  width: 138rem;
+}
+
+.interested__wrap h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 8rem;
+  letter-spacing: .2rem;
+  font-weight: 400;
+}
+
+.interested__wrap p {
+  width: 63rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 5rem;
+}
+
+.contact__block {
+  width: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.contact__block::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: .2rem;
+  bottom: 0;
+  left: 0;
+  background-color: #e1e1e1;
+}
+
+.contact__Us,
+.Visit__the__office {
+  width: 25rem;
+}
+
+.contact__Us h3,
+.Visit__the__office h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  font-weight: 500;
+  padding-bottom: 1.5rem;
+}
+
+.contact__Us li,
+.Visit__the__office li {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  padding-bottom: .8rem;
+}
 /*# sourceMappingURL=main.css.map */
