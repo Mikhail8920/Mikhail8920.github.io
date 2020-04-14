@@ -666,6 +666,27 @@ p {
       -ms-flex-pack: end;
           justify-content: flex-end;
   height: 50rem;
+  position: relative;
+}
+
+.interested button {
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  bottom: -11rem;
+  padding: 1rem 2rem;
+  border: .1rem solid red;
+  border-radius: 2rem;
+  background-color: #fff;
+  color: red;
+  cursor: pointer;
+  right: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.interested button:hover {
+  border: .1rem solid #1d82b6;
+  color: #1d82b6;
 }
 
 .interested__wrap {
@@ -701,9 +722,9 @@ p {
   content: '';
   display: block;
   position: absolute;
-  width: 100%;
-  height: .2rem;
-  bottom: 0;
+  width: 117%;
+  height: .1rem;
+  bottom: -2rem;
   left: 0;
   background-color: #e1e1e1;
 }
@@ -726,5 +747,28 @@ p {
   font-family: 'Lato', sans-serif;
   font-size: 1.6rem;
   padding-bottom: .8rem;
+}
+
+@media (min-width: 320px) and (max-width: 639px) {
+  .header__line {
+    width: 32rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header__logo {
+    margin: 1.5rem 0;
+  }
+  .hamburger__menu {
+    width: 28rem;
+    margin-right: 0;
+  }
+  .welcome__image__and__text__wrap {
+    width: 32rem;
+  }
+  .welcome__slide {
+    width: 28rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
