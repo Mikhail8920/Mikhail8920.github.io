@@ -88,6 +88,10 @@ p {
 }
 
 .header__menu__nav__item {
+  font-size: 1.5rem;
+}
+
+.header__menu__nav__item {
   font-family: 'Lato', sans-serif;
   font-size: 1.4rem;
   color: #585c62;
@@ -756,19 +760,122 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-bottom: 3rem;
   }
   .header__logo {
     margin: 1.5rem 0;
   }
   .hamburger__menu {
-    width: 28rem;
+    width: 30rem;
     margin-right: 0;
   }
+  .welcome {
+    height: 38rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .welcome p {
+    height: 0;
+    line-height: 4rem;
+    font-size: 2rem;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
   .welcome__image__and__text__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 32rem;
   }
+  .welcome__image__and__text__wrap .span__london {
+    width: 32rem;
+    height: 4rem;
+    font-size: 7rem;
+    text-align: center;
+    font-style: normal;
+    line-height: 0rem;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
   .welcome__slide {
-    width: 28rem;
+    width: 32rem;
+  }
+  .welcome__slide img {
+    width: 32rem;
+  }
+  .history {
+    margin-top: 5rem;
+  }
+  .history__wrap {
+    width: 32rem;
+    position: static;
+  }
+  .history__wrap img {
+    width: 18rem;
+    height: 36rem;
+    position: static;
+    float: right;
+  }
+  .the__square__mile__wrap {
+    width: 100%;
+    padding-right: 0rem;
+  }
+  .the__square__mile {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-left: 1rem;
+  }
+  .the__square__mile h2 {
+    font-size: 2.2rem;
+  }
+  .the__square__mile p {
+    width: 90%;
+  }
+  .roman__london {
+    width: 100%;
+    padding-left: 1rem;
+    margin-top: 6rem;
+  }
+  .roman__london h3 {
+    font-size: 2.2rem;
+    font-style: italic;
+  }
+  .roman__london p {
+    width: 90%;
+  }
+  .about {
+    width: 100%;
+    margin-top: 4rem;
+    padding-left: 1rem;
+  }
+  .prehistory__of__london {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    padding-left: 1rem;
+  }
+  .prehistory__of__london h2 {
+    font-size: 2.2rem;
+    font-style: italic;
+  }
+  .prehistory__of__london p {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=main.css.map */
