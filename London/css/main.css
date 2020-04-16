@@ -809,7 +809,8 @@ p {
     width: 32rem;
   }
   .history {
-    margin-top: 5rem;
+    height: 114rem;
+    margin: 5rem 0;
   }
   .history__wrap {
     width: 32rem;
@@ -876,6 +877,98 @@ p {
   }
   .prehistory__of__london p {
     width: 90%;
+  }
+  .transport {
+    height: 61rem;
+    margin-bottom: 5rem;
+  }
+  .transport__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 32rem;
+  }
+  .transport__wrap h1 {
+    font-size: 5rem;
+  }
+  .transport__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .transport__block img {
+    width: 32rem;
+  }
+  .transport__wrap__text {
+    height: 14rem;
+    bottom: 33rem;
+  }
+  .transport__wrap__text h3 {
+    font-size: 2.8rem;
+    padding-left: .5rem;
+    margin-bottom: .5rem;
+  }
+  .transport__wrap__text p {
+    width: 31rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding-left: 4rem;
+  }
+  .transport__text p {
+    width: 30rem;
+    padding-left: 1rem;
+  }
+  .transports {
+    height: 108rem;
+    margin-top: 0rem;
+    margin-bottom: 5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .transports p {
+    font-size: 2.3rem;
+    padding-left: 1rem;
+  }
+  .transports__block {
+    width: 32rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .transports__block h1 {
+    letter-spacing: 0rem;
+    padding-left: 1rem;
+  }
+  .transports__block p {
+    font-size: 1.3rem;
+    padding-left: 19rem;
+  }
+  .image__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .image__block img {
+    padding-bottom: 1rem;
+  }
+  .facts__wrap {
+    width: 32rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .facts__text__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=main.css.map */
