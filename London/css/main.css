@@ -165,6 +165,7 @@ p {
 
 .history__wrap {
   width: 138rem;
+  height: 110rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -957,6 +958,10 @@ p {
   .image__block img {
     padding-bottom: 1rem;
   }
+  .facts {
+    height: 97rem;
+    margin-bottom: 28rem;
+  }
   .facts__wrap {
     width: 32rem;
     -webkit-box-orient: vertical;
@@ -964,11 +969,126 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .facts__wrap h2 {
+    padding-left: 1rem;
+  }
+  .facts__wrap h3 {
+    width: 32rem;
+    margin-bottom: 2rem;
+    padding-left: 15rem;
+  }
   .facts__text__block {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .facts__text__block .facts__text__block__item {
+    width: 32rem;
+  }
+  .facts__text__block .facts__text__block__item p {
+    width: 32rem;
+    padding: 0rem 1rem;
+    margin-bottom: 3rem;
+  }
+  .big__L {
+    width: 22rem;
+    top: 108.5rem;
+    left: 4.5rem;
+  }
+  .night {
+    height: 44rem;
+    padding-top: 25rem;
+    margin-bottom: 0;
+  }
+  .night__block__wrap {
+    width: 32rem;
+  }
+  .night__vertical__text {
+    font-size: 1.8rem;
+    left: 18.5rem;
+    top: -14.5rem;
+  }
+  .night__in__london {
+    width: 32rem;
+  }
+  .night__image__and__text__wrap img {
+    width: 32rem;
+  }
+  .night__block__text {
+    left: 2rem;
+    bottom: 3rem;
+  }
+  .night__block__text h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+  }
+  .night__block__text p {
+    width: 28rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .places {
+    height: 100rem;
+    margin-top: 4rem;
+  }
+  .places__wrap {
+    width: 32rem;
+  }
+  .places__wrap h1 {
+    font-size: 5rem;
+    padding-left: .5rem;
+  }
+  .places__wrap .places__wrap__text {
+    width: 32rem;
+    padding: 0rem 1rem;
+    margin-bottom: 2rem;
+  }
+  .places__image__block {
+    width: 32rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .slide__img {
+    width: 32rem;
+    margin-bottom: 2rem;
+  }
+  .slide__img img {
+    width: 32rem;
+    height: 22rem;
+  }
+  .places__text__block {
+    right: 0;
+    bottom: 2rem;
+  }
+  .places__text__block h2 {
+    font-size: 2.8rem;
+    text-align: left;
+  }
+  .places__text__block p {
+    width: 30rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .other__img__item__wrap {
+    margin-bottom: 2rem;
+  }
+  .other__img__item__wrap p {
+    top: .5rem;
+    right: -1rem;
+  }
+  .interested__wrap {
+    width: 32rem;
+  }
+  .interested__wrap h1 {
+    font-size: 5rem;
+    padding-left: 1rem;
+  }
+  .interested__wrap p {
+    width: 32rem;
+    padding: 0 1rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
