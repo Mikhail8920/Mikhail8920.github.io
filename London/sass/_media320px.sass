@@ -42,21 +42,20 @@
 
     //history
     .history
-        height: 114rem
-        margin: 5rem 0
+        height: 134rem
+        margin-top: 0
 
     .history__wrap
         width: 32rem
-        position: static
-        & img
-            width: 18rem
-            height: 36rem
+        & img 
             position: static
-            float: right
-        
+            width: 32rem
+            height: 56rem
+            
     .the__square__mile__wrap
         width: 100%
         padding-right: 0rem
+        margin-bottom: 1rem
 
     .the__square__mile
         width: 100%
@@ -65,13 +64,14 @@
         padding-left: 1rem
         & h2 
             font-size: 2.2rem
+            margin-bottom: .5rem
         & p 
             width: 90%
 
     .roman__london
         width: 100%
         padding-left: 1rem
-        margin-top: 6rem
+        margin-top: 3rem
         & h3 
             font-size: 2.2rem
             font-style: italic
@@ -80,7 +80,7 @@
 
     .about
         width: 100%
-        margin-top: 4rem
+        margin-top: 3rem
         padding-left: 1rem
     
     .prehistory__of__london
@@ -105,7 +105,7 @@
         & h1 
             font-size: 5rem
 
-    .transport__block
+    .transport__block__wrap
         flex-direction: column
         & img 
             width: 32rem
@@ -144,6 +144,9 @@
         & h1 
             letter-spacing: 0rem
             padding-left: 1rem
+            &::after
+                width: 87%
+                left: 3.5%
         & p 
             font-size: 1.3rem
             padding-left: 19rem
@@ -259,6 +262,10 @@
 
     //interested
     .interested
+        height: 63rem
+        & button 
+            bottom: -10rem
+            right: 5.5rem 
 
     .interested__wrap
         width: 32rem
@@ -268,3 +275,19 @@
         & p 
             width: 32rem
             padding: 0 1rem
+            margin-bottom: 3rem
+
+    .contact__block
+        width: 32rem
+        padding: 0rem 1rem
+        flex-direction: column
+
+    .contact__Us,
+    .visit__the__office
+        width: 30rem
+        & h3 
+            font-size: 2rem
+
+    .contact__Us
+        margin-bottom: 1rem
+

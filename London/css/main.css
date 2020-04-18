@@ -307,13 +307,47 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.transport__block__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
 }
 
+.transport__block__wrap:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.transport__block__wrap:hover .transport__wrap__text {
+  opacity: 1;
+  border-radius: 1rem;
+}
+
 .transport__wrap__text {
+  width: 87.7rem;
+  height: 58.5rem;
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
   left: 0;
-  bottom: 5rem;
+  bottom: 0;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: .6s;
+  transition: .6s;
 }
 
 .transport__wrap__text h3 {
@@ -322,6 +356,7 @@ p {
   font-weight: 400;
   color: #ffffff;
   margin-bottom: 3.5rem;
+  padding-left: 1rem;
 }
 
 .transport__wrap__text p {
@@ -330,6 +365,7 @@ p {
   font-size: 1.6rem;
   color: #ffffff;
   padding-left: 10rem;
+  margin-bottom: 3.5rem;
 }
 
 .transport__text {
@@ -400,6 +436,17 @@ p {
   text-transform: uppercase;
   letter-spacing: 1.5rem;
   margin-top: 1.2rem;
+  position: relative;
+}
+
+.transports__block h1::after {
+  content: '';
+  position: absolute;
+  width: 72%;
+  height: .1rem;
+  bottom: 0;
+  left: 29.5%;
+  background-color: #cfcece;
 }
 
 .transports__block p {
@@ -731,16 +778,16 @@ p {
   height: .1rem;
   bottom: -2rem;
   left: 0;
-  background-color: #e1e1e1;
+  background-color: #cfcece;
 }
 
 .contact__Us,
-.Visit__the__office {
+.visit__the__office {
   width: 25rem;
 }
 
 .contact__Us h3,
-.Visit__the__office h3 {
+.visit__the__office h3 {
   font-family: 'Playfair Display', serif;
   font-size: 2.8rem;
   font-weight: 500;
@@ -748,10 +795,29 @@ p {
 }
 
 .contact__Us li,
-.Visit__the__office li {
+.visit__the__office li {
   font-family: 'Lato', sans-serif;
   font-size: 1.6rem;
   padding-bottom: .8rem;
+}
+
+.foter__block {
+  height: 5rem;
+}
+
+.foter__block p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  text-align: right;
+  padding-right: 8rem;
+}
+
+.foter__block span {
+  font-weight: bolder;
+}
+
+.foter__block img {
+  float: right;
 }
 
 @media (min-width: 320px) and (max-width: 639px) {
@@ -810,22 +876,21 @@ p {
     width: 32rem;
   }
   .history {
-    height: 114rem;
-    margin: 5rem 0;
+    height: 134rem;
+    margin-top: 0;
   }
   .history__wrap {
     width: 32rem;
-    position: static;
   }
   .history__wrap img {
-    width: 18rem;
-    height: 36rem;
     position: static;
-    float: right;
+    width: 32rem;
+    height: 56rem;
   }
   .the__square__mile__wrap {
     width: 100%;
     padding-right: 0rem;
+    margin-bottom: 1rem;
   }
   .the__square__mile {
     width: 100%;
@@ -840,6 +905,7 @@ p {
   }
   .the__square__mile h2 {
     font-size: 2.2rem;
+    margin-bottom: .5rem;
   }
   .the__square__mile p {
     width: 90%;
@@ -847,7 +913,7 @@ p {
   .roman__london {
     width: 100%;
     padding-left: 1rem;
-    margin-top: 6rem;
+    margin-top: 3rem;
   }
   .roman__london h3 {
     font-size: 2.2rem;
@@ -858,7 +924,7 @@ p {
   }
   .about {
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 3rem;
     padding-left: 1rem;
   }
   .prehistory__of__london {
@@ -893,13 +959,13 @@ p {
   .transport__wrap h1 {
     font-size: 5rem;
   }
-  .transport__block {
+  .transport__block__wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .transport__block img {
+  .transport__block__wrap img {
     width: 32rem;
   }
   .transport__wrap__text {
@@ -944,6 +1010,10 @@ p {
   .transports__block h1 {
     letter-spacing: 0rem;
     padding-left: 1rem;
+  }
+  .transports__block h1::after {
+    width: 87%;
+    left: 3.5%;
   }
   .transports__block p {
     font-size: 1.3rem;
@@ -1079,6 +1149,13 @@ p {
     top: .5rem;
     right: -1rem;
   }
+  .interested {
+    height: 63rem;
+  }
+  .interested button {
+    bottom: -10rem;
+    right: 5.5rem;
+  }
   .interested__wrap {
     width: 32rem;
   }
@@ -1089,6 +1166,26 @@ p {
   .interested__wrap p {
     width: 32rem;
     padding: 0 1rem;
+    margin-bottom: 3rem;
+  }
+  .contact__block {
+    width: 32rem;
+    padding: 0rem 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact__Us,
+  .visit__the__office {
+    width: 30rem;
+  }
+  .contact__Us h3,
+  .visit__the__office h3 {
+    font-size: 2rem;
+  }
+  .contact__Us {
+    margin-bottom: 1rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
