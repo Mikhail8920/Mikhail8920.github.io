@@ -31,8 +31,20 @@
                 <p>Welcome to </p>
                 <div class="welcome__image__and__text__wrap">
                     <p class="span__london">London</p>
-                    <div class="welcome__slide">
-                        <img src="../London/image/header/slide1.png" alt="#">
+                    <div class="slider">
+                        <div class="slider__wrapper">
+                          <div class="slider__item"> 
+                            <img src="../London/image/header/slide1.png" alt="#">
+                          </div>
+                          <div class="slider__item">
+                            <img src="../London/image/header/slide2.jpg" alt="#">
+                          </div>
+                          <div class="slider__item">
+                            <img src="../London/image/header/slide3.jpg" alt="#">
+                          </div>
+                        </div>
+                        <a class="slider__control slider__control_left" href="#" role="button"></a>
+                        <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
                     </div>
                 </div> <!--/welcome__image__and__text__wrap-->
             </div> <!--/welcome-->
@@ -146,9 +158,8 @@
                         their varying ages. Many grand houses and public buildings, such as the National Gallery, are constructed from 
                         Portland stone. </p>
                     <div class="places__image__block">
-                        <div class="slide__img">
-                            <img src="../London/image/places/wheel_one.png" alt="#">
-                            <!-- <img src="../London/image/places/wheel_two.png" alt="#"> ДЛЯ СЛАЙДЕРА--> 
+                        <div class="main__img">
+                            <img src="../London/image/places/wheel_one.png" alt="#">                   
                             <div class="places__text__block">
                                 <h2>London Eye</h2>
                                 <p>The London Eye is a cantilevered observation wheel on the South Bank of the River Thames in London. It is
@@ -158,16 +169,22 @@
                         </div> <!--/slide__img-->
                         <div class="other__img">
                             <div class="other__img__item__wrap">
-                            <img src="../London/image/places/tower__Brige.png" alt="#">
-                                <p>tower Brige</p>              
+                                <img src="../London/image/places/tower__Brige.png" alt="#">
+                                <div class="other__img__blackout__block">
+                                    <p>tower Brige</p>              
+                                </div>
                             </div>
                             <div class="other__img__item__wrap">
                                 <img src="../London/image/places/Big__Ben.png" alt="#">
-                                <p class="Big__Ben">Big Ben</p>
+                                <div class="other__img__blackout__block">
+                                    <p class="Big__Ben">Big Ben</p>
+                                </div>
                             </div>
                             <div class="other__img__item__wrap">
                                 <img src="../London/image/places/museums.png" alt="#">
-                                <p>Museums</p>
+                                <div class="other__img__blackout__block">
+                                    <p>Museums</p>
+                                </div>
                             </div>
                         </div> <!--/other__img-->
                     </div> <!--/places__image__block-->
@@ -206,5 +223,6 @@
             </div>
         </footer>
     </div> <!--/full__block-->
+    <script src="../London/js/one.js"></script>
 </body>
 </html>
