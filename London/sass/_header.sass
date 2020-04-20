@@ -11,7 +11,7 @@
 .header__logo
     margin-left: 3.5rem
 
-.hamburger__menu
+.menu
     width: 138rem
     display: flex
     justify-content: flex-end
@@ -23,10 +23,31 @@
     justify-content: space-between
 
 .header__menu__nav__item
-    font-size: 1.5rem
-
-.header__menu__nav__item
     font-family: 'Lato', sans-serif
-    font-size: 1.4rem
+    font-size: 1.8rem
     color: #585c62
     text-transform: uppercase
+    position: relative
+    &::before
+        content: ''
+        display: block
+        width: 100%
+        height: .1rem
+        background-color: #c30000
+        transform: translateY(25px) scale(0)
+        transition: all .4s
+        position: relative
+    &::after
+        content: ''
+        display: block
+        width: 100%
+        height: .1rem
+        background-color: #c30000
+        transform: translateY(-25px) scale(0)
+        transition: all .4s
+    &:hover
+        color: #c30000
+        &::before
+            transform: translateY(25px) scale(1)
+        &::after
+            transform: translateY(-25px) scale(1)

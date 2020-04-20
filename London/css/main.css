@@ -151,7 +151,7 @@ p {
   margin-left: 3.5rem;
 }
 
-.hamburger__menu {
+.menu {
   width: 138rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,14 +173,50 @@ p {
 }
 
 .header__menu__nav__item {
-  font-size: 1.5rem;
-}
-
-.header__menu__nav__item {
   font-family: 'Lato', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   color: #585c62;
   text-transform: uppercase;
+  position: relative;
+}
+
+.header__menu__nav__item::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: .1rem;
+  background-color: #c30000;
+  -webkit-transform: translateY(25px) scale(0);
+          transform: translateY(25px) scale(0);
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  position: relative;
+}
+
+.header__menu__nav__item::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: .1rem;
+  background-color: #c30000;
+  -webkit-transform: translateY(-25px) scale(0);
+          transform: translateY(-25px) scale(0);
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.header__menu__nav__item:hover {
+  color: #c30000;
+}
+
+.header__menu__nav__item:hover::before {
+  -webkit-transform: translateY(25px) scale(1);
+          transform: translateY(25px) scale(1);
+}
+
+.header__menu__nav__item:hover::after {
+  -webkit-transform: translateY(-25px) scale(1);
+          transform: translateY(-25px) scale(1);
 }
 
 .welcome {
@@ -864,6 +900,8 @@ p {
   width: 33.5rem;
   height: 18rem;
   background: rgba(0, 0, 0, 0.4);
+  -webkit-transition: .6s;
+  transition: .6s;
   opacity: 0;
 }
 
@@ -978,6 +1016,12 @@ p {
 }
 
 @media (min-width: 320px) and (max-width: 639px) {
+  .header__block {
+    height: 14rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .header__line {
     width: 32rem;
     -webkit-box-orient: vertical;
@@ -987,11 +1031,14 @@ p {
     margin-bottom: 3rem;
   }
   .header__logo {
-    margin: 1.5rem 0;
+    margin: 1.5rem 0 2.5rem 0;
   }
-  .hamburger__menu {
+  .menu {
     width: 30rem;
     margin-right: 0;
+  }
+  .header__menu__nav__item {
+    font-size: 1.4rem;
   }
   .welcome {
     height: 38rem;
@@ -1026,10 +1073,13 @@ p {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
-  .welcome__slide {
+  .slider {
     width: 32rem;
   }
-  .welcome__slide img {
+  .slider__item {
+    width: 32rem;
+  }
+  .slider__item img {
     width: 32rem;
   }
   .history {
@@ -1147,7 +1197,7 @@ p {
     padding-left: 1rem;
   }
   .transports {
-    height: 108rem;
+    height: 84rem;
     margin-top: 0rem;
     margin-bottom: 5rem;
     -webkit-box-orient: vertical;
@@ -1160,7 +1210,7 @@ p {
     padding-left: 1rem;
   }
   .transports__block {
-    width: 32rem;
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1179,12 +1229,14 @@ p {
     padding-left: 19rem;
   }
   .image__block {
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
   .image__block img {
+    width: 32rem;
     padding-bottom: 1rem;
   }
   .facts {
@@ -1255,12 +1307,15 @@ p {
   }
   .night__block__text h1 {
     font-size: 2.8rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
+    padding-left: 1rem;
   }
   .night__block__text p {
     width: 28rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
   }
   .places {
     height: 100rem;
@@ -1302,21 +1357,28 @@ p {
   .places__text__block h2 {
     font-size: 2.8rem;
     text-align: left;
+    margin-bottom: .5rem;
+    padding-left: 1rem;
   }
   .places__text__block p {
     width: 30rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
   }
   .other__img__item__wrap {
     margin-bottom: 2rem;
   }
   .other__img__item__wrap p {
     top: .5rem;
-    right: -1rem;
+    right: 2.5rem;
   }
   .interested {
     height: 63rem;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .interested button {
     bottom: -10rem;
@@ -1352,6 +1414,13 @@ p {
   }
   .contact__Us {
     margin-bottom: 1rem;
+  }
+  .foter__block {
+    height: 3rem;
+  }
+  .foter__block p {
+    font-size: 1rem;
+    padding-right: 1rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

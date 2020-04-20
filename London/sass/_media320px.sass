@@ -1,18 +1,24 @@
 @media (min-width:320px) and (max-width:639px)
-    
 
     //header
+    .header__block
+        height: 14rem
+        justify-content: center
+
     .header__line
         width: 32rem
         flex-direction: column
         margin-bottom: 3rem
 
     .header__logo
-        margin: 1.5rem 0
+        margin: 1.5rem 0 2.5rem 0
 
-    .hamburger__menu
+    .menu
         width: 30rem
         margin-right: 0
+
+    .header__menu__nav__item
+        font-size: 1.4rem
 
     //welcome
     .welcome
@@ -37,7 +43,10 @@
             line-height: 0rem
             transform: rotate(0deg)
 
-    .welcome__slide
+    .slider
+        width: 32rem
+
+    .slider__item
         width: 32rem
         & img
             width: 32rem
@@ -135,7 +144,7 @@
 
     //transports
     .transports
-        height: 108rem
+        height: 84rem
         margin-top: 0rem
         margin-bottom: 5rem
         flex-direction: column
@@ -144,7 +153,7 @@
             padding-left: 1rem
 
     .transports__block
-        width: 32rem
+        width: 100%
         flex-direction: column
         & h1 
             letter-spacing: 0rem
@@ -157,8 +166,10 @@
             padding-left: 19rem
 
     .image__block
+        width: 100%
         flex-direction: column
         & img
+            width: 32rem
             padding-bottom: 1rem
 
     //facts
@@ -219,11 +230,14 @@
         bottom: 0rem
         & h1 
             font-size: 2.8rem
-            margin-bottom: 1rem
+            margin-bottom: .5rem
+            padding-left: 1rem
         & p 
             width: 28rem
-            font-size: 1.4rem
+            font-size: 1.2rem
             line-height: 2rem
+            padding-bottom: 1rem
+            padding-left: 2rem
 
     //places
     .places
@@ -259,20 +273,26 @@
         & h2 
             font-size: 2.8rem
             text-align: left
+            margin-bottom: .5rem
+            padding-left: 1rem            
         & p 
             width: 30rem
-            font-size: 1.4rem
+            font-size: 1.2rem
             line-height: 2rem
+            padding-bottom: 1rem
+            padding-left: 2rem
+
                   
     .other__img__item__wrap
         margin-bottom: 2rem
         & p 
             top: .5rem
-            right: -1rem
+            right: 2.5rem
 
     //interested
     .interested
         height: 63rem
+        justify-content: flex-start
         & button 
             bottom: -10rem
             right: 5.5rem 
@@ -301,3 +321,9 @@
     .contact__Us
         margin-bottom: 1rem
 
+    //footer
+    .foter__block
+        height: 3rem
+        & p 
+            font-size: 1rem
+            padding-right: 1rem
