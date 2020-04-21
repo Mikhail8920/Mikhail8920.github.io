@@ -22,14 +22,17 @@
 
     //welcome
     .welcome
-        height: 38rem
+        height: 35rem
         flex-direction: column
-        justify-content: space-around
+        align-items: center
+        margin-bottom: 6rem
         & p 
             height: 0
             line-height: 4rem
             font-size: 2rem
-            transform: rotate(-90deg)
+            transform: rotate(90deg)
+            margin-top: 7.5rem
+            margin-left: -23.5rem
 
     .welcome__image__and__text__wrap
         flex-direction: column
@@ -55,6 +58,7 @@
     .history
         height: 134rem
         margin-top: 0
+        justify-content: center
 
     .history__wrap
         width: 32rem
@@ -107,15 +111,20 @@
 
     //transport
     .transport
-        height: 28rem
+        height: 62rem
         margin-bottom: 5rem
+        flex-direction: column
+        justify-content: center
+        align-items: center
 
     .transport__wrap
         flex-direction: column
         width: 32rem
-
         & h1 
             font-size: 5rem
+
+    .transport__block
+        flex-direction: column
 
     .transport__block__wrap
         flex-direction: column
@@ -141,6 +150,8 @@
         & p
             width: 30rem
             padding-left: 1rem
+            &:last-child
+                font-size: 1.4rem
 
     //transports
     .transports
@@ -148,6 +159,7 @@
         margin-top: 0rem
         margin-bottom: 5rem
         flex-direction: column
+        align-items: center
         & p 
             font-size: 2.3rem
             padding-left: 1rem
@@ -155,12 +167,13 @@
     .transports__block
         width: 100%
         flex-direction: column
+        align-items: center
         & h1 
             letter-spacing: 0rem
             padding-left: 1rem
             &::after
-                width: 87%
-                left: 3.5%
+                width: 95%
+                left: 4.5%
         & p 
             font-size: 1.3rem
             padding-left: 19rem
@@ -168,6 +181,7 @@
     .image__block
         width: 100%
         flex-direction: column
+        align-items: center
         & img
             width: 32rem
             padding-bottom: 1rem
@@ -176,10 +190,12 @@
     .facts
         height: 97rem
         margin-bottom: 28rem
+        justify-content: center
 
     .facts__wrap
         width: 32rem
         flex-direction: column
+        align-items: center
         & h2 
             padding-left: 1rem
         & h3 
@@ -189,8 +205,12 @@
 
     .facts__text__block
         flex-direction: column
+        align-items: center
+        & div:first-child
+            width: 32rem
         & .facts__text__block__item
             width: 32rem
+            margin-right: 0
             & p 
                 width: 32rem
                 padding: 0rem 1rem
@@ -206,6 +226,7 @@
         height: 44rem
         padding-top: 25rem
         margin-bottom: 0
+        justify-content: center
 
     .night__block__wrap
         width: 32rem
@@ -243,6 +264,7 @@
     .places
         height: 100rem
         margin-top: 4rem
+        justify-content: center
     
     .places__wrap
         width: 32rem 
@@ -285,14 +307,20 @@
                   
     .other__img__item__wrap
         margin-bottom: 2rem
+        & img
+            width: 32rem
         & p 
             top: .5rem
-            right: 2.5rem
+            right: 1rem
+    
+    .other__img__blackout__block
+        width: 32rem
+        height: 17.2rem
 
     //interested
     .interested
         height: 63rem
-        justify-content: flex-start
+        justify-content: center
         & button 
             bottom: -10rem
             right: 5.5rem 

@@ -1041,20 +1041,24 @@ p {
     font-size: 1.4rem;
   }
   .welcome {
-    height: 38rem;
+    height: 35rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 6rem;
   }
   .welcome p {
     height: 0;
     line-height: 4rem;
     font-size: 2rem;
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-top: 7.5rem;
+    margin-left: -23.5rem;
   }
   .welcome__image__and__text__wrap {
     -webkit-box-orient: vertical;
@@ -1085,6 +1089,9 @@ p {
   .history {
     height: 134rem;
     margin-top: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .history__wrap {
     width: 32rem;
@@ -1153,8 +1160,18 @@ p {
     width: 90%;
   }
   .transport {
-    height: 28rem;
+    height: 62rem;
     margin-bottom: 5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .transport__wrap {
     -webkit-box-orient: vertical;
@@ -1165,6 +1182,12 @@ p {
   }
   .transport__wrap h1 {
     font-size: 5rem;
+  }
+  .transport__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .transport__block__wrap {
     -webkit-box-orient: vertical;
@@ -1196,6 +1219,9 @@ p {
     width: 30rem;
     padding-left: 1rem;
   }
+  .transport__text p:last-child {
+    font-size: 1.4rem;
+  }
   .transports {
     height: 84rem;
     margin-top: 0rem;
@@ -1204,6 +1230,9 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .transports p {
     font-size: 2.3rem;
@@ -1215,14 +1244,17 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .transports__block h1 {
     letter-spacing: 0rem;
     padding-left: 1rem;
   }
   .transports__block h1::after {
-    width: 87%;
-    left: 3.5%;
+    width: 95%;
+    left: 4.5%;
   }
   .transports__block p {
     font-size: 1.3rem;
@@ -1234,6 +1266,9 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .image__block img {
     width: 32rem;
@@ -1242,6 +1277,9 @@ p {
   .facts {
     height: 97rem;
     margin-bottom: 28rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .facts__wrap {
     width: 32rem;
@@ -1249,6 +1287,9 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .facts__wrap h2 {
     padding-left: 1rem;
@@ -1263,9 +1304,16 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .facts__text__block div:first-child {
+    width: 32rem;
   }
   .facts__text__block .facts__text__block__item {
     width: 32rem;
+    margin-right: 0;
   }
   .facts__text__block .facts__text__block__item p {
     width: 32rem;
@@ -1281,6 +1329,9 @@ p {
     height: 44rem;
     padding-top: 25rem;
     margin-bottom: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .night__block__wrap {
     width: 32rem;
@@ -1320,6 +1371,9 @@ p {
   .places {
     height: 100rem;
     margin-top: 4rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .places__wrap {
     width: 32rem;
@@ -1370,15 +1424,22 @@ p {
   .other__img__item__wrap {
     margin-bottom: 2rem;
   }
+  .other__img__item__wrap img {
+    width: 32rem;
+  }
   .other__img__item__wrap p {
     top: .5rem;
-    right: 2.5rem;
+    right: 1rem;
+  }
+  .other__img__blackout__block {
+    width: 32rem;
+    height: 17.2rem;
   }
   .interested {
     height: 63rem;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .interested button {
     bottom: -10rem;
