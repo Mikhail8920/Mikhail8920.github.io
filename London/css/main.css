@@ -44,89 +44,6 @@ p {
   overflow: hidden;
 }
 
-.slider {
-  position: relative;
-  overflow: hidden;
-}
-
-.slider__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-transition: -webkit-transform 1s ease;
-  transition: -webkit-transform 1s ease;
-  transition: transform 1s ease;
-  transition: transform 1s ease, -webkit-transform 1s ease;
-}
-
-.slider__item {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
-  width: 100%;
-}
-
-.slider__control {
-  position: absolute;
-  top: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 40px;
-  color: #fff;
-  text-align: center;
-  opacity: 0.5;
-  height: 50px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.slider__control:hover,
-.slider__control:focus {
-  color: #fff;
-  text-decoration: none;
-  outline: 0;
-  opacity: .9;
-}
-
-.slider__control_left {
-  left: 0;
-}
-
-.slider__control_right {
-  right: 0;
-}
-
-.slider__control::before {
-  content: '';
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background: transparent no-repeat center center;
-  background-size: 100% 100%;
-}
-
-.slider__control_left::before {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.slider__control_right::before {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-
-.slider__item > div {
-  line-height: 250px;
-  font-size: 100px;
-  text-align: center;
-}
-
 .header__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -263,6 +180,89 @@ p {
   text-transform: uppercase;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
+.slider__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  width: 100%;
+}
+
+.slider__control {
+  position: absolute;
+  top: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 4rem;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  height: 5rem;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.slider__control:hover,
+.slider__control:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+}
+
+.slider__control_left {
+  left: 0;
+}
+
+.slider__control_right {
+  right: 0;
+}
+
+.slider__control::before {
+  content: '';
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.slider__control_left::before {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.slider__control_right::before {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.slider__item > div {
+  line-height: 25rem;
+  font-size: 10rem;
+  text-align: center;
 }
 
 .slider__item {
@@ -1482,6 +1482,111 @@ p {
   .foter__block p {
     font-size: 1rem;
     padding-right: 1rem;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 799px) {
+  .header__line {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header__logo {
+    margin-left: 2.5rem;
+  }
+  .menu {
+    width: 100%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 0;
+    padding-left: 2.5rem;
+  }
+  .header__menu {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-right: 0;
+  }
+  .header__menu__nav {
+    padding: 0 3rem;
+  }
+  .welcome {
+    height: 64rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 6rem;
+  }
+  .welcome p {
+    height: 0;
+    line-height: 4rem;
+    font-size: 3rem;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-top: 13.5rem;
+    margin-left: -52.5rem;
+  }
+  .welcome__image__and__text__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 64rem;
+  }
+  .welcome__image__and__text__wrap .span__london {
+    width: 63rem;
+    height: 7.5rem;
+    font-size: 14.5rem;
+    text-align: center;
+    font-style: normal;
+    line-height: 0rem;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  .slider {
+    width: 64rem;
+  }
+  .slider__item {
+    width: 64rem;
+  }
+  .slider__item img {
+    width: 64rem;
+  }
+  .history {
+    margin-top: 6rem;
+  }
+  .history__wrap {
+    width: 100%;
+    height: 78rem;
+  }
+  .history__wrap img {
+    width: 30rem;
+    height: 54rem;
+  }
+  .the__square__mile__wrap {
+    padding-right: 4rem;
+  }
+  .the__square__mile {
+    width: 60rem;
+  }
+  .roman__london {
+    width: 44%;
+    margin-top: 6rem;
+    margin-left: 2.5rem;
+  }
+  .prehistory__of__london {
+    width: 57%;
+    margin: -10rem 0 0 2.5rem;
+  }
+  .prehistory__of__london h2 {
+    font-size: 3.8rem;
+    margin-right: 2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
