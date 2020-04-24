@@ -514,7 +514,7 @@ p {
 }
 
 .transports {
-  height: 80rem;
+  height: 65rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1634,8 +1634,80 @@ p {
             align-items: flex-start;
   }
   .transport__text p {
-    width: 59.5rem;
+    width: 59.9rem;
     padding-left: 2.5rem;
+  }
+  .transports {
+    height: 133rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 8rem;
+  }
+  .transports p {
+    padding-left: 2.5rem;
+    width: 100%;
+  }
+  .transports__block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .transports__block h1::after {
+    left: 31%;
+  }
+  .transports__block p {
+    padding-left: 80.8rem;
+  }
+  .image__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .image__block img {
+    width: 55rem;
+    margin-bottom: 1.5rem;
+  }
+  .facts__wrap {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .facts__wrap h2 {
+    padding-left: 2.5rem;
+  }
+  .facts__wrap h3 {
+    padding-left: 4.5rem;
+  }
+  .facts__text__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .facts__text__block .facts__text__block__item {
+    width: 60rem;
+    margin: 0 0 1.5rem 0;
+    padding-left: 2.5rem;
+  }
+  .facts__text__block div:first-child {
+    width: 60rem;
+    padding-left: 2.5rem;
+  }
+  .big__L {
+    top: 61rem;
+    left: 2.5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
