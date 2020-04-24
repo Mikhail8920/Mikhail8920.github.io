@@ -514,7 +514,7 @@ p {
 }
 
 .transports {
-  height: 80rem;
+  height: 65rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1203,6 +1203,9 @@ p {
     width: 32rem;
     height: 0rem;
     bottom: -2.5rem;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .transport__wrap__text h3 {
     font-size: 2.8rem;
@@ -1607,18 +1610,68 @@ p {
         -ms-flex-pack: start;
             justify-content: start;
   }
-  .transport__block {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
   .transport__wrap {
     width: 100%;
   }
   .transport__wrap h1 {
     font-size: 8rem;
     margin-left: 2.5rem;
+  }
+  .transport__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .transport__block__wrap {
+    margin-bottom: 2rem;
+  }
+  .transport__wrap__text {
+    width: 100%;
+    height: 42.7rem;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .transport__text p {
+    width: 59.5rem;
+    padding-left: 2.5rem;
+  }
+  .transports {
+    height: 105rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .transports p {
+    width: 100%;
+  }
+  .transports__block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .transports__block h1::after {
+    left: 31%;
+  }
+  .transports__block p {
+    padding-left: 80.8rem;
+  }
+  .image__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .image__block img {
+    margin-bottom: 1rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
