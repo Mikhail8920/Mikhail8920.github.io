@@ -1624,6 +1624,7 @@ p {
             flex-direction: column;
   }
   .transport__block__wrap {
+    height: 42.8rem;
     margin-bottom: 2rem;
   }
   .transport__wrap__text {
@@ -1638,7 +1639,7 @@ p {
     padding-left: 2.5rem;
   }
   .transports {
-    height: 133rem;
+    height: 152rem;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1673,8 +1674,11 @@ p {
             flex-direction: column;
   }
   .image__block img {
-    width: 55rem;
+    width: 64rem;
     margin-bottom: 1.5rem;
+  }
+  .facts {
+    margin-bottom: 23rem;
   }
   .facts__wrap {
     -webkit-box-align: start;
@@ -1706,8 +1710,151 @@ p {
     padding-left: 2.5rem;
   }
   .big__L {
-    top: 61rem;
+    top: 61.5rem;
     left: 2.5rem;
+  }
+  .night {
+    height: 71rem;
+    margin-bottom: 5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .night__block__wrap {
+    width: 64rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .night__vertical__text {
+    left: 45.5rem;
+    top: 16.2rem;
+  }
+  .night__in__london {
+    width: 64rem;
+  }
+  .night__image__and__text__wrap img {
+    width: 64rem;
+  }
+  .night__block__text {
+    width: 64rem;
+    height: 35.2rem;
+  }
+  .night__block__text h1 {
+    font-size: 4rem;
+  }
+  .places {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .places__wrap {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .places__wrap h1 {
+    width: 100%;
+    font-size: 5rem;
+    text-align: left;
+    padding-left: 2.5rem;
+  }
+  .places__wrap .places__wrap__text {
+    width: 100%;
+    text-align: left;
+    padding: 0 4rem 0 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .places__image__block {
+    width: 64rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .places__text__block {
+    width: 64rem;
+    height: 38rem;
+    right: 44rem;
+    bottom: .2rem;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .places__text__block h2 {
+    font-size: 4rem;
+  }
+  .main__img {
+    margin-bottom: 1rem;
+  }
+  .main__img img {
+    width: 64rem;
+    height: 38rem;
+  }
+  .other__img {
+    width: 64rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .other__img img {
+    width: 20.5rem;
+  }
+  .other__img__blackout__block {
+    width: 20.5rem;
+    height: 11rem;
+  }
+  .other__img__blackout__block p {
+    top: 0.2rem;
+    right: 0.8rem;
+  }
+  .interested__wrap {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .interested__wrap h1 {
+    padding-left: 2.5rem;
+  }
+  .interested__wrap p {
+    width: 100%;
+    letter-spacing: .04rem;
+    padding: 0 4rem 0 2.5rem;
+    margin-bottom: 3rem;
+  }
+  .contact__block {
+    padding: 0 4rem 0 2.5rem;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contact__Us {
+    width: 32rem;
+  }
+  .visit__the__office {
+    width: 32rem;
+    text-align: right;
   }
 }
 /*# sourceMappingURL=main.css.map */
