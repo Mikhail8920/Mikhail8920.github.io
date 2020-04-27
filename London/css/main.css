@@ -996,22 +996,22 @@ p {
   padding-bottom: .8rem;
 }
 
-.foter__block {
+.footer__block {
   height: 5rem;
 }
 
-.foter__block p {
+.footer__block p {
   font-family: 'Playfair Display', serif;
   font-size: 1.2rem;
   text-align: right;
   padding-right: 8rem;
 }
 
-.foter__block span {
+.footer__block span {
   font-weight: bolder;
 }
 
-.foter__block img {
+.footer__block img {
   float: right;
 }
 
@@ -1777,7 +1777,7 @@ p {
   .places__wrap .places__wrap__text {
     width: 100%;
     text-align: left;
-    padding: 0 4.5rem 0 2.5rem;
+    padding: 0 4rem 0 2.5rem;
     margin-bottom: 2rem;
   }
   .places__image__block {
@@ -1826,6 +1826,63 @@ p {
   .other__img__blackout__block p {
     top: 0.2rem;
     right: 0.8rem;
+  }
+  .interested__wrap {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .interested__wrap h1 {
+    font-size: 5rem;
+    padding-left: 2.5rem;
+  }
+  .interested__wrap p {
+    width: 100%;
+    letter-spacing: .04rem;
+    padding: 0 4rem 0 2.5rem;
+    margin-bottom: 3rem;
+  }
+  .contact__block {
+    padding: 0 4rem 0 2.5rem;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: no-wrap;
+        flex-wrap: no-wrap;
+    position: relative;
+  }
+  .contact__block button {
+    position: absolute;
+    right: 50%;
+    -webkit-transform: translate(50%, 0);
+            transform: translate(50%, 0);
+  }
+  .contact__Us {
+    width: 32rem;
+  }
+  .visit__the__office {
+    width: 32rem;
+    text-align: right;
+  }
+  .footer__block p {
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1023px) {
+  .welcome__image__and__text__wrap {
+    width: 80rem;
+  }
+  .welcome__image__and__text__wrap .span__london {
+    font-size: 10rem;
+  }
+  .slider__item {
+    width: 78rem;
+  }
+  .slider__item img {
+    width: 78rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
