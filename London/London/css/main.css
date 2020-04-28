@@ -996,22 +996,22 @@ p {
   padding-bottom: .8rem;
 }
 
-.foter__block {
+.footer__block {
   height: 5rem;
 }
 
-.foter__block p {
+.footer__block p {
   font-family: 'Playfair Display', serif;
   font-size: 1.2rem;
   text-align: right;
   padding-right: 8rem;
 }
 
-.foter__block span {
+.footer__block span {
   font-weight: bolder;
 }
 
-.foter__block img {
+.footer__block img {
   float: right;
 }
 
@@ -1061,6 +1061,7 @@ p {
     margin-left: -23.5rem;
   }
   .welcome__image__and__text__wrap {
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1754,6 +1755,7 @@ p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 5rem;
   }
   .places__wrap {
     width: 100%;
@@ -1827,6 +1829,9 @@ p {
     top: 0.2rem;
     right: 0.8rem;
   }
+  .interested {
+    height: 44rem;
+  }
   .interested__wrap {
     width: 100%;
     -webkit-box-pack: center;
@@ -1834,6 +1839,7 @@ p {
             justify-content: center;
   }
   .interested__wrap h1 {
+    font-size: 5rem;
     padding-left: 2.5rem;
   }
   .interested__wrap p {
@@ -1848,6 +1854,15 @@ p {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -ms-flex-wrap: no-wrap;
+        flex-wrap: no-wrap;
+    position: relative;
+  }
+  .contact__block button {
+    position: absolute;
+    right: 50%;
+    -webkit-transform: translate(50%, 0);
+            transform: translate(50%, 0);
   }
   .contact__Us {
     width: 32rem;
@@ -1855,6 +1870,60 @@ p {
   .visit__the__office {
     width: 32rem;
     text-align: right;
+  }
+  .footer__block p {
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1023px) {
+  .welcome {
+    height: 61rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 6rem;
+    position: relative;
+  }
+  .welcome p {
+    height: 0;
+    line-height: 4rem;
+    font-size: 2rem;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .welcome__image__and__text__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .welcome__image__and__text__wrap .span__london {
+    width: 32rem;
+    height: 4rem;
+    font-size: 7rem;
+    text-align: center;
+    font-style: normal;
+    line-height: 0rem;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  .slider__wrapper {
+    width: 200%;
+  }
+  .slider__item {
+    width: 100%;
+  }
+  .slider__item img {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */

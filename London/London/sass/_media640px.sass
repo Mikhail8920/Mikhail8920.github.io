@@ -206,6 +206,7 @@
     //places
     .places
         justify-content: center
+        margin-bottom: 5rem
 
     .places__wrap
         width: 100%
@@ -259,10 +260,14 @@
             right: 0.8rem
 
     //interested
+    .interested
+        height: 44rem
+
     .interested__wrap
         width: 100%
         justify-content: center
         & h1
+            font-size: 5rem
             padding-left: 2.5rem
         & p 
             width: 100%
@@ -274,10 +279,21 @@
         padding: 0 4rem 0 2.5rem
         width: 100%
         justify-content: space-between
-    
+        flex-wrap: no-wrap
+        position: relative
+        & button 
+            position: absolute
+            right: 50%
+            transform: translate(50%, 0)
+
     .contact__Us
         width: 32rem
 
     .visit__the__office
         width: 32rem
         text-align: right
+
+    //footer
+    .footer__block
+        & p 
+            padding-right: 3rem
