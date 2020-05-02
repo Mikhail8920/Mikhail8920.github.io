@@ -1017,13 +1017,14 @@ p {
 
 @media (min-width: 320px) and (max-width: 639px) {
   .header__block {
-    height: 14rem;
+    height: 13rem;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 2rem;
   }
   .header__line {
-    width: 32rem;
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1034,8 +1035,9 @@ p {
     margin: 1.5rem 0 2.5rem 0;
   }
   .menu {
-    width: 30rem;
-    margin-right: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0 2.5rem 0rem 2.5rem;
   }
   .header__menu__nav__item {
     font-size: 1.4rem;
@@ -1058,7 +1060,7 @@ p {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     margin-top: 7.5rem;
-    margin-left: -23.5rem;
+    margin-right: -12%;
   }
   .welcome__image__and__text__wrap {
     width: 100%;
@@ -1066,36 +1068,52 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 32rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .welcome__image__and__text__wrap .span__london {
     width: 32rem;
     height: 4rem;
-    font-size: 7rem;
+    font-size: 6.5rem;
     text-align: center;
     font-style: normal;
     line-height: 0rem;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
+    margin-right: 0;
+    padding-left: .9rem;
   }
   .slider {
-    width: 32rem;
+    width: 100%;
+    max-width: 50rem;
+    height: 20.1rem;
+  }
+  .slider__wrapper {
+    width: 200%;
   }
   .slider__item {
-    width: 32rem;
+    width: 100%;
+    max-width: 50rem;
+    height: 20.1rem;
   }
   .slider__item img {
-    width: 32rem;
+    width: 100%;
+    max-width: 50rem;
+    height: 20.1rem;
   }
   .history {
-    height: 134rem;
+    height: 139rem;
     margin-top: 0;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
   .history__wrap {
-    width: 32rem;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .history__wrap img {
     position: static;
@@ -1116,26 +1134,30 @@ p {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    padding-left: 1rem;
   }
   .the__square__mile h2 {
-    font-size: 2.2rem;
+    width: 100%;
+    text-align: left;
+    font-size: 2.7rem;
+    padding-left: 1rem;
     margin-bottom: .5rem;
   }
   .the__square__mile p {
-    width: 90%;
+    width: 100%;
+    padding: 0 2.5rem 0 2.5rem;
   }
   .roman__london {
     width: 100%;
-    padding-left: 1rem;
     margin-top: 3rem;
+    padding-left: 1rem;
   }
   .roman__london h3 {
-    font-size: 2.2rem;
+    font-size: 2.7rem;
     font-style: italic;
   }
   .roman__london p {
-    width: 90%;
+    width: 100%;
+    padding: 0 2.5rem 0 2.5rem;
   }
   .about {
     width: 100%;
@@ -1154,11 +1176,12 @@ p {
     padding-left: 1rem;
   }
   .prehistory__of__london h2 {
-    font-size: 2.2rem;
+    font-size: 2.7rem;
     font-style: italic;
   }
   .prehistory__of__london p {
-    width: 90%;
+    width: 100%;
+    padding: 0 2.5rem 0 2.5rem;
   }
   .transport {
     height: 62rem;
@@ -1179,18 +1202,20 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 32rem;
+    width: 100%;
   }
   .transport__wrap h1 {
     font-size: 5rem;
   }
   .transport__block {
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
   .transport__block__wrap {
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1198,7 +1223,7 @@ p {
     height: 21.4rem;
   }
   .transport__block__wrap img {
-    width: 32rem;
+    width: 100%;
   }
   .transport__wrap__text {
     width: 32rem;
@@ -1541,7 +1566,7 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 64rem;
+    width: 100%;
   }
   .welcome__image__and__text__wrap .span__london {
     width: 63rem;
@@ -1554,13 +1579,18 @@ p {
             transform: rotate(0deg);
   }
   .slider {
-    width: 64rem;
+    height: 34.2rem;
+  }
+  .slider__wrapper {
+    width: 200%;
   }
   .slider__item {
-    width: 64rem;
+    width: 100%;
+    height: 34.2rem;
   }
   .slider__item img {
-    width: 64rem;
+    width: 100%;
+    height: 34.2rem;
   }
   .history {
     height: 78rem;
@@ -1931,14 +1961,19 @@ p {
             transform: rotate(0deg);
     padding-left: 3rem;
   }
+  .slider {
+    height: 42.7rem;
+  }
   .slider__wrapper {
     width: 200%;
   }
   .slider__item {
     width: 100%;
+    height: 42.7rem;
   }
   .slider__item img {
     width: 100%;
+    height: 42.7rem;
   }
   .history {
     height: 89rem;
