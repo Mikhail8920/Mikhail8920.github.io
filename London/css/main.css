@@ -824,9 +824,9 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   position: absolute;
   right: 2rem;
   bottom: 3rem;
@@ -1038,9 +1038,13 @@ p {
     width: 100%;
     margin: 0;
     padding: 0 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .header__menu {
     width: 100%;
+    max-width: 50rem;
   }
   .header__menu__nav__item {
     font-size: 1.4rem;
@@ -1125,7 +1129,7 @@ p {
   }
   .history__wrap img {
     position: static;
-    width: 32rem;
+    width: 30rem;
     height: 56rem;
   }
   .the__square__mile__wrap {
@@ -1326,14 +1330,15 @@ p {
     padding-bottom: 1rem;
   }
   .facts {
-    height: 106rem;
-    margin-bottom: 20rem;
+    height: 119rem;
+    margin-bottom: 2rem;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
   .facts__wrap {
     width: 100%;
+    height: 100rem;
     max-width: 41.1rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1354,6 +1359,8 @@ p {
     padding-left: 1rem;
   }
   .facts__text__block {
+    width: 32rem;
+    height: 90rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1371,11 +1378,11 @@ p {
   }
   .facts__text__block .facts__text__block__item p {
     margin-bottom: 3rem;
+    padding: 0 1rem;
   }
   .big__L {
+    position: static;
     width: 22rem;
-    top: 112rem;
-    left: 4.5rem;
   }
   .night {
     height: 44rem;
@@ -1386,24 +1393,33 @@ p {
             justify-content: center;
   }
   .night__block__wrap {
-    width: 32rem;
+    width: 100%;
+    max-width: 41.1rem;
   }
   .night__vertical__text {
     font-size: 1.8rem;
-    left: 18.5rem;
+    left: -10.5rem;
     top: -14.5rem;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
   }
   .night__in__london {
-    width: 32rem;
+    width: 100%;
+    max-width: 41.1rem;
   }
   .night__image__and__text__wrap {
+    width: 100%;
+    max-width: 41.1rem;
     height: 17.5rem;
   }
   .night__image__and__text__wrap img {
-    width: 32rem;
+    width: 100%;
+    max-width: 41.1rem;
+    height: 17.5rem;
   }
   .night__block__text {
-    width: 32rem;
+    width: 100%;
+    max-width: 41.1rem;
     height: 17.5rem;
     left: 0rem;
     bottom: 0rem;
@@ -1428,36 +1444,43 @@ p {
             justify-content: center;
   }
   .places__wrap {
-    width: 32rem;
+    width: 100%;
+    max-width: 41.1rem;
   }
   .places__wrap h1 {
     font-size: 5rem;
     padding-left: .5rem;
+    padding-left: 1rem;
   }
   .places__wrap .places__wrap__text {
-    width: 32rem;
-    padding: 0rem 1rem;
+    width: 100%;
+    max-width: 41.1rem;
     margin-bottom: 2rem;
+    padding: 0rem 1rem;
   }
   .places__image__block {
-    width: 32rem;
+    width: 100%;
+    max-width: 41.1rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
   .main__img {
-    width: 32rem;
+    width: 100%;
+    max-width: 41.1rem;
     margin-bottom: 2rem;
   }
   .main__img img {
-    width: 32rem;
+    width: 100%;
+    max-width: 41.1rem;
     height: 22rem;
   }
   .places__text__block {
-    width: 32rem;
+    width: 100%;
+    max-width: 41.1rem;
     height: 22rem;
-    right: 0;
+    left: 0;
     bottom: .2rem;
   }
   .places__text__block h2 {
@@ -1473,19 +1496,27 @@ p {
     padding-bottom: 1rem;
     padding-left: 2rem;
   }
+  .other__img {
+    width: 100%;
+    max-width: 41.1rem;
+  }
   .other__img__item__wrap {
+    max-width: 41.1rem;
     margin-bottom: 2rem;
   }
   .other__img__item__wrap img {
-    width: 32rem;
+    width: 100%;
+    max-width: 41.1rem;
+    height: 16.1rem;
   }
   .other__img__item__wrap p {
     top: .5rem;
     right: 1rem;
   }
   .other__img__blackout__block {
-    width: 32rem;
-    height: 17.2rem;
+    width: 100%;
+    max-width: 41.1rem;
+    height: 16.1rem;
   }
   .interested {
     height: 63rem;
