@@ -1044,7 +1044,7 @@ p {
   }
   .header__menu {
     width: 100%;
-    max-width: 50rem;
+    max-width: 41.1rem;
   }
   .header__menu__nav__item {
     font-size: 1.4rem;
@@ -1093,7 +1093,7 @@ p {
   }
   .slider {
     width: 100%;
-    max-width: 50rem;
+    max-width: 41.1rem;
     height: 20.1rem;
   }
   .slider__wrapper {
@@ -1101,12 +1101,12 @@ p {
   }
   .slider__item {
     width: 100%;
-    max-width: 50rem;
+    max-width: 41.1rem;
     height: 20.1rem;
   }
   .slider__item img {
     width: 100%;
-    max-width: 50rem;
+    max-width: 41.1rem;
     height: 20.1rem;
   }
   .history {
@@ -1437,18 +1437,19 @@ p {
     padding-left: 2rem;
   }
   .places {
-    height: 100rem;
+    height: 104rem;
     margin-top: 4rem;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 6rem;
   }
   .places__wrap {
     width: 100%;
     max-width: 41.1rem;
   }
   .places__wrap h1 {
-    font-size: 5rem;
+    font-size: 4.7rem;
     padding-left: .5rem;
     padding-left: 1rem;
   }
@@ -1519,34 +1520,38 @@ p {
     height: 16.1rem;
   }
   .interested {
-    height: 63rem;
+    height: 48rem;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
   .interested button {
     bottom: -10rem;
-    right: 5.5rem;
   }
   .interested__wrap {
-    width: 32rem;
+    width: 100%;
+    max-width: 41.1rem;
   }
   .interested__wrap h1 {
     font-size: 5rem;
     padding-left: 1rem;
   }
   .interested__wrap p {
-    width: 32rem;
+    width: 100%;
+    max-width: 41.1rem;
     padding: 0 1rem;
     margin-bottom: 3rem;
   }
   .contact__block {
-    width: 32rem;
+    width: 100%;
+    max-width: 41.1rem;
     padding: 0rem 1rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  }
+  .contact__block::after {
+    width: 100%;
+  }
+  .contact__block button {
+    left: 50%;
   }
   .contact__Us,
   .visit__the__office {
@@ -1556,15 +1561,25 @@ p {
   .visit__the__office h3 {
     font-size: 2rem;
   }
+  .contact__Us ul li,
+  .visit__the__office ul li {
+    font-size: 1.4rem;
+  }
   .contact__Us {
     margin-bottom: 1rem;
   }
-  .foter__block {
+  .visit__the__office h3 {
+    text-align: right;
+  }
+  .visit__the__office ul li {
+    text-align: right;
+  }
+  .footer__block {
     height: 3rem;
   }
-  .foter__block p {
+  .footer__block p {
     font-size: 1rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
   }
 }
 
@@ -1612,8 +1627,8 @@ p {
     font-size: 3rem;
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
-    margin-top: 13.5rem;
-    margin-left: -52.5rem;
+    margin-top: 14.5rem;
+    margin-left: 4%;
   }
   .welcome__image__and__text__wrap {
     -webkit-box-orient: vertical;
@@ -1623,12 +1638,13 @@ p {
     width: 100%;
   }
   .welcome__image__and__text__wrap .span__london {
-    width: 63rem;
+    width: 100%;
     height: 7.5rem;
     font-size: 14.5rem;
     text-align: center;
     font-style: normal;
-    line-height: 0rem;
+    line-height: 1rem;
+    margin-right: -1%;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
@@ -1806,7 +1822,7 @@ p {
             justify-content: center;
   }
   .night__block__wrap {
-    width: 64rem;
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1819,17 +1835,23 @@ p {
             align-items: start;
   }
   .night__vertical__text {
-    left: 45.5rem;
+    left: -15.5rem;
     top: 16.2rem;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
   }
   .night__in__london {
-    width: 64rem;
+    width: 100%;
+  }
+  .night__image__and__text__wrap {
+    width: 100%;
   }
   .night__image__and__text__wrap img {
-    width: 64rem;
+    width: 100%;
+    height: 35rem;
   }
   .night__block__text {
-    width: 64rem;
+    width: 100%;
     height: 35.2rem;
   }
   .night__block__text h1 {
@@ -1867,16 +1889,15 @@ p {
     margin-bottom: 2rem;
   }
   .places__image__block {
-    width: 64rem;
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
   .places__text__block {
-    width: 64rem;
-    height: 38rem;
-    right: 44rem;
+    width: 100%;
+    height: 50rem;
     bottom: .2rem;
     -webkit-box-align: start;
         -ms-flex-align: start;
@@ -1889,11 +1910,11 @@ p {
     margin-bottom: 1rem;
   }
   .main__img img {
-    width: 64rem;
-    height: 38rem;
+    width: 74%;
+    height: 50rem;
   }
   .other__img {
-    width: 64rem;
+    width: 100%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -1903,11 +1924,14 @@ p {
             justify-content: space-between;
   }
   .other__img img {
-    width: 20.5rem;
+    width: 100%;
+  }
+  .other__img__item__wrap {
+    width: 32%;
   }
   .other__img__blackout__block {
-    width: 20.5rem;
-    height: 11rem;
+    width: 100%;
+    height: 100%;
   }
   .other__img__blackout__block p {
     top: 0.2rem;
@@ -1969,14 +1993,17 @@ p {
   .header__line {
     width: 100%;
   }
+  .header__logo {
+    margin-left: 2.5rem;
+  }
   .menu {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    margin-right: 3.5rem;
+    margin-right: 2.5rem;
   }
   .welcome {
-    height: 80rem;
+    height: 71rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1989,12 +2016,12 @@ p {
   }
   .welcome p {
     height: 0;
-    line-height: 4rem;
-    font-size: 2.5rem;
+    line-height: 9rem;
+    font-size: 3rem;
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     margin-top: 12.5rem;
-    margin-left: -83.5%;
+    margin-left: -85%;
   }
   .welcome__image__and__text__wrap {
     -webkit-box-orient: vertical;
@@ -2004,16 +2031,15 @@ p {
     width: 100%;
   }
   .welcome__image__and__text__wrap .span__london {
-    width: 100%;
-    height: 6rem;
-    font-size: 12rem;
+    width: 105%;
+    height: 7.5rem;
+    font-size: 15rem;
     text-align: center;
-    font-style: normal;
     line-height: 0rem;
     text-align: left;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
-    padding-left: 3rem;
+    margin-right: -6rem;
   }
   .slider {
     height: 42.7rem;
