@@ -994,6 +994,7 @@ p {
   font-family: 'Lato', sans-serif;
   font-size: 1.6rem;
   padding-bottom: .8rem;
+  cursor: pointer;
 }
 
 .footer__block {
@@ -1964,10 +1965,8 @@ p {
             justify-content: space-between;
     -ms-flex-wrap: no-wrap;
         flex-wrap: no-wrap;
-    position: relative;
   }
   .contact__block button {
-    position: absolute;
     right: 50%;
     -webkit-transform: translate(50%, 0);
             transform: translate(50%, 0);
@@ -2011,7 +2010,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 6rem;
+    margin-bottom: 7rem;
     position: relative;
   }
   .welcome p {
@@ -2057,30 +2056,32 @@ p {
   }
   .history {
     height: 89rem;
-    margin: 7rem 0rem 5rem 0rem;
+    margin: 7rem 0rem 5rem 0;
   }
   .history__wrap {
+    width: 100%;
+    padding: 0 2.5rem;
     height: 85rem;
   }
   .the__square__mile__wrap {
-    padding-right: 3.5rem;
+    padding-right: 0rem;
   }
   .the__square__mile {
     width: 87%;
   }
+  .the__square__mile p {
+    width: 71%;
+  }
   .roman__london {
-    padding-left: 3.5rem;
-    width: 37rem;
+    width: 34rem;
     margin-top: 10rem;
   }
   .about {
     font-size: 1.3rm;
     margin-top: 8rem;
-    padding-left: 1rem;
   }
   .prehistory__of__london {
-    width: 37rem;
-    padding-left: 3.5rem;
+    width: 34rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2119,14 +2120,14 @@ p {
             align-items: flex-start;
   }
   .transport__text {
-    padding-right: 3.5rem;
+    padding: 0 2.5rem;
   }
   .transport__text p {
     width: 100%;
-    padding-left: 3.5rem;
+    padding-left: 0rem;
   }
   .transports {
-    height: 36rem;
+    height: 34rem;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -2137,7 +2138,7 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 8rem;
+    margin-bottom: 7rem;
   }
   .transports p {
     padding-left: 2.5rem;
@@ -2149,11 +2150,16 @@ p {
         -ms-flex-align: center;
             align-items: center;
   }
+  .transports__block h1 {
+    width: 100%;
+    padding-left: 2.5rem;
+  }
   .transports__block h1::after {
-    left: 31%;
+    width: 50.5rem;
+    left: 3%;
   }
   .transports__block p {
-    padding-left: 51.7rem;
+    padding-left: 42.6rem;
   }
   .image__block {
     width: 100%;
@@ -2163,7 +2169,8 @@ p {
     margin-bottom: 1.5rem;
   }
   .facts {
-    margin-bottom: 16rem;
+    height: 72rem;
+    margin-bottom: 9rem;
   }
   .facts__wrap {
     -webkit-box-align: start;
@@ -2174,7 +2181,7 @@ p {
     padding-left: 2.5rem;
   }
   .facts__wrap h3 {
-    padding-left: 4.5rem;
+    padding-left: 2.5rem;
   }
   .facts__text__block {
     height: 39.5rem;
@@ -2189,19 +2196,21 @@ p {
   .facts__text__block .facts__text__block__item {
     width: 100%;
     margin: 0 0 1.5rem 0;
-    padding: 0 3.5rem 0 2.5rem;
+    padding: 0 2.5rem;
   }
   .facts__text__block div:first-child {
     width: 100%;
-    padding: 0 3.5rem 0 2.5rem;
+    padding: 0 2.5rem;
   }
   .big__L {
     top: 52.5rem;
-    left: 19.5rem;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
   }
   .night {
-    height: 71rem;
-    margin-bottom: 5rem;
+    height: 48rem;
+    margin-bottom: 7rem;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -2213,11 +2222,11 @@ p {
             align-items: start;
   }
   .night__vertical__text {
-    left: -15rem;
-    top: 15.7rem;
+    left: -13rem;
+    top: 29rem;
   }
   .night__in__london {
-    width: 95%;
+    width: 93%;
   }
   .night__image__and__text__wrap {
     width: 100%;
@@ -2233,6 +2242,127 @@ p {
   }
   .night__block__text h1 {
     font-size: 4rem;
+  }
+  .places {
+    margin-bottom: 7rem;
+  }
+  .places__wrap {
+    width: 100%;
+  }
+  .places__wrap h1 {
+    font-size: 4.7rem;
+    padding-left: 2.5rem;
+  }
+  .places__wrap .places__wrap__text {
+    width: 100%;
+    padding: 0 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .places__image__block {
+    width: 100%;
+  }
+  .main__img {
+    width: 73%;
+  }
+  .main__img img {
+    width: 100%;
+    height: 100%;
+  }
+  .places__text__block {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+  }
+  .places__text__block h2 {
+    font-size: 4rem;
+  }
+  .other__img {
+    width: 25%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .other__img img {
+    width: 100%;
+  }
+  .other__img__item__wrap {
+    margin-bottom: 0rem;
+  }
+  .other__img__item__wrap p {
+    right: 2.5rem;
+  }
+  .other__img__blackout__block {
+    width: 100%;
+    height: 100%;
+  }
+  .interested {
+    height: 47rem;
+  }
+  .interested__wrap {
+    width: 100%;
+  }
+  .interested__wrap h1 {
+    font-size: 4.7rem;
+    padding-left: 2.5rem;
+  }
+  .interested__wrap p {
+    width: 100%;
+    padding: 0 2.5rem;
+  }
+  .contact__block {
+    width: 100%;
+    padding: 0 2.5rem;
+  }
+  .contact__block button {
+    right: 50%;
+    -webkit-transform: translate(50%, 0);
+            transform: translate(50%, 0);
+  }
+  .visit__the__office {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .footer__block p {
+    padding-right: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .welcome p {
+    padding-right: 0;
+  }
+  .welcome__image__and__text__wrap {
+    width: 100%;
+    position: relative;
+  }
+  .welcome__image__and__text__wrap .span__london {
+    font-size: 10rem;
+    width: 6rem;
+    height: 11.5rem;
+    position: absolute;
+    left: 0;
+    bottom: -2.5rem;
+  }
+  .slider {
+    width: 87%;
+  }
+  .slider__wrapper {
+    width: 200%;
+  }
+  .slider__item {
+    width: 100%;
+  }
+  .slider__item img {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
