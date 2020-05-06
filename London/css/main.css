@@ -422,7 +422,7 @@ p {
 .transport__wrap h1 {
   font-family: 'Playfair Display', serif;
   font-size: 10rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .transport__block {
@@ -461,9 +461,9 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   left: 0;
   bottom: 0;
   opacity: 0;
@@ -554,7 +554,7 @@ p {
 .transports__block h1 {
   font-family: 'Playfair Display', serif;
   font-size: 5rem;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1.5rem;
   margin-top: 1.2rem;
@@ -620,7 +620,7 @@ p {
 .facts__wrap h2 {
   font-family: 'Playfair Display', serif;
   font-size: 4.7rem;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: .5rem;
 }
 
@@ -777,7 +777,7 @@ p {
 .places__wrap h1 {
   font-family: 'Playfair Display', serif;
   font-size: 10rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .places__wrap .places__wrap__text {
@@ -944,7 +944,7 @@ p {
   font-family: 'Playfair Display', serif;
   font-size: 8rem;
   letter-spacing: .2rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .interested__wrap p {
@@ -2337,23 +2337,32 @@ p {
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
+  .header__line {
+    width: 100%;
+  }
+  .header__logo {
+    margin-left: 7rem;
+  }
+  .welcome {
+    margin-bottom: 7rem;
+  }
   .welcome p {
-    padding-right: 0;
+    padding-right: 9.5rem;
   }
   .welcome__image__and__text__wrap {
-    width: 100%;
+    width: 75%;
     position: relative;
   }
   .welcome__image__and__text__wrap .span__london {
-    font-size: 10rem;
+    font-size: 9.8rem;
     width: 6rem;
     height: 11.5rem;
     position: absolute;
-    left: 0;
-    bottom: -2.5rem;
+    left: -13.5rem;
+    bottom: -.9rem;
   }
   .slider {
-    width: 87%;
+    width: 100%;
   }
   .slider__wrapper {
     width: 200%;
@@ -2363,6 +2372,98 @@ p {
   }
   .slider__item img {
     width: 100%;
+    height: 40.8rem;
+  }
+  .history {
+    height: 88.5rem;
+    margin: 0 0 7rem 0;
+  }
+  .history__wrap img {
+    top: 15%;
+  }
+  .the__square__mile {
+    width: 73%;
+  }
+  .the__square__mile p {
+    width: 88%;
+  }
+  .roman__london {
+    width: 47%;
+    padding-left: 2.5rem;
+    margin-top: 5rem;
+  }
+  .about {
+    padding-left: 2.5rem;
+  }
+  .prehistory__of__london {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 2.5rem;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .transport {
+    height: 67.8rem;
+  }
+  .transport__wrap {
+    width: 100%;
+    margin-bottom: 7rem;
+  }
+  .transport__wrap h1 {
+    font-size: 6rem;
+    padding-left: 2.5rem;
+  }
+  .transport__block__wrap {
+    width: 70%;
+  }
+  .transport__block__wrap img {
+    width: 100%;
+  }
+  .transport__wrap__text {
+    width: 100%;
+    height: 100%;
+  }
+  .transport__text {
+    width: 30%;
+    padding-right: 2rem;
+  }
+  .transport__text p {
+    width: 100%;
+    padding-left: 2rem;
+  }
+  .transports {
+    width: 100%;
+    height: 46rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 7rem;
+  }
+  .transports p {
+    padding-left: 2.5rem;
+  }
+  .transports__block {
+    width: 100%;
+  }
+  .transports__block h1 {
+    padding-left: 2.5rem;
+  }
+  .transports__block h1::after {
+    width: 48.1rem;
+    left: 2.7rem;
+  }
+  .transports__block p {
+    padding-left: 40.5rem;
+  }
+  .image__block {
+    width: 100%;
+  }
+  .image__block img {
+    width: 33%;
   }
 }
 /*# sourceMappingURL=main.css.map */
