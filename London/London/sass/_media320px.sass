@@ -2,11 +2,12 @@
 
     //header
     .header__block
-        height: 14rem
+        height: 13rem
         justify-content: center
+        margin-bottom: 2rem
 
     .header__line
-        width: 32rem
+        width: 100%
         flex-direction: column
         margin-bottom: 3rem
 
@@ -14,8 +15,14 @@
         margin: 1.5rem 0 2.5rem 0
 
     .menu
-        width: 30rem
-        margin-right: 0
+        width: 100%
+        margin: 0
+        padding: 0 1rem
+        justify-content: center
+
+    .header__menu
+        width: 100%
+        max-width: 41.1rem
 
     .header__menu__nav__item
         font-size: 1.4rem
@@ -32,40 +39,57 @@
             font-size: 2rem
             transform: rotate(90deg)
             margin-top: 7.5rem
-            margin-left: -23.5rem
+            margin-right: -12%
+            
 
     .welcome__image__and__text__wrap
         width: 100%
         flex-direction: column
-        width: 32rem
+        align-items: center
         & .span__london
-            width: 32rem
+            width: 100%
             height: 4rem
             font-size: 7rem
             text-align: center
             font-style: normal
             line-height: 0rem
             transform: rotate(0deg)
+            margin-right: 0
+            padding-left: .9rem
 
     .slider
-        width: 32rem
+        width: 100%
+        max-width: 41.1rem
+        height: 20.1rem
+
+    .slider__wrapper
+        width: 200%
 
     .slider__item
-        width: 32rem
+        width: 100%
+        max-width: 41.1rem
+        height: 20.1rem
         & img
-            width: 32rem
+            width: 100%
+            max-width: 41.1rem
+            height: 20.1rem
 
     //history
     .history
-        height: 134rem
-        margin-top: 0
+        width: 100%
+        height: 143rem
         justify-content: center
 
     .history__wrap
-        width: 32rem
+        height: 144rem
+        width: 100%
+        max-width: 41.1rem
+        justify-content: space-around
+        align-items: center
+        padding: 0 1rem
         & img 
             position: static
-            width: 32rem
+            width: 30rem
             height: 56rem
             
     .the__square__mile__wrap
@@ -77,22 +101,24 @@
         width: 100%
         flex-direction: column
         align-items: flex-start
-        padding-left: 1rem
         & h2 
-            font-size: 2.2rem
+            width: 100%
+            text-align: left
+            font-size: 2.7rem
+            padding-left: 1rem
             margin-bottom: .5rem
         & p 
-            width: 90%
+            width: 100%
 
     .roman__london
         width: 100%
-        padding-left: 1rem
         margin-top: 3rem
         & h3 
-            font-size: 2.2rem
+            font-size: 2.7rem
             font-style: italic
+            padding-left: 1rem
         & p 
-            width: 90%
+            width: 100%
 
     .about
         width: 100%
@@ -103,12 +129,12 @@
         width: 100%
         flex-direction: column
         align-items: start
-        padding-left: 1rem
         & h2 
-            font-size: 2.2rem
+            font-size: 2.7rem
             font-style: italic
+            padding-left: 1rem
         & p 
-            width: 90%
+            width: 100%
 
     //transport
     .transport
@@ -119,39 +145,48 @@
         align-items: center
 
     .transport__wrap
+        max-width: 41.1rem
         flex-direction: column
-        width: 32rem
+        width: 100%
         & h1 
             font-size: 5rem
+            padding-left: 2rem
 
     .transport__block
+        width: 100%
         flex-direction: column
+        align-items: center
 
     .transport__block__wrap
+        width: 100%
         flex-direction: column
         height: 21.4rem
         & img 
-            width: 32rem
+            width: 100%
+            height: 21.4rem
 
     .transport__wrap__text
-        width: 32rem
-        height: 0rem
-        bottom: -2.5rem
+        width: 100%
+        height: 21.4rem
+        bottom: 0
         align-items: flex-start
         & h3 
             font-size: 2.8rem
-            padding-left: .5rem
+            padding-left: 1rem
             margin-bottom: .5rem
         & p 
             width: 31rem
             font-size: 1.4rem
             line-height: 2rem
             padding-left: 4rem
+            padding-bottom: 2rem
 
     .transport__text
+        max-width: 41.1rem
+        padding: 0 1rem
         & p
-            width: 30rem
-            padding-left: 1rem
+            width: 100%
+            padding-left: 0rem
             &:last-child
                 font-size: 1.4rem
 
@@ -163,65 +198,76 @@
         flex-direction: column
         align-items: center
         & p 
+            width: 100%
+            max-width: 41.1rem
             font-size: 2.3rem
-            padding-left: 1rem
+            padding-left: 2rem
 
     .transports__block
         width: 100%
+        max-width: 41.1rem
         flex-direction: column
         align-items: center
         & h1 
+            width: 100%
             letter-spacing: 0rem
-            padding-left: 1rem
+            padding-left: 2rem
             &::after
-                width: 95%
-                left: 4.5%
+                width: 27.5rem
+                left: 6.5%
         & p 
             font-size: 1.3rem
-            padding-left: 19rem
+            padding-left: 20rem
 
     .image__block
         width: 100%
         flex-direction: column
         align-items: center
         & img
-            width: 32rem
+            width: 100%
+            max-width: 50rem
+            height: 23.3rem
             padding-bottom: 1rem
 
     //facts
     .facts
-        height: 97rem
-        margin-bottom: 28rem
+        height: 119rem
+        margin-bottom: 2rem
         justify-content: center
 
     .facts__wrap
-        width: 32rem
+        width: 100%
+        height: 100rem
+        max-width: 41.1rem
         flex-direction: column
         align-items: center
+        padding: 0 1rem
         & h2 
+            width: 100%
             padding-left: 1rem
         & h3 
-            width: 32rem
+            width: 100%
             margin-bottom: 2rem
-            padding-left: 15rem
+            padding-left: 1rem
 
     .facts__text__block
+        width: 32rem
+        height: 90rem
         flex-direction: column
         align-items: center
         & div:first-child
-            width: 32rem
+            width: 100%
         & .facts__text__block__item
-            width: 32rem
+            width: 100%
             margin-right: 0
             & p 
-                width: 32rem
-                padding: 0rem 1rem
                 margin-bottom: 3rem
+                padding: 0 1rem
 
     .big__L
+        position: static
         width: 22rem
-        top: 108.5rem
-        left: 4.5rem
+
 
     //night
     .night
@@ -231,23 +277,31 @@
         justify-content: center
 
     .night__block__wrap
-        width: 32rem
+        width: 100%
+        max-width: 41.1rem
 
     .night__vertical__text
         font-size: 1.8rem
-        left: 18.5rem
+        left: -10.5rem
         top: -14.5rem
+        transform: rotate(90deg)
 
     .night__in__london
-        width: 32rem
+        width: 100%
+        max-width: 41.1rem
 
     .night__image__and__text__wrap
+        width: 100%
+        max-width: 41.1rem
         height: 17.5rem
         & img 
-            width: 32rem
+            width: 100%
+            max-width: 41.1rem
+            height: 17.5rem
 
     .night__block__text
-        width: 32rem
+        width: 100%
+        max-width: 41.1rem
         height: 17.5rem
         left: 0rem
         bottom: 0rem
@@ -264,35 +318,43 @@
 
     //places
     .places
-        height: 100rem
+        height: 104rem
         margin-top: 4rem
         justify-content: center
+        margin-bottom: 6rem
     
     .places__wrap
-        width: 32rem 
+        width: 100% 
+        max-width: 41.1rem
         & h1 
-            font-size: 5rem
+            font-size: 4.7rem
             padding-left: .5rem
+            padding-left: 1rem
         & .places__wrap__text 
-            width: 32rem
-            padding: 0rem 1rem
+            width: 100%
+            max-width: 41.1rem
             margin-bottom: 2rem
+            padding: 0rem 1rem
 
     .places__image__block
-        width: 32rem
+        width: 100%
+        max-width: 41.1rem
         flex-direction: column
 
     .main__img
-        width: 32rem
+        width: 100%
+        max-width: 41.1rem
         margin-bottom: 2rem
         & img 
-            width: 32rem
+            width: 100%
+            max-width: 41.1rem
             height: 22rem
 
     .places__text__block
-        width: 32rem
+        width: 100%
+        max-width: 41.1rem
         height: 22rem
-        right: 0
+        left: 0
         bottom: .2rem
         & h2 
             font-size: 2.8rem
@@ -306,54 +368,76 @@
             padding-bottom: 1rem
             padding-left: 2rem
 
-                  
+    .other__img
+        width: 100%
+        max-width: 41.1rem
+
     .other__img__item__wrap
+        max-width: 41.1rem
         margin-bottom: 2rem
         & img
-            width: 32rem
+            width: 100%
+            max-width: 41.1rem
+            height: 16.1rem
         & p 
             top: .5rem
             right: 1rem
     
     .other__img__blackout__block
-        width: 32rem
-        height: 17.2rem
+        width: 100%
+        max-width: 41.1rem
+        height: 16.1rem
 
     //interested
     .interested
-        height: 63rem
+        height: 48rem
         justify-content: center
         & button 
             bottom: -10rem
-            right: 5.5rem 
 
     .interested__wrap
-        width: 32rem
+        width: 100%
+        max-width: 41.1rem
         & h1 
             font-size: 5rem
             padding-left: 1rem
         & p 
-            width: 32rem
+            width: 100%
+            max-width: 41.1rem
             padding: 0 1rem
             margin-bottom: 3rem
 
     .contact__block
-        width: 32rem
+        width: 100%
+        max-width: 41.1rem
         padding: 0rem 1rem
-        flex-direction: column
+        &::after
+            width: 100%
+        & button 
+            left: 50%
 
     .contact__Us,
     .visit__the__office
         width: 30rem
         & h3 
             font-size: 2rem
+        & ul 
+            & li 
+                font-size: 1.4rem
 
     .contact__Us
         margin-bottom: 1rem
 
+    .visit__the__office
+        & h3
+            text-align: right
+        & ul 
+            & li 
+                text-align: right
+
     //footer
-    .foter__block
+    .footer__block
         height: 3rem
         & p 
             font-size: 1rem
-            padding-right: 1rem
+            padding-right: 2rem
