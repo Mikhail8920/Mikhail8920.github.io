@@ -149,3 +149,15 @@ var multiItemSlider = (function () {
 var slider = multiItemSlider('.slider', {
   isCycling: true
 })
+
+const anchors = document.querySelectorAll("a[href*='#']")
+
+for (let anchor of anchors){ 
+  anchor.addEventListener("click", function (event) { event.preventDefault();
+  const idBlock = anchor.getAttribute("href")
+  document.querySelector('' + idBlock).scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+    })
+  })
+}

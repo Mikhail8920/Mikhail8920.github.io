@@ -2908,7 +2908,7 @@ p {
   }
 }
 
-@media (min-width: 1921px) and (max-width: 2560px) {
+@media (min-width: 1921px) {
   .header__line {
     width: 100%;
   }
@@ -2920,7 +2920,7 @@ p {
   }
   .menu {
     width: 97%;
-    margin-right: 2.5rem;
+    margin-right: 10.2rem;
   }
   .header__menu__nav__item {
     font-size: 2rem;
@@ -2959,25 +2959,43 @@ p {
     height: 88rem;
   }
   .history {
-    height: 88.5rem;
+    height: 126.5rem;
     margin: 0 0 7rem 0;
   }
+  .history__wrap {
+    width: 70%;
+  }
   .history__wrap img {
+    width: 60rem;
+    height: 110rem;
     top: 15%;
   }
   .the__square__mile {
-    width: 73%;
+    width: 90%;
+  }
+  .the__square__mile h2 {
+    width: 62%;
+    font-size: 6rem;
   }
   .the__square__mile p {
     width: 88%;
+    font-size: 2.5rem;
   }
   .roman__london {
     width: 47%;
     padding-left: 2.5rem;
-    margin-top: 5rem;
+    margin-top: 24rem;
+  }
+  .roman__london h3 {
+    font-size: 6rem;
+  }
+  .roman__london p {
+    font-size: 2.5rem;
   }
   .about {
+    font-size: 2.5rem;
     padding-left: 2.5rem;
+    margin-top: 24rem;
   }
   .prehistory__of__london {
     -webkit-box-orient: vertical;
@@ -2989,28 +3007,47 @@ p {
         -ms-flex-align: start;
             align-items: start;
   }
+  .prehistory__of__london h2 {
+    font-size: 6rem;
+  }
+  .prehistory__of__london p {
+    font-size: 2.5rem;
+  }
   .transport {
-    height: 63rem;
+    height: 96rem;
     margin-bottom: 12rem;
   }
   .transport__wrap {
     width: 100%;
+    height: 100%;
   }
   .transport__wrap h1 {
-    font-size: 6rem;
+    font-size: 12rem;
     padding-left: 2.5rem;
+  }
+  .transport__block {
+    height: 80rem;
   }
   .transport__block__wrap {
     width: 75%;
-    height: 55rem;
   }
   .transport__block__wrap img {
     width: 100%;
-    height: 55rem;
+    height: 100%;
+    font-size: 10rem;
   }
   .transport__wrap__text {
     width: 100%;
     height: 100%;
+  }
+  .transport__wrap__text h3 {
+    font-size: 12rem;
+    padding-left: 4rem;
+  }
+  .transport__wrap__text p {
+    width: 75.5rem;
+    font-size: 2.5rem;
+    padding: 0 0 6rem 10rem;
   }
   .transport__text {
     width: 30%;
@@ -3018,11 +3055,12 @@ p {
   }
   .transport__text p {
     width: 100%;
+    font-size: 2.5rem;
     padding-left: 2rem;
   }
   .transports {
     width: 100%;
-    height: 39.5rem;
+    height: 68.5rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -3030,64 +3068,75 @@ p {
     margin-bottom: 7rem;
   }
   .transports p {
+    font-size: 6rem;
     padding-left: 2.5rem;
   }
   .transports__block {
     width: 100%;
   }
   .transports__block h1 {
+    font-size: 12rem;
     padding-left: 2.5rem;
   }
   .transports__block h1::after {
-    width: 48.1rem;
-    left: 2.7rem;
+    width: 98.7rem;
+    left: 3rem;
   }
   .transports__block p {
-    padding-left: 40.5rem;
+    font-size: 3rem;
+    top: 1rem;
+    padding: 1rem 0 0 82.5rem;
   }
   .image__block {
     width: 100%;
   }
   .image__block img {
     width: 33%;
-    height: 29rem;
+    height: 43rem;
   }
   .facts {
-    height: 68.7rem;
-    margin-bottom: 7rem;
+    height: 86.7rem;
+    margin-bottom: 14rem;
   }
   .facts__wrap {
     width: 100%;
     padding-left: 2.5rem;
   }
+  .facts__wrap h2 {
+    font-size: 12rem;
+  }
   .facts__wrap h3 {
+    font-size: 6rem;
     padding-left: 0;
   }
   .facts__text__block {
-    width: 100rem;
+    width: 71.2%;
   }
   .facts__text__block .facts__text__block__item {
-    width: 52%;
+    width: 54rem;
     margin-right: 4rem;
+  }
+  .facts__text__block .facts__text__block__item p {
+    font-size: 2.5rem;
   }
   .facts__text__block div:first-child {
     width: 22rem;
   }
   .big__L {
-    top: 49.5rem;
-    left: 25%;
+    top: 67.5rem;
+    left: 20%;
   }
   .night {
-    margin-bottom: 7rem;
+    margin-bottom: 9rem;
   }
   .night__block__wrap {
     width: 100%;
+    height: 80rem;
   }
   .night__block__wrap p {
-    top: 34rem;
-  }
-  .night__vertical__text {
-    left: 14.5%;
+    font-size: 6.1rem;
+    left: 6.3%;
+    top: 38rem;
   }
   .night__in__london {
     width: 75%;
@@ -3095,6 +3144,7 @@ p {
   }
   .night__image__and__text__wrap {
     width: 94.5%;
+    height: 80rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3104,23 +3154,34 @@ p {
   }
   .night__image__and__text__wrap img {
     width: 100%;
+    height: 100%;
   }
   .night__block__text {
     width: 100%;
     height: 100%;
   }
+  .night__block__text h1 {
+    font-size: 12rem;
+    padding-left: 4rem;
+  }
+  .night__block__text p {
+    width: 91rem;
+    font-size: 2.5rem;
+    padding: 0 0 6rem 10rem;
+  }
   .places {
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
   }
   .places__wrap {
     width: 100%;
   }
   .places__wrap h1 {
-    font-size: 5rem;
+    font-size: 12rem;
     padding-left: 2.5rem;
   }
   .places__wrap .places__wrap__text {
     width: 74%;
+    font-size: 2.5rem;
     padding-left: 2.5rem;
     margin-bottom: 2rem;
   }
@@ -3141,7 +3202,13 @@ p {
     right: 0;
   }
   .places__text__block h2 {
-    font-size: 4rem;
+    font-size: 12rem;
+    padding-left: 4rem;
+  }
+  .places__text__block p {
+    width: 66rem;
+    font-size: 2.5rem;
+    padding: 0 0 6rem 10rem;
   }
   .other__img {
     width: 25%;
@@ -3166,6 +3233,11 @@ p {
     width: 100%;
     height: 100%;
   }
+  .other__img__blackout__block p {
+    font-size: 4.5rem;
+    right: 3.5rem;
+    top: 3rem;
+  }
   .interested button {
     left: 50%;
     -webkit-transform: translate(-50%, 0);
@@ -3175,11 +3247,12 @@ p {
     width: 100%;
   }
   .interested__wrap h1 {
-    font-size: 6rem;
+    font-size: 12rem;
     padding-left: 2.5rem;
   }
   .interested__wrap p {
     width: 74%;
+    font-size: 2.5rem;
     padding-left: 2.5rem;
   }
   .contact__block {
@@ -3187,10 +3260,27 @@ p {
     padding-left: 2.5rem;
   }
   .contact__block::after {
-    width: 98%;
+    width: 99%;
     left: 2rem;
   }
+  .contact__Us,
+  .visit__the__office {
+    width: 40rem;
+  }
+  .contact__Us h3,
+  .visit__the__office h3 {
+    font-size: 6rem;
+  }
+  .contact__Us ul,
+  .visit__the__office ul {
+    width: 100%;
+  }
+  .contact__Us ul li,
+  .visit__the__office ul li {
+    font-size: 2.5rem;
+  }
   .footer__block p {
+    font-size: 1.4rem;
     padding-right: 2.5rem;
   }
 }
