@@ -591,7 +591,8 @@ p {
 }
 
 .image__block img {
-  width: 44rem;
+  width: 45rem;
+  height: 30rem;
 }
 
 .facts {
@@ -1830,7 +1831,7 @@ p {
   }
   .big__L {
     top: 61.5rem;
-    left: 11.5rem;
+    left: 2.5rem;
   }
   .night {
     height: 71rem;
@@ -2183,6 +2184,7 @@ p {
   }
   .image__block img {
     width: 32.3%;
+    height: 17rem;
     margin-bottom: 1.5rem;
   }
   .facts {
@@ -2833,7 +2835,7 @@ p {
     padding-left: 2.5rem;
   }
   .places__wrap .places__wrap__text {
-    width: 74%;
+    width: 50%;
     padding-left: 2.5rem;
     margin-bottom: 2rem;
   }
@@ -2892,11 +2894,11 @@ p {
     padding-left: 2.5rem;
   }
   .interested__wrap p {
-    width: 74%;
+    width: 50%;
     padding-left: 2.5rem;
   }
   .contact__block {
-    width: 74%;
+    width: 50%;
     padding-left: 2.5rem;
   }
   .contact__block::after {
@@ -2926,7 +2928,7 @@ p {
     font-size: 2rem;
   }
   .welcome {
-    margin-bottom: 7rem;
+    margin-bottom: 14rem;
   }
   .welcome p {
     font-size: 6rem;
@@ -3095,7 +3097,7 @@ p {
     height: 43rem;
   }
   .facts {
-    height: 86.7rem;
+    height: 104.7rem;
     margin-bottom: 14rem;
   }
   .facts__wrap {
@@ -3113,7 +3115,7 @@ p {
     width: 71.2%;
   }
   .facts__text__block .facts__text__block__item {
-    width: 54rem;
+    width: 37rem;
     margin-right: 4rem;
   }
   .facts__text__block .facts__text__block__item p {
@@ -3123,8 +3125,8 @@ p {
     width: 22rem;
   }
   .big__L {
-    top: 67.5rem;
-    left: 20%;
+    top: 85.5rem;
+    left: 13%;
   }
   .night {
     margin-bottom: 9rem;
@@ -3237,6 +3239,9 @@ p {
     font-size: 4.5rem;
     right: 3.5rem;
     top: 3rem;
+  }
+  .interested {
+    height: 63rem;
   }
   .interested button {
     left: 50%;
