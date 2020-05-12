@@ -1,5 +1,5 @@
 .portfolio
-    height: 55rem
+    height: 86rem
     display: flex
     flex-direction: column
     justify-content: flex-start
@@ -27,6 +27,7 @@
 
 .work__block
     width: 100rem
+    height: 80rem
     display: flex
     justify-content: center
     align-items: center
@@ -34,15 +35,21 @@
 
 .work__item
     width: 30rem
-    height: 33rem
+    height: 38rem
     text-align: center
     border-radius: 1rem
     margin: 0rem 1rem
     padding-top: 1rem
     display: flex
     flex-direction: column
-    justify-content: space-around
+    justify-content: space-between
     align-items: center
+
+.work__item:nth-child(3)
+    & h3 
+        margin-top: -1rem
+    & p
+        margin-top: -2rem
 
 .work__wrap
     width: 27rem
@@ -104,7 +111,6 @@
     &:hover
         background:  rgba(0, 0, 0, .4)
 
-
 .work__item__empty
     font-family: 'Open Sans', sans-serif
     font-size: 1.6rem
@@ -113,7 +119,7 @@
     text-align: center
     border-radius: 1rem
     margin: 0rem 1rem
-    padding-top: 1rem
+    padding-top: 3rem
 
 
 

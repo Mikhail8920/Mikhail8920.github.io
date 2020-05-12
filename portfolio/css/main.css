@@ -304,7 +304,7 @@ a {
 }
 
 .portfolio {
-  height: 55rem;
+  height: 86rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -345,6 +345,7 @@ a {
 
 .work__block {
   width: 100rem;
+  height: 80rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -360,7 +361,7 @@ a {
 
 .work__item {
   width: 30rem;
-  height: 33rem;
+  height: 38rem;
   text-align: center;
   border-radius: 1rem;
   margin: 0rem 1rem;
@@ -372,11 +373,20 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.work__item:nth-child(3) h3 {
+  margin-top: -1rem;
+}
+
+.work__item:nth-child(3) p {
+  margin-top: -2rem;
 }
 
 .work__wrap {
@@ -465,7 +475,7 @@ a {
   text-align: center;
   border-radius: 1rem;
   margin: 0rem 1rem;
-  padding-top: 1rem;
+  padding-top: 3rem;
 }
 
 .contacts {
