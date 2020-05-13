@@ -678,7 +678,7 @@ a {
     margin-left: 0rem;
   }
   .portfolio {
-    height: 86rem;
+    height: 120rem;
   }
   .my__works {
     font-size: 3.8rem;
@@ -689,7 +689,7 @@ a {
   }
   .work__block {
     width: 28rem;
-    height: 72rem;
+    height: 101rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -711,6 +711,12 @@ a {
   .work__item p {
     font-size: 1.4rem;
     margin-bottom: .6rem;
+  }
+  .work__item:nth-child(3) h3 {
+    margin-top: 1.5rem;
+  }
+  .work__item:nth-child(3) p {
+    margin-top: 0;
   }
   .work__item__background {
     width: 26rem;
