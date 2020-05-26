@@ -4,6 +4,11 @@ html {
 }
 
 body {
+  background-image: url(../image/simply__the__best/Main__Image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60rem;
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
   margin: 0;
@@ -34,11 +39,90 @@ p {
   line-height: 3rem;
 }
 
+.wrapper {
+  overflow: hidden;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header__logo img {
+  width: 10rem;
+  margin: 1.5rem 0 0 1rem;
+}
+
+.menu__toggle {
+  display: none;
+}
+
+.hamburger__menu {
+  width: 84%;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__nav a {
+  font-size: 1.1rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding-right: 2rem;
+}
+
+.header__nav li:last-child {
+  padding-right: 3rem;
+}
+
 @font-face {
   font-family: 'bernadette';
   src: url("../fonts/bernadette.eot");
   src: local("☺"), url("../fonts/bernadette.woff") format("woff"), url("../fonts/bernadette.ttf") format("truetype"), url("../fonts/bernadette.svg") format("svg");
   font-weight: normal;
   font-style: normal;
+}
+
+.first__block {
+  height: 34rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first__block h1 {
+  font-family: 'bernadette';
+  font-size: 9rem;
+  color: #fff;
+}
+
+.first__block h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 3rem;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
