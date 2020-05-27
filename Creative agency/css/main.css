@@ -83,6 +83,12 @@ p {
   color: #fff;
   text-transform: uppercase;
   padding-right: 2rem;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.header__nav a:hover {
+  color: #de813c;
 }
 
 .header__nav li:last-child {
@@ -98,7 +104,6 @@ p {
 }
 
 .first__block {
-  height: 34rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -116,13 +121,72 @@ p {
 
 .first__block h1 {
   font-family: 'bernadette';
-  font-size: 9rem;
+  font-size: 7rem;
   color: #fff;
+  margin-top: 9rem;
 }
 
 .first__block h2 {
   font-family: 'Lato', sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #fff;
+  margin-bottom: 3rem;
+}
+
+.first__block p {
+  width: 46rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  line-height: 1.7rem;
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+
+.first__block button {
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 3rem;
+  padding: .6rem 1.6rem;
+  border: solid #fff;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+  margin-bottom: 6rem;
+}
+
+.first__block button:hover {
+  background-color: #de813c;
+  color: #fff;
+  border: solid #de813c;
+}
+
+.progress__block {
+  width: 90rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.progress__item {
+  width: 28rem;
+  height: 50rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.progress__item img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.progress__item p {
+  width: 100%;
+  color: #000;
 }
 /*# sourceMappingURL=main.css.map */
