@@ -50,6 +50,7 @@
     border-radius: 1rem
     box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1), -1rem -1rem 3rem rgba(0,0,0,0.1)
     margin-bottom: 8rem
+    position: relative
     & img 
         width: 100%
         border-radius: 1rem 1rem 0 0 
@@ -66,16 +67,8 @@
         color: #000
         padding: 1rem 3rem
     & button 
-        width: 12rem
-        background-image: linear-gradient(to left, #dd813d 0%, #435297 100%)
-        font-size: 1.2rem
-        font-weight: 700
-        text-transform: uppercase
-        border-radius: 3rem
-        padding: .5rem 1.5rem
-        cursor: pointer
-        transition: .2s
-        margin-bottom: 6rem
-        color: #fff
-        &:hover
-            background-image: linear-gradient(to left, #435297 0%, #dd813d 100%)
+        position: absolute
+        bottom: -7.5rem
+        left: 50%
+        transform: translate(-50%, 0)
+        @include button
