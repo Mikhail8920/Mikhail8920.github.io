@@ -103,18 +103,6 @@ p {
   font-style: normal;
 }
 
-.right__block p {
-  padding: 6rem 0 1.5rem 0;
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
-.right__block span {
-  font-family: bernadette;
-  font-size: 2.5rem;
-  padding-left: 2rem;
-}
-
 .first__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,14 +120,14 @@ p {
 }
 
 .first__block h1 {
-  font-family: 'bernadette';
-  font-size: 7rem;
+  font-family: "Bernadette";
+  font-size: 5rem;
   color: #fff;
   margin-top: 9rem;
 }
 
 .first__block h2 {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato";
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 3rem;
@@ -147,7 +135,7 @@ p {
 
 .first__block p {
   width: 46rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato";
   font-size: 1.2rem;
   font-weight: lighter;
   line-height: 1.7rem;
@@ -157,6 +145,7 @@ p {
 
 .first__block button {
   width: 12rem;
+  font-family: "Lato";
   font-size: 1.2rem;
   font-weight: 700;
   background-color: #ffffff;
@@ -211,7 +200,8 @@ p {
 
 .progress__item p {
   width: 100%;
-  font-size: 1.4;
+  font-family: "Lato";
+  font-size: 1.2rem;
   font-weight: bolder;
   text-align: center;
   color: #000;
@@ -238,7 +228,6 @@ p {
   transition: .2s;
   margin-bottom: 6rem;
   color: #fff;
-  transition: .2s;
 }
 
 .progress__item button:hover {
@@ -252,6 +241,9 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -268,9 +260,13 @@ p {
   width: 40rem;
 }
 
+.left__block {
+  width: 30%;
+}
+
 .left__block h2 {
-  font-family: 'bernadette';
-  font-size: 3rem;
+  font-family: "Bernadette";
+  font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 
@@ -300,12 +296,28 @@ p {
   transition: .2s;
   margin-bottom: 6rem;
   color: #fff;
-  transition: .2s;
 }
 
 .left__block button:hover {
   background-image: -webkit-gradient(linear, right top, left top, from(#435297), to(#dd813d));
   background-image: linear-gradient(to left, #435297 0%, #dd813d 100%);
   border: none;
+}
+
+.right__block {
+  width: 30%;
+}
+
+.right__block p {
+  padding: 6rem 0 1.5rem 0;
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.right__block span {
+  font-family: "Bernadette";
+  font-size: 2.5rem;
+  padding-left: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
