@@ -52,6 +52,10 @@ p {
           justify-content: space-evenly;
 }
 
+.header__logo {
+  padding-left: 6rem;
+}
+
 .header__logo img {
   width: 10rem;
   margin: 1.5rem 0 0 1rem;
@@ -76,23 +80,20 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-right: 6.2rem;
 }
 
 .header__nav a {
   font-size: 1.1rem;
   color: #fff;
   text-transform: uppercase;
-  padding-right: 2rem;
+  padding-left: 2rem;
   -webkit-transition: .2s;
   transition: .2s;
 }
 
 .header__nav a:hover {
   color: #de813c;
-}
-
-.header__nav li:last-child {
-  padding-right: 3rem;
 }
 
 @font-face {
@@ -254,14 +255,18 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 .wrap__creative__agency img {
   width: 40rem;
+  margin-left: 22.5rem;
 }
 
 .left__block {
-  width: 30%;
+  width: 32.5%;
+  position: absolute;
+  left: 0;
 }
 
 .left__block h2 {
@@ -305,7 +310,9 @@ p {
 }
 
 .right__block {
-  width: 30%;
+  width: 38.5%;
+  position: absolute;
+  right: 0;
 }
 
 .right__block p {
@@ -318,6 +325,6 @@ p {
 .right__block span {
   font-family: "Bernadette";
   font-size: 2.5rem;
-  padding-left: 2rem;
+  padding-left: 3.5rem;
 }
 /*# sourceMappingURL=main.css.map */
