@@ -248,6 +248,7 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 4rem;
 }
 
 .wrap__creative__agency {
@@ -259,12 +260,12 @@ p {
 }
 
 .wrap__creative__agency img {
-  width: 40rem;
-  margin-left: 22.5rem;
+  width: 42rem;
+  margin-left: 25.5rem;
 }
 
 .left__block {
-  width: 32.5%;
+  width: 38.5%;
   position: absolute;
   left: 0;
 }
@@ -310,7 +311,7 @@ p {
 }
 
 .right__block {
-  width: 38.5%;
+  width: 33.5%;
   position: absolute;
   right: 0;
 }
@@ -326,5 +327,39 @@ p {
   font-family: "Bernadette";
   font-size: 2.5rem;
   padding-left: 3.5rem;
+}
+
+.amazing__features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.image__block {
+  width: 45%;
+}
+
+.image__block img {
+  width: 100%;
+  padding: 1rem;
+}
+
+.amazing_text__block {
+  background-color: #fff;
+  border-radius: .7rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=main.css.map */
