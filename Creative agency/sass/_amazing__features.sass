@@ -4,17 +4,35 @@
     justify-content: center
     align-items: center
     position: relative
+    margin-bottom: 3.5rem
 
 .image__block
-    width: 45% 
+    width: 45%
+    padding: 1rem 
     & img 
         width: 100%
-        padding: 1rem
 
 .amazing_text__block
+    width: 58rem
     background-color: #fff
     border-radius: .7rem
     position: absolute
     top: 50%
     left: 50%
     transform: translate(-50%,-50%)
+    padding: 2rem 5rem
+    display: flex
+    flex-direction: column 
+    align-items: center
+    & h1 
+        @include fontSet(3.5rem, 'bernadette')
+        padding: .5rem
+    & p 
+        width: 100%
+        font-size: 1.4rem
+        text-align: center
+        font-weight: bold
+    & button
+        @include button
+        padding: .7rem 1.2rem
+        margin: 3rem 0 1rem 0 
