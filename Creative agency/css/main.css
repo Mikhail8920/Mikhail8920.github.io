@@ -477,23 +477,71 @@ p {
 }
 
 .center__block {
-  width: 12rem;
+  width: 18rem;
+  height: 18rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-image: -webkit-gradient(linear, right top, left top, from(#dd813d), to(#435297));
-  background-image: linear-gradient(to left, #dd813d 0%, #435297 100%);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#dd813d), to(#435297));
+  background-image: linear-gradient(to bottom right, #dd813d 0%, #435297 100%);
   position: absolute;
   top: 50%;
-  left: 54%;
+  left: 51%;
   -webkit-transform: translate(0, -50%);
           transform: translate(0, -50%);
+  border-radius: 1rem;
+}
+
+.center__block .icon__cell {
+  width: 50%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.center__block .icon__cell:nth-child(1) {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.3)), color-stop(50%, transparent));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), transparent 50%);
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: .4rem .1rem;
+}
+
+.center__block .icon__cell:nth-child(2) {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), color-stop(50%, transparent));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), transparent 50%);
+  background-position: left;
+  background-repeat: repeat-y;
+  background-size: .1rem .4rem;
+}
+
+.center__block .icon__cell:nth-child(3) {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), color-stop(50%, transparent));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), transparent 50%);
+  background-position: right;
+  background-repeat: repeat-y;
+  background-size: .1rem .4em;
+}
+
+.center__block .icon__cell:nth-child(4) {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.3)), color-stop(50%, transparent));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), transparent 50%);
+  background-position: top;
+  background-repeat: repeat-x;
+  background-size: .4rem .1rem;
 }
 
 .center__block img {
-  width: 5rem;
+  width: 4rem;
 }
 
 .right__side {
