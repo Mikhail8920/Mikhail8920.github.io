@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-image: url(../image/simply__the__best/Main__Image.png);
+  background-image: url("../image/simply the best/Main Image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -154,6 +154,7 @@ p {
   font-weight: 400;
   font-weight: 700;
   background-color: #ffffff;
+  color: #020202;
   text-transform: uppercase;
   border-radius: 3rem;
   padding: .6rem 1.6rem;
@@ -200,6 +201,7 @@ p {
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
+  color: #333332;
   margin-top: 1rem;
 }
 
@@ -210,7 +212,7 @@ p {
   font-weight: 400;
   font-weight: bolder;
   text-align: center;
-  color: #000;
+  color: #040404;
   padding: 1rem 3rem;
 }
 
@@ -279,18 +281,22 @@ p {
   font-family: "Bernadette";
   font-size: 3.5rem;
   font-weight: 400;
+  color: #333332;
   margin-bottom: 2rem;
 }
 
 .left__block p {
   font-size: 1.4rem;
+  line-height: 2rem;
   font-weight: 700;
+  color: #040404;
   margin-bottom: 2rem;
 }
 
 .left__block span {
   font-size: 1.4rem;
-  font-weight: 400;
+  color: #040404;
+  font-weight: lighter;
 }
 
 .left__block button {
@@ -324,6 +330,8 @@ p {
 
 .right__block p {
   padding: 6rem 0 1.5rem 0;
+  line-height: 2rem;
+  color: #040404;
   font-family: "Lato";
   font-size: 1.2rem;
   font-weight: 400;
@@ -334,6 +342,7 @@ p {
   font-family: "Bernadette";
   font-size: 3rem;
   font-weight: 400;
+  color: #040404;
   padding-left: 3.5rem;
 }
 
@@ -388,12 +397,16 @@ p {
   font-family: "bernadette";
   font-size: 3.5rem;
   font-weight: 400;
+  color: #333332;
   padding: .5rem;
 }
 
 .amazing_text__block p {
   width: 100%;
   font-size: 1.4rem;
+  line-height: 2rem;
+  color: #040404;
+  font-style: italic;
   text-align: center;
   font-weight: bold;
 }
@@ -442,16 +455,20 @@ p {
   font-family: "Bernadette";
   font-size: 3rem;
   font-weight: 400;
+  color: #333332;
   padding-top: 5rem;
 }
 
 .left__side p {
   font-size: 1.4rem;
+  line-height: 2.2rem;
+  color: #040404;
   padding: 1rem 0 2.5rem 0;
 }
 
 .left__side span {
   font-weight: bold;
+  color: #040404;
 }
 
 .left__side button {
@@ -583,18 +600,22 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 8rem;
 }
 
 .we__are__perfect__team h1 {
   font-family: "Bernadette";
   font-size: 3rem;
   font-weight: 400;
+  color: #333332;
   margin-bottom: 1.5rem;
 }
 
 .we__are__perfect__team p {
   width: 88%;
   font-size: 1.4rem;
+  line-height: 2rem;
+  color: #040404;
   margin-bottom: 4rem;
 }
 
@@ -616,6 +637,19 @@ p {
 
 .team__block .team__item img {
   width: 100%;
+  margin-bottom: 1rem;
+}
+
+.team__block .team__item h3 {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  color: #333332;
+  text-align: center;
+}
+
+.team__block .team__item p {
+  color: #b7b7b7;
+  text-align: center;
 }
 
 .team__block::before {
@@ -627,5 +661,131 @@ p {
   left: 2%;
   background: #f7f7f7;
   z-index: -1;
+}
+
+.Anita__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.Anita__alen__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 96.4rem;
+}
+
+.Anita__left__block {
+  width: 42%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 4.5rem;
+}
+
+.Anita__left__block h1 {
+  font-family: "Bernadette";
+  font-size: 4rem;
+  font-weight: 400;
+  color: #333332;
+  padding-left: .9rem;
+  line-height: 4rem;
+}
+
+.Anita__left__block h3 {
+  font-family: "Lato";
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #636363;
+  padding-left: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+.Anita__left__block p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-bottom: 4rem;
+}
+
+.Creativity,
+.Team__work,
+.Designing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Creativity h3,
+.Team__work h3,
+.Designing h3 {
+  font-size: 1.8rem;
+  color: #333332;
+}
+
+.skill__level__number {
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+
+.Anita__right__block {
+  width: 58%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Anita__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#dd813d), to(#435297));
+  background-image: linear-gradient(to bottom right, #dd813d 0%, #435297 100%);
+  color: #fff;
+}
+
+.Anita__social p {
+  width: 28rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding: 3.5rem 3.5rem 0 3.5rem;
+}
+
+.Anita__social p span {
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+
+.Anita__social__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 3.5rem 3.5rem 3.5rem;
+}
+
+.social__icon__item img {
+  width: 4rem;
+  margin: .7rem;
+}
+
+.Anita__photo img {
+  width: 28rem;
 }
 /*# sourceMappingURL=main.css.map */

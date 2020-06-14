@@ -3,12 +3,16 @@
     flex-direction: column
     justify-content: center
     align-items: center
+    margin-bottom: 8rem
     & h1 
         @include fontSet(3rem, 'Bernadette')
+        color: $headerColor
         margin-bottom: 1.5rem
     & p 
         width: 88%
         font-size: 1.4rem 
+        line-height: 2rem
+        color: $mainColor
         margin-bottom: 4rem
 
 .team__block
@@ -21,6 +25,15 @@
         padding: 0 .7rem
         & img 
             width: 100%
+            margin-bottom: 1rem
+        & h3 
+            font-size: 1.6rem
+            line-height: 1.6rem
+            color: $headerColor
+            text-align: center
+        & p 
+            color: #b7b7b7 
+            text-align: center
     &::before
         position: absolute
         content: ""
