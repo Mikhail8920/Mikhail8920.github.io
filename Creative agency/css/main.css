@@ -670,6 +670,7 @@ p {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin-bottom: 6rem;
 }
 
 .Anita__alen__wrap {
@@ -724,6 +725,8 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
+  margin-bottom: 3rem;
 }
 
 .Creativity h3,
@@ -733,8 +736,51 @@ p {
   color: #333332;
 }
 
+.Creativity::after,
+.Team__work::after,
+.Designing::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1rem;
+  bottom: 0;
+  left: 0;
+  background-color: #e0e0e0;
+  border-radius: .5rem;
+}
+
+.Creativity::before,
+.Team__work::before,
+.Designing::before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1rem;
+  bottom: 0;
+  left: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#dd813d), to(#435297));
+  background-image: linear-gradient(to right, #dd813d 0%, #435297 100%);
+  border-radius: .5rem;
+  z-index: 1;
+  min-width: 1rem;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.Creativity:hover::before {
+  width: 95%;
+}
+
+.Team__work:hover::before {
+  width: 80%;
+}
+
+.Designing:hover::before {
+  width: 90%;
+}
+
 .skill__level__number {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 900;
 }
 
@@ -787,5 +833,77 @@ p {
 
 .Anita__photo img {
   width: 28rem;
+}
+
+.take__your__website {
+  height: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.website__left__side {
+  width: 50%;
+  position: relative;
+  background: -webkit-gradient(linear, left top, right bottom, from(#dd813d), to(#435297));
+  background: linear-gradient(to bottom right, #dd813d 0%, #435297 100%);
+}
+
+.professional {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  top: 15%;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  padding: 1.5rem;
+}
+
+.professional h2 {
+  font-family: "Bernadette";
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #333332;
+  margin-top: 2rem;
+}
+
+.professional h3 {
+  font-family: "lato";
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #333332;
+  margin-bottom: .7rem;
+}
+
+.professional p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #040404;
+  text-align: center;
+}
+
+#price {
+  font-size: 5rem;
+  font-weight: 900;
+  margin: 4rem 0;
+}
+
+#price span {
+  font-size: 3rem;
+}
+
+.website__right__side {
+  background-color: #f4f4f4;
 }
 /*# sourceMappingURL=main.css.map */

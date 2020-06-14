@@ -1,6 +1,7 @@
 .Anita__block
     display: flex
     justify-content: flex-end
+    margin-bottom: 6rem
 
 .Anita__alen__wrap
     display: flex
@@ -31,13 +32,50 @@
 .Designing
     display: flex
     justify-content: space-between
+    position: relative
+    margin-bottom: 3rem
     & h3
         font-size: 1.8rem
         color: $headerColor
-    & 
+    &::after
+        content: ''
+        position: absolute
+        width: 100%
+        height: 1rem
+        bottom: 0
+        left: 0
+        background-color: #e0e0e0
+        border-radius: .5rem     
+    &::before
+        content: ''
+        position: absolute
+        width: 0%
+        height: 1rem
+        bottom: 0
+        left: 0
+        background-image: linear-gradient(to right, #dd813d 0%, #435297 100%)
+        border-radius: .5rem
+        z-index: 1
+        min-width: 1rem
+        transition: 3s
+
+.Creativity
+    &:hover
+        &::before
+            width: 95%
+
+.Team__work
+    &:hover
+        &::before
+            width: 80%
+
+.Designing
+    &:hover
+        &::before
+            width: 90%
         
 .skill__level__number
-    font-size: 1.7rem
+    font-size: 1.5rem
     font-weight: 900
 
 .Anita__right__block
