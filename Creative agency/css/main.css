@@ -836,22 +836,22 @@ p {
 }
 
 .take__your__website {
-  height: 50rem;
+  height: 55rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .website__left__side {
-  width: 50%;
+  width: 30%;
   position: relative;
   background: -webkit-gradient(linear, left top, right bottom, from(#dd813d), to(#435297));
   background: linear-gradient(to bottom right, #dd813d 0%, #435297 100%);
 }
 
 .professional {
-  width: 75%;
-  height: 75%;
+  width: 70%;
+  height: 70%;
   position: absolute;
   top: 15%;
   right: 0;
@@ -904,6 +904,105 @@ p {
 }
 
 .website__right__side {
+  width: 70%;
   background-color: #f4f4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  padding: 10rem 6% 10rem 35%;
+}
+
+.website__right__side h1 {
+  font-family: "Bernadette";
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 4rem;
+  color: #333332;
+  margin-bottom: 1rem;
+}
+
+.website__right__side p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.Our__Best {
+  width: 40%;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  left: 0;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right bottom, from(#dd813d), to(#435297));
+  background: linear-gradient(to bottom right, #dd813d 0%, #435297 100%);
+  color: #ffffff;
+}
+
+.Our__Best h1 {
+  font-family: "Lato";
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 5rem;
+  color: #ffffff;
+  margin-top: 2rem;
+}
+
+.Our__Best h3 {
+  font-family: "lato";
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.Our__Best ul {
+  margin-bottom: 2rem;
+}
+
+.Our__Best ul li {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.Our__Best button {
+  width: 10rem;
+  background-image: -webkit-gradient(linear, right top, left top, from(#dd813d), to(#435297));
+  background-image: linear-gradient(to left, #dd813d 0%, #435297 100%);
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3rem;
+  padding: .7rem 1.2rem;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+  margin-bottom: 6rem;
+  color: #fff;
+  background: #fff;
+  color: #000;
+}
+
+.Our__Best button:hover {
+  background-image: -webkit-gradient(linear, right top, left top, from(#435297), to(#dd813d));
+  background-image: linear-gradient(to left, #435297 0%, #dd813d 100%);
+  border: none;
 }
 /*# sourceMappingURL=main.css.map */
