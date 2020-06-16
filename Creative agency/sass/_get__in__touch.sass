@@ -1,0 +1,29 @@
+.get__in__touch
+    background-image: url("../image/get in touch/get__background.png")
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    height: 30rem
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: center
+    & h1 
+        @include fontSet(3.5rem, 'Bernadette', 400)
+        color: #fff
+        margin: 4.5rem 0 2rem 0
+        z-index: 1
+    &::after 
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background:  linear-gradient(to bottom right, #fd8a33 0%, #5b7bff 100%)
+        opacity: .6
+
+.get__social__item
+    width: 6rem
+    margin: 1.5rem
+    z-index: 1
