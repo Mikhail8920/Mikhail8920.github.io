@@ -1,12 +1,15 @@
 .first__block
+    height: 54rem
     display: flex
     flex-direction: column
     justify-content: center
     align-items: center
+    position: relative
+    margin-bottom: 27rem
     & h1 
         @include fontSet(5rem, 'Bernadette')
         color: #fff
-        margin-top: 9rem
+        margin-top: 0
     & h2 
         @include fontSet(2.5rem)
         color: #fff
@@ -40,6 +43,10 @@
     width: 90rem
     display: flex
     justify-content: space-between
+    position: absolute
+    top: 80%
+    left: 50%
+    transform: translate(-50%, 0)
 
 .progress__item
     width: 28.5rem

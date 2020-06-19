@@ -1,0 +1,117 @@
+@media (min-width:320px) and (max-width:639px)
+
+    body 
+        height: 55rem
+
+    //header
+    .header__logo
+        padding-left: 1rem
+        & img 
+            width: 9rem
+            margin-left: 0
+
+    #menu__toggle
+        opacity: 0
+
+    .menu__button
+        display: flex
+        align-items: center
+        position: absolute
+        top: 1.5rem
+        right: 1.5rem
+        width: 2rem
+        height: 2rem
+        cursor: pointer
+        z-index: 1
+        span,
+        span::before,
+        span::after
+            display: block
+            position: absolute
+            width: 100%
+            height: 0.2rem
+            background-color: #3f519a
+            transition: 0.2s
+
+    .menu__button span::before
+        content: ""
+        top: -1rem
+
+    .menu__button span::after
+        content: ""
+        top: 1rem
+
+    .header__nav
+        display: flex
+        flex-direction: column
+        align-items: start
+        margin: 0
+        padding: 8rem 0rem
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        opacity: 0.9
+        background-color: #dd813d 
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2)
+        transition: 0.2s
+        visibility: hidden
+
+    #menu__toggle:checked ~ .menu__button span
+        transform: rotate(45deg)
+
+    #menu__toggle:checked ~ .menu__button span::before
+        top: 0
+        transform: rotate(0)
+
+    #menu__toggle:checked ~ .menu__button span::after
+        top: 0rem
+        transform: rotate(90deg)
+
+    //first block
+    .first__block
+        height: 100rem
+        justify-content: start
+        margin-bottom: 41rem
+        & h1 
+            font-size: 4rem
+            margin-top: 8rem
+        & h2 
+            font-size: 2rem
+        & p 
+            width: 100%
+            padding: 0 1rem
+            font-size: 1.3rem
+            text-align: center
+        & button 
+            width: 10rem      
+            word-spacing: .2rem      
+            height: 3rem
+            padding: .5rem 1.2rem
+            font-size: 1rem
+
+    .progress__block
+        width: 100%
+        display: flex
+        flex-direction: column 
+        align-items: center
+        top: 40%
+
+    .progress__item
+        margin-bottom: 4rem
+ 
+    .wrap__creative__agency
+        width: 100%
+
+    .creative__agency 
+        width: 100%
+        height: 50rem
+        flex-direction: column
+
+    .left__block,
+    .right__block
+        width: 100%
+
+
+
