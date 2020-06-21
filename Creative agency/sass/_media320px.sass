@@ -30,7 +30,7 @@
             position: absolute
             width: 100%
             height: 0.2rem
-            background-color: #3f519a
+            background-color: #dd813d
             transition: .2s
 
     .menu__button span::before
@@ -80,9 +80,9 @@
 
     //first block
     .first__block
-        height: 100rem
+        height: 142rem
         justify-content: start
-        margin-bottom: 42rem
+        margin-bottom: 3rem
         & h1 
             font-size: 4rem
             margin-top: 8rem
@@ -90,6 +90,7 @@
             font-size: 2rem
         & p 
             width: 100%
+            max-width: 50rem
             padding: 0 1rem
             font-size: 1.5rem
             text-align: center
@@ -105,7 +106,7 @@
         display: flex
         flex-direction: column 
         align-items: center
-        top: 40%
+        top: 29%
 
     .progress__item
         margin-bottom: 4rem
@@ -116,12 +117,13 @@
     //creative__agency
     .creative__agency
         width: 100%
-        height: 96rem
+        height: 92rem
         display: flex
         margin-bottom: 0
         
     .wrap__creative__agency
         width: 100%
+        max-width: 50rem
         flex-direction: column
         justify-content: start
         align-items: center
@@ -158,6 +160,62 @@
         & span
             font-size: 2rem
             margin-top: .5rem
+
+    //amazing__features
+    .amazing__features
+        width: 100%
+        margin-bottom: 4rem
+
+    .image__block
+        width: 100%
+        &:nth-child(1)
+            margin-top: 25rem
+        & img 
+            width: 100%
+        
+    .amazing_text__block
+        width: 100%
+        max-width: 50rem
+        top: 0
+        left: 50%
+        transform: translate(-50%,0)
+        padding: 0
+        text-align: center
+        & p 
+            padding: 1rem
+        & button
+            margin-top: 1rem
+
+    //services__we__provide
+    .services__we__provide
+        width: 100%
+        flex-direction: column
+        margin-bottom: 50rem
+
+    .left__side
+        width: 100%
+        padding: 0
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin-bottom: 5rem
+        & h1 
+            padding: 0 0 0 1.5rem
+            text-align: center
+        & p 
+            padding: 1rem
+            text-align: center
+            margin-bottom: 1rem
+        & button
+            margin-bottom: 1rem
+
+    .center__block
+        top: 100%
+
+    .right__side
+        width: 100%
+
+
 
 
 
