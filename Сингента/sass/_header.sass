@@ -1,0 +1,43 @@
+.header__block
+    display: flex
+    flex-direction: column
+
+    
+.header__nav
+    height: 10rem
+    display: flex
+    justify-content: flex-end
+    align-items: flex-end
+    background-color: #008042
+    & ul 
+        display: flex
+        margin: 0 15rem 2.5rem 0
+        list-style-type: none
+        & a
+            @include fontSet(1.8rem, 'HelveticaNeueCyr-Light , sans-serif')
+            color: #fff
+            margin: 0 2rem
+            cursor: pointer
+            list-style-type: none
+            &:hover
+                color: #d4f332
+                transition: .2s
+
+.syngenta_header
+    background-image: url(../image/background.png)
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    height: 50rem
+    display: flex
+    align-items: flex-end
+    & .sygenta_logo
+        width: 100%
+        display: flex
+        justify-content: flex-end
+        & img 
+            width: 15rem
+            margin: 0 4rem 2rem 0
+
+
+

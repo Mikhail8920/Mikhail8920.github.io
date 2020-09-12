@@ -1,0 +1,45 @@
+.agrashow_program
+    background-image: url(../image/background2.png)
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    display: flex
+    flex-direction: column
+    align-items: center
+    & h1 
+        @include fontSet(3.5rem, 'HelveticaNeueCyr-Light , sans-serif')
+        text-align: center
+        color: #ffffff
+        line-height: 3.5rem
+        margin: 8rem 0 4rem 0
+    & span 
+        @include fontSet(2.5rem, 'HelveticaNeueCyr-medium , sans-serif')
+        color: #ffffff
+    & h2 
+        width: 22rem
+        height: 5rem
+        @include fontSet(2.5rem, 'HelveticaNeueCyr-medium , sans-serif')
+        color: #ffffff
+        text-align: center
+        background: rgba(0, 110, 37, .6)
+        border-radius: 6rem 0 6rem 0
+        line-height: 5rem
+
+.program_block
+    width: 60%
+    background: rgba(0, 110, 37, .6)
+    border-radius: 2rem
+    padding: 3.5rem 2rem 1rem 2rem
+    margin-bottom: 2rem
+    & .program_item
+        background-color: #f3f3f3
+        border-radius: 1rem
+        padding: 1.5rem
+        margin-bottom: 2rem
+        & h3 
+            @include fontSet(2rem, 'HelveticaNeueCyr-medium , sans-serif', bolder)
+            margin-bottom: .5rem
+        & ul 
+            padding-left: 2rem
+        & li 
+            @include fontSet(1.8rem, 'HelveticaNeueCyr-medium , sans-serif', 300)

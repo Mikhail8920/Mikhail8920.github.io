@@ -1,0 +1,427 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1rem;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+a, input, button {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Light';
+  src: url("../fonts/HelveticaNeueCyr-Light.otf") format("woff2"), url("../fonts/HelveticaNeueCyr.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-medium';
+  src: url("../fonts/HelveticaNeueCyr-Medium.otf") format("woff2"), url("../fonts/HelveticaNeueCyr.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.header__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__nav {
+  height: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-color: #008042;
+}
+
+.header__nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 15rem 2.5rem 0;
+  list-style-type: none;
+}
+
+.header__nav ul a {
+  font-family: "HelveticaNeueCyr-Light , sans-serif";
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #fff;
+  margin: 0 2rem;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.header__nav ul a:hover {
+  color: #d4f332;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.syngenta_header {
+  background-image: url(../image/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.syngenta_header .sygenta_logo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.syngenta_header .sygenta_logo img {
+  width: 15rem;
+  margin: 0 4rem 2rem 0;
+}
+
+.registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 7rem 0;
+}
+
+.registration h2 {
+  width: 60%;
+  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #287344;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.registration button {
+  font-family: "HelveticaNeueCyr-Light , sans-serif";
+  font-size: 1.8rem;
+  font-weight: 400;
+  background-color: #008042;
+  color: #fff;
+  border: none;
+  border-radius: 4rem 0 4rem 0;
+  padding: 1rem 2rem;
+  outline: 0;
+}
+
+.registration button:hover {
+  background-color: #024625;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.data {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main_date,
+.personal_data,
+.company_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main_date h3,
+.personal_data h3,
+.company_data h3 {
+  font-family: "HelveticaNeueCyr-Light , sans-serif";
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #000;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.main_date_wrap,
+.personal_data_wrap,
+.company_data_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.main_date_input_wrap,
+.second_name_input_wrap,
+.name_input_wrap,
+.phone_input_wrap,
+.company_input_wrap,
+.position_input_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main_date_input_wrap label,
+.second_name_input_wrap label,
+.name_input_wrap label,
+.phone_input_wrap label,
+.company_input_wrap label,
+.position_input_wrap label {
+  font-family: "HelveticaNeueCyr-Light , sans-serif";
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.main_date_input_wrap input,
+.second_name_input_wrap input,
+.name_input_wrap input,
+.phone_input_wrap input,
+.company_input_wrap input,
+.position_input_wrap input {
+  font-family: "HelveticaNeueCyr-Light , sans-serif";
+  font-size: 1.8rem;
+  font-weight: bolder;
+  width: 35rem;
+  height: 5rem;
+  border: .1rem solid #000;
+  border-radius: .5rem;
+  padding-left: .8rem;
+  margin: 1rem 3rem 0 0;
+}
+
+.name_input_wrap input,
+.phone_input_wrap input,
+.position_input_wrap input {
+  width: 30rem;
+}
+
+.check {
+  margin-bottom: 5rem;
+}
+
+.check input {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  border-radius: .5rem;
+  margin-right: 1rem;
+  border: .1rem solid #000;
+}
+
+.check input::after {
+  width: 20rem;
+}
+
+.check label {
+  font-family: "HelveticaNeueCyr-Light , sans-serif";
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.about_project {
+  width: 100%;
+  position: relative;
+  padding-bottom: 8rem;
+}
+
+.about_project img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about_project img:nth-child(2) {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.about_project_wrap {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.about_project_wrap h1 {
+  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-size: 3rem;
+  font-weight: bolder;
+  text-align: center;
+  margin: 12rem 0 6rem 0;
+}
+
+.about_project_wrap h3 {
+  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #007f48;
+  margin-bottom: 2rem;
+}
+
+.about_project_wrap p {
+  font-family: "HelveticaNeueCyr-light , sans-serif";
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 2.2rem;
+}
+
+.about_project_wrap p:nth-child(5) {
+  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+
+.about_project_wrap span {
+  color: #1d955f;
+}
+
+.agrashow_program {
+  background-image: url(../image/background2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.agrashow_program h1 {
+  font-family: "HelveticaNeueCyr-Light , sans-serif";
+  font-size: 3.5rem;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  line-height: 3.5rem;
+  margin: 8rem 0 4rem 0;
+}
+
+.agrashow_program span {
+  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.agrashow_program h2 {
+  width: 22rem;
+  height: 5rem;
+  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  background: rgba(0, 110, 37, 0.6);
+  border-radius: 6rem 0 6rem 0;
+  line-height: 5rem;
+}
+
+.program_block {
+  width: 60%;
+  background: rgba(0, 110, 37, 0.6);
+  border-radius: 2rem;
+  padding: 3.5rem 2rem 1rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.program_block .program_item {
+  background-color: #f3f3f3;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.program_block .program_item h3 {
+  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: .5rem;
+}
+
+.program_block .program_item ul {
+  padding-left: 2rem;
+}
+
+.program_block .program_item li {
+  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.footer {
+  background-color: #008042;
+  height: 9em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer img {
+  width: 18rem;
+  padding-right: 4rem;
+}
+/*# sourceMappingURL=main.css.map */
