@@ -70,7 +70,7 @@ a, input, button {
 }
 
 .header__nav ul a {
-  font-family: "HelveticaNeueCyr-Light , sans-serif";
+  font-family: "HelveticaNeueCyr-Light";
   font-size: 1.8rem;
   font-weight: 400;
   color: #fff;
@@ -130,7 +130,7 @@ a, input, button {
 
 .registration h2 {
   width: 60%;
-  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-family: "HelveticaNeueCyr-medium";
   font-size: 2.5rem;
   font-weight: bolder;
   color: #287344;
@@ -139,7 +139,7 @@ a, input, button {
 }
 
 .registration button {
-  font-family: "HelveticaNeueCyr-Light , sans-serif";
+  font-family: "HelveticaNeueCyr-Light";
   font-size: 1.8rem;
   font-weight: 400;
   background-color: #008042;
@@ -182,7 +182,7 @@ a, input, button {
 .main_date h3,
 .personal_data h3,
 .company_data h3 {
-  font-family: "HelveticaNeueCyr-Light , sans-serif";
+  font-family: "HelveticaNeueCyr-Light";
   font-size: 2.5rem;
   font-weight: bolder;
   color: #000;
@@ -220,7 +220,7 @@ a, input, button {
 .phone_input_wrap label,
 .company_input_wrap label,
 .position_input_wrap label {
-  font-family: "HelveticaNeueCyr-Light , sans-serif";
+  font-family: "HelveticaNeueCyr-Light";
   font-size: 2.5rem;
   font-weight: bolder;
 }
@@ -231,7 +231,7 @@ a, input, button {
 .phone_input_wrap input,
 .company_input_wrap input,
 .position_input_wrap input {
-  font-family: "HelveticaNeueCyr-Light , sans-serif";
+  font-family: "HelveticaNeueCyr-Light";
   font-size: 1.8rem;
   font-weight: bolder;
   width: 35rem;
@@ -265,7 +265,7 @@ a, input, button {
 }
 
 .check label {
-  font-family: "HelveticaNeueCyr-Light , sans-serif";
+  font-family: "HelveticaNeueCyr-Light";
   font-size: 1.8rem;
   font-weight: 400;
 }
@@ -295,7 +295,7 @@ a, input, button {
 }
 
 .about_project_wrap h1 {
-  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-family: "HelveticaNeueCyr-medium";
   font-size: 3rem;
   font-weight: bolder;
   text-align: center;
@@ -303,7 +303,7 @@ a, input, button {
 }
 
 .about_project_wrap h3 {
-  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-family: "HelveticaNeueCyr-medium";
   font-size: 2rem;
   font-weight: bolder;
   color: #007f48;
@@ -311,14 +311,14 @@ a, input, button {
 }
 
 .about_project_wrap p {
-  font-family: "HelveticaNeueCyr-light , sans-serif";
+  font-family: "HelveticaNeueCyr-light";
   font-size: 1.8rem;
   font-weight: 400;
   margin-bottom: 2.2rem;
 }
 
 .about_project_wrap p:nth-child(5) {
-  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-family: "HelveticaNeueCyr-medium";
   font-size: 1.8rem;
   font-weight: bolder;
 }
@@ -345,7 +345,7 @@ a, input, button {
 }
 
 .agrashow_program h1 {
-  font-family: "HelveticaNeueCyr-Light , sans-serif";
+  font-family: "HelveticaNeueCyr-Light";
   font-size: 3.5rem;
   font-weight: 400;
   text-align: center;
@@ -355,7 +355,7 @@ a, input, button {
 }
 
 .agrashow_program span {
-  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-family: "HelveticaNeueCyr-medium";
   font-size: 2.5rem;
   font-weight: 400;
   color: #ffffff;
@@ -364,7 +364,7 @@ a, input, button {
 .agrashow_program h2 {
   width: 22rem;
   height: 5rem;
-  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-family: "HelveticaNeueCyr-medium";
   font-size: 2.5rem;
   font-weight: 400;
   color: #ffffff;
@@ -390,7 +390,7 @@ a, input, button {
 }
 
 .program_block .program_item h3 {
-  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-family: "HelveticaNeueCyr-medium";
   font-size: 2rem;
   font-weight: bolder;
   margin-bottom: .5rem;
@@ -401,7 +401,7 @@ a, input, button {
 }
 
 .program_block .program_item li {
-  font-family: "HelveticaNeueCyr-medium , sans-serif";
+  font-family: "HelveticaNeueCyr-medium";
   font-size: 1.8rem;
   font-weight: 300;
 }
