@@ -21,6 +21,7 @@
         left: 0
         width: 31rem
         height: 60%
+        transform: rotate(-1.5deg)
         background-color: #d0db99
         z-index: -1
 
@@ -37,18 +38,21 @@
 
 .man_block
     display: flex
-    justify-content: space-between
+    justify-content: center
     margin-top: 5rem
     padding: 0 4.5rem 0 5rem
+    border-bottom: .2rem dashed #d0db99
     & img 
-        width: 20rem
+        width: 2000rem
         height: 40rem
+        
 
 .man_block_item
-    width: 15.5%
+    width: 20rem
     display: flex
     flex-direction: column
     align-items: center
+    margin: 0 6rem
     & h4
         width: 26rem
         @include fontSet(2rem, 'circe-Bold')

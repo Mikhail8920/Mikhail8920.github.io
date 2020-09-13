@@ -157,7 +157,7 @@ a, input, button {
 }
 
 .data {
-  width: 70%;
+  width: 68%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -423,5 +423,286 @@ a, input, button {
 .footer img {
   width: 18rem;
   padding-right: 4rem;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__nav {
+    height: 7rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__nav ul {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 0;
+  }
+  .header__nav ul a {
+    font-size: 1.5rem;
+  }
+  .syngenta_header {
+    height: 30rem;
+  }
+  .syngenta_header .sygenta_logo img {
+    width: 9rem;
+    margin: 0 2rem 1rem 0;
+  }
+  .registration {
+    width: 88%;
+    margin: 3rem auto;
+  }
+  .registration h2 {
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .registration button {
+    margin-bottom: .5rem;
+  }
+  .data {
+    width: 100%;
+  }
+  .main_date,
+  .personal_data,
+  .company_data {
+    margin-bottom: 1rem;
+  }
+  .main_date h3,
+  .personal_data h3,
+  .company_data h3 {
+    font-family: 'HelveticaNeueCyr-Medium';
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  .main_date_wrap,
+  .personal_data_wrap,
+  .company_data_wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .company_data_wrap {
+    margin-bottom: 1rem;
+  }
+  .main_date_input_wrap,
+  .second_name_input_wrap,
+  .name_input_wrap,
+  .phone_input_wrap,
+  .company_input_wrap,
+  .position_input_wrap {
+    margin-bottom: 2rem;
+  }
+  .main_date_input_wrap input,
+  .second_name_input_wrap input,
+  .name_input_wrap input,
+  .phone_input_wrap input,
+  .company_input_wrap input,
+  .position_input_wrap input {
+    font-size: 1.6rem;
+    width: 28rem;
+  }
+  .check {
+    margin-bottom: 3rem;
+  }
+  .about_project {
+    padding: 1rem 0;
+    z-index: 1;
+  }
+  .about_project img {
+    width: 10rem;
+    z-index: -1;
+  }
+  .about_project_wrap {
+    width: 88%;
+    padding: 0;
+  }
+  .about_project_wrap h1 {
+    font-size: 2.5rem;
+    margin: 3rem 0 3rem 0;
+  }
+  .about_project_wrap h3 {
+    font-size: 1.8rem;
+  }
+  .agrashow_program h1 {
+    font-size: 3rem;
+    margin: 3rem 0;
+  }
+  .agrashow_program span {
+    font-size: 2.5rem;
+  }
+  .agrashow_program h2 {
+    font-size: 2rem;
+  }
+  .program_block {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: .5rem;
+  }
+  .program_block .program_item {
+    width: 95.7%;
+  }
+  .footer {
+    height: 6rem;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .footer img {
+    width: 12rem;
+    padding: 0 1rem 1rem 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1365px) {
+  .header__nav {
+    height: 10rem;
+  }
+  .header__nav ul {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 0 8rem 2.5rem 0;
+  }
+  .header__nav ul a {
+    font-size: 1.8rem;
+  }
+  .syngenta_header {
+    height: 40rem;
+  }
+  .syngenta_header .sygenta_logo img {
+    width: 12rem;
+    margin: 0 2rem 1rem 0;
+  }
+  .registration {
+    width: 88%;
+    margin: 3rem auto;
+  }
+  .registration h2 {
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .registration button {
+    margin-bottom: .5rem;
+  }
+  .data {
+    width: 93%;
+  }
+  .main_date,
+  .personal_data,
+  .company_data {
+    margin-bottom: 1rem;
+  }
+  .main_date h3,
+  .personal_data h3,
+  .company_data h3 {
+    margin-bottom: 2.5rem;
+  }
+  .main_date_wrap,
+  .personal_data_wrap,
+  .company_data_wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  .company_data_wrap {
+    margin-bottom: 1rem;
+  }
+  .main_date_input_wrap,
+  .second_name_input_wrap,
+  .name_input_wrap,
+  .phone_input_wrap,
+  .company_input_wrap,
+  .position_input_wrap {
+    margin-bottom: 2rem;
+  }
+  .main_date_input_wrap input,
+  .second_name_input_wrap input,
+  .name_input_wrap input,
+  .phone_input_wrap input,
+  .company_input_wrap input,
+  .position_input_wrap input {
+    font-size: 1.6rem;
+    width: 28rem;
+  }
+  .check {
+    margin-bottom: 3rem;
+  }
+  .about_project {
+    padding: 1rem 0;
+    z-index: 1;
+  }
+  .about_project img {
+    width: 10rem;
+    z-index: -1;
+  }
+  .about_project_wrap {
+    width: 82%;
+    padding: 0;
+  }
+  .about_project_wrap h1 {
+    font-size: 2.6rem;
+    margin: 3rem 0 3rem 0;
+  }
+  .about_project_wrap h3 {
+    font-size: 2rem;
+  }
+  .agrashow_program h1 {
+    font-size: 3rem;
+    margin: 4.5rem 0 2.5rem 0;
+  }
+  .agrashow_program span {
+    font-size: 2.5rem;
+  }
+  .agrashow_program h2 {
+    font-size: 2rem;
+  }
+  .program_block {
+    width: 89%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2.5rem 1.5rem;
+  }
+  .program_block .program_item {
+    width: 95.7%;
+  }
+  .footer {
+    height: 10rem;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .footer img {
+    width: 16rem;
+    padding: 0 2rem 1rem 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */

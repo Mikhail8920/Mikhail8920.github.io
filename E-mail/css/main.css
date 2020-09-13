@@ -157,6 +157,8 @@ main {
   left: 0;
   width: 31rem;
   height: 60%;
+  -webkit-transform: rotate(-1.5deg);
+          transform: rotate(-1.5deg);
   background-color: #d0db99;
   z-index: -1;
 }
@@ -184,20 +186,21 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 5rem;
   padding: 0 4.5rem 0 5rem;
+  border-bottom: .2rem dashed #d0db99;
 }
 
 .man_block img {
-  width: 20rem;
+  width: 2000rem;
   height: 40rem;
 }
 
 .man_block_item {
-  width: 15.5%;
+  width: 20rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -208,6 +211,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 6rem;
 }
 
 .man_block_item h4 {
@@ -320,6 +324,8 @@ main {
   left: 0;
   width: 38rem;
   height: 60%;
+  -webkit-transform: rotate(-1.5deg);
+          transform: rotate(-1.5deg);
   background-color: #d0db99;
   z-index: -1;
 }
@@ -386,5 +392,175 @@ footer h2 {
 .social_icon2 img:hover,
 .social_icon3 img:hover {
   opacity: 1;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .full_block .wrap_image {
+    left: -16rem;
+  }
+  .full_block .wrap_image img {
+    width: 20rem;
+  }
+  .full_block .wrap_image2 {
+    bottom: 22rem;
+    right: -14rem;
+  }
+  .full_block .wrap_image2 img {
+    width: 20rem;
+    z-index: -1;
+  }
+  .full_block .wrap_image3 {
+    left: -8rem;
+    bottom: -1rem;
+  }
+  .full_block .wrap_image3 img {
+    width: 16rem;
+    z-index: -1;
+  }
+  .header_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding-top: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 2rem 0 4rem 0;
+  }
+  .header_block h1 {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  .healthy_Moscow {
+    width: 16rem;
+    margin-bottom: 3rem;
+  }
+  .business_program {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0;
+  }
+  .business_program p {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .name_and_surname {
+    width: 25rem;
+    text-align: center;
+  }
+  .available {
+    font-size: 2.2rem;
+  }
+  .header_business_program {
+    font-size: 2.2rem;
+    padding-left: 0;
+  }
+  .header_business_program::before {
+    left: -.5rem;
+    width: 26.5rem;
+  }
+  .man_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 1rem;
+  }
+  .man_block_item {
+    margin-bottom: 4.5rem;
+  }
+  .interactive_exhibition {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .interactive_exhibition::before {
+    top: 41%;
+  }
+  .interactive_exhibition h2 {
+    max-width: 32rem;
+    text-align: center;
+  }
+  .interactive_exhibition h2::before {
+    left: 14%;
+    top: 25%;
+    width: 24rem;
+    height: 80%;
+  }
+  .interactive_exhibition p {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+  .interactive_exhibition p:nth-child(2) {
+    margin-bottom: 5rem;
+  }
+  footer {
+    height: 15rem;
+  }
+  footer h2 {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  .social_icon1 img,
+  .social_icon2 img,
+  .social_icon3 img {
+    width: 3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1365px) {
+  .full_block .wrap_image2 {
+    position: absolute;
+    bottom: 13rem;
+    right: -9rem;
+  }
+  .full_block .wrap_image2 img {
+    width: 40rem;
+  }
+  .header_block {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header_block h1 {
+    margin-left: 3rem;
+  }
+  .healthy_Moscow {
+    width: 17rem;
+  }
+  .business_program p {
+    font-size: 2.1rem;
+  }
+  .name_and_surname {
+    width: 26rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  .available {
+    text-align: left;
+  }
+  .man_block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .man_block_item {
+    margin-bottom: 5rem;
+  }
+  .interactive_exhibition::before {
+    top: 32%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

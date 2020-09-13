@@ -1,0 +1,98 @@
+@media (min-width:320px) and (max-width:767px)
+
+    //full block
+    .full_block
+        & .wrap_image
+            left: -16rem
+            & img
+                width: 20rem
+        & .wrap_image2
+            bottom: 22rem
+            right: -14rem
+            & img 
+                width: 20rem
+                z-index: -1
+        & .wrap_image3
+            left: -8rem
+            bottom: -1rem
+            & img 
+                width: 16rem
+                z-index: -1
+
+    //header
+    .header_block
+        flex-direction: column-reverse
+        padding-top: 0
+        align-items: center
+        margin: 2rem 0 4rem 0
+        & h1
+            font-size: 2.8rem
+            text-align: center
+
+    .healthy_Moscow
+        width: 16rem
+        margin-bottom: 3rem
+
+    //business_program
+    .business_program 
+        align-items: center
+        margin-bottom: 0
+        & p 
+            font-size: 2rem
+            text-align: center
+
+    .name_and_surname
+        width: 25rem
+        text-align: center
+
+    .available
+        font-size: 2.2rem
+    
+    .header_business_program
+        font-size: 2.2rem
+        padding-left: 0
+        &::before
+            left: -.5rem
+            width: 26.5rem
+
+    .man_block
+        flex-direction: column
+        align-items: center
+        margin-bottom: 1rem
+
+    .man_block_item
+        margin-bottom: 4.5rem
+
+    //interactive_exhibition
+    .interactive_exhibition
+        display: flex
+        flex-direction: column
+        align-items: center
+        &::before
+            top: 41%
+        & h2 
+            max-width: 32rem
+            text-align: center
+            &::before
+                left: 14%
+                top: 25% 
+                width: 24rem
+                height: 80%
+        & p 
+            font-size: 2rem
+            margin-bottom: 2.5rem
+            text-align: center
+        & p:nth-child(2) 
+            margin-bottom: 5rem
+
+    footer
+        height: 15rem
+        & h2 
+            font-size: 1.6rem
+            margin-bottom: 2rem
+
+    .social_icon1,
+    .social_icon2,
+    .social_icon3
+        & img 
+            width: 3rem
