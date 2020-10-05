@@ -23,14 +23,15 @@
         color: $headerColor
         margin-bottom: 2rem
     & p 
-        font-size: 1.4rem 
-        line-height: 2rem
+        font-size: 1.6rem 
+        line-height: 2.4rem
         font-weight: 700
         color: $mainColor
         margin-bottom: 2rem
     & span
         font-size: 1.4rem
         color: $mainColor
+        line-height: 2.4rem
         font-weight: lighter
     & button
         @include button
@@ -40,12 +41,14 @@
     position: absolute
     right: 0
     & p 
-        padding: 6rem 0 1.5rem 0
-        line-height: 2rem
+        padding: 9rem 0 1.5rem 0
+        line-height: 2.4rem
         color: $mainColor
-        @include fontSet()
+        @include fontSet(1.6rem)
         font-weight: 700
+        text-align: right
     & span 
         @include fontSet(3rem, 'Bernadette')
         color: $mainColor
-        padding-left: 3.5rem
+        padding-left: 52%
+

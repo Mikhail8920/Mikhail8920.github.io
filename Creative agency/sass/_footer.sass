@@ -1,10 +1,11 @@
-.footter__block
+.footer__block
     display: flex
     flex-direction: column
     justify-content: center
     align-items: center
     & p 
         font-size: .8rem
+        text-align: center
 
 .footer__contact__block
     width: 100%
@@ -15,6 +16,7 @@
 .mail__block,
 .call__Us__block,
 .address__block
+    height: 8rem
     display: flex
 
 .mail__icon,
@@ -33,13 +35,15 @@
 .address__text
     display: flex
     flex-direction: column
+    justify-content: flex-start
     & h3 
         font-size: 1.4rem
         color: $headerColor
         text-transform: uppercase
-    & p 
+    & a 
         font-size: 1.2rem
         line-height: 2rem
         color: $mainColor
+        margin: .8rem 0
 
 

@@ -5,22 +5,23 @@
     justify-content: center
     align-items: center
     position: relative
-    margin-bottom: 27rem
+    margin-bottom: 34rem
     & h1 
-        @include fontSet(5rem, 'Bernadette')
+        @include fontSet(7rem, 'Bernadette')
         color: #fff
-        margin-top: 0
+        margin-bottom: 1rem
     & h2 
         @include fontSet(2.5rem)
         color: #fff
         margin-bottom: 3rem
     & p 
         width: 46rem
-        @include fontSet()
+        @include fontSet(1.6rem, 'Lato')
         font-weight: lighter
-        line-height: 1.7rem
+        line-height: 2.4rem
         color: #ffffff
         margin-bottom: 3rem
+        text-align: center
     & button 
         width: 12rem
         @include fontSet()
@@ -50,7 +51,7 @@
 
 .progress__item
     width: 28.5rem
-    height: 30rem
+    height: 35rem
     background-color: #fff
     border-radius: 1rem
     box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1), -1rem -1rem 3rem rgba(0,0,0,0.1)
@@ -67,7 +68,7 @@
         margin-top: 1rem
     & p 
         width: 100%
-        @include fontSet()
+        @include fontSet(1.6rem)
         font-weight: bolder
         text-align: center
         color: $mainColor
