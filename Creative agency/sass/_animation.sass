@@ -1,0 +1,180 @@
+//header
+
+.header__logo
+    img
+        transform: scale(0)
+        transition: .8s
+        border-radius: 50%
+    .active__element
+        transform: scale(1)
+        border-radius: 0rem
+
+.header__nav
+    .features,
+    .offer,
+    .pricing,
+    .clients,
+    .facts,
+    .projects,
+    .team,
+    .contact
+        transform: translate(0, -100%)
+        transition: .2s
+        opacity: 0
+
+    .features
+        transition: .8s
+
+    .offer
+        transition: 1.4s
+
+    .pricing
+        transition: 2s
+
+    .clients
+        transition: 2.4s
+
+    .facts
+        transition: 2.8s
+
+    .projects
+        transition: 3.2s
+
+    .team
+        transition: 3.6s
+
+    .contact
+        transition: 4s
+
+    .active__element
+        transform: translate(0, 0)
+        opacity: 1
+
+//first block
+.first__block
+    h1
+        transform: translate(0rem, -180%)
+        opacity: 0
+        transition: 1s
+    h2 
+        transform: translate(-100%, 0)
+        opacity: 0
+        transition: 1s
+    p 
+        transform: translate(100%, 0)
+        opacity: 0
+        transition: 1s
+    button
+        transform: translate(0, 400%)
+        opacity: 0
+        transition: 1s
+    .active__element
+        transform: translate(0, 0)
+        opacity: 1
+    
+.progress__block
+    .progress__item
+        transform: scale(0)
+        transition: 1s
+        border-radius: 50%
+        p 
+            transform: translate(0, 0)
+            opacity: 1
+    .active__element
+        transform: scale(1)
+        border-radius: 1rem
+
+//we are creative agency 
+.wrap__creative__agency
+    img,
+    .right__block,
+    .left__block
+        transform: rotate(-360deg)
+        width: 1rem
+        height: 1rem
+        opacity: 0
+        transition: 1.5s
+    .active__element
+        transform: rotate(0deg)
+        width: 42rem
+        height: 100%
+        opacity: 1
+
+//amazing features
+.image__block
+    .features_element1,
+    .features_element3
+        transform: translate(-100%, 0)
+        opacity: 0
+        transition: 1.5s
+    .features_element2,
+    .features_element4
+        transform: translate(100%, 0)
+        opacity: 0
+        transition: 1.5s
+    .active__element
+        transform: translate(0, 0)
+        opacity: 1
+
+.amazing__features
+    .amazing_text__block
+        h1,
+        p, 
+        button
+            opacity: 0
+            transition: 3s
+        .active__element
+            opacity: 1
+
+// services we provide
+.services__we__provide
+    .left__side
+        transform: translate(-100%, 0)
+        opacity: 0
+        transition: 1.5s
+    .center__block
+        transform: translate(-700%, -50%)
+        opacity: 0
+        transition: 1.5s
+    .right__side
+        transform: translate(100%, 0)
+        opacity: 0
+        transition: 1.5s
+    .active__element
+        transform: translate(0, 0)
+        opacity: 1
+    .center__block.active__element
+        transform: translate(0, -50%)
+
+//we are perfect team
+.team__item
+    .team_img1,
+    .team_img2,
+    .team_img3,
+    .team_img4,
+    .team_img5
+        transform: scale(0)
+        transition: .2s
+        border-radius: 50%
+    .active__element
+        transform: scale(1)
+        border-radius: 0rem
+
+.team__item
+    .team_img2
+        transition: 1s
+.team__item
+    .team_img3
+        transition: 1.8s
+.team__item
+    .team_img4
+        transition: 2.6s
+.team__item
+    .team_img5
+        transition: 3.2s
+                    
+
+
+        
+
+
