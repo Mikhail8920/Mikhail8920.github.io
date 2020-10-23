@@ -1,380 +1,379 @@
-//header
-
-.header__logo
-    img
-        transform: scale(0)
-        transition: .8s
-        border-radius: 50%
-    .active__element
-        transform: scale(1)
-        border-radius: 0rem
-
-.header__nav
-    .features,
-    .offer,
-    .pricing,
-    .clients,
-    .facts,
-    .projects,
-    .team,
-    .contact
-        transform: translate(0, -100%)
-        transition: .2s
-        opacity: 0
-
-    .features
-        transition: .8s
-
-    .offer
-        transition: 1.4s
-
-    .pricing
-        transition: 2s
-
-    .clients
-        transition: 2.4s
-
-    .facts
-        transition: 2.8s
-
-    .projects
-        transition: 3.2s
-
-    .team
-        transition: 3.6s
-
-    .contact
-        transition: 4s
-
-    .active__element
-        &.features,
-        &.offer,
-        &.pricing,
-        &.clients,
-        &.facts,
-        &.projects,
-        &.team,
-        &.contact
-            transform: translate(0, 0)
-            opacity: 1
-
-//first block
-.first__block
-    h1
-        transform: translate(0rem, -50%)
-        opacity: 0
-        transition: 1s
-    h2 
-        transform: translate(-50%, 0)
-        opacity: 0
-        transition: 1s
-    p 
-        transform: translate(50%, 0)
-        opacity: 0
-        transition: 1s
-    button
-        transform: translate(0, 100%)
-        opacity: 0
-        transition: 1s
-    .active__element
-        transform: translate(0, 0)
-        opacity: 1
-    
-.progress__block
-    .progress__item
-        transform: scale(0)
-        transition: 1s
-        border-radius: 50%
-        p 
-            transform: translate(0, 0)
-            opacity: 1
-    .active__element
-        transform: scale(1)
-        border-radius: 1rem
-
-//we are creative agency 
-.wrap__creative__agency
-    img
-        transform: rotate(-360deg)
-        height: 1rem
-        opacity: 0
-        transition: 1.5s
-    .active__element
-        transform: rotate(0deg)
-        height: 100%
-        opacity: 1
-   
-.left__block,
-.right__block
-    transform: translate(-50%, 0)
-    opacity: 0
-    transition: 1.5s
-.right__block
-    transform: translate(50%, 0)
-    .active__element
-        .left__block,
-        .right__block
-            transform: translate(0, 0)
-            width: 38%
-            opacity: 1
-
-//amazing features
-.image__block
-    .features_element1,
-    .features_element3
-        transform: translate(-100%, 0)
-        opacity: 0
-        transition: 1.5s
-    .features_element2,
-    .features_element4
-        transform: translate(100%, 0)
-        opacity: 0
-        transition: 1.5s
-    .active__element
-        &.features_element1,
-        &.features_element3,
-        &.features_element2,
-        &.features_element4
-            transform: translate(0, 0)
-            opacity: 1
-
-.amazing__features
-    .amazing_text__block
-        h1,
-        p, 
-        button
-            opacity: 0
-            transition: 3s
+@media (min-width:1024px)
+    //header
+    .header__logo
+        img
+            -webkit-transform: scale(0)
+            -webkit-transition: .5s
+            -webkit-border-radius: 50%
         .active__element
-            opacity: 1
+            -webkit-transform: scale(1)
+            -webkit-border-radius: 0rem
 
-// services we provide
-.services__we__provide
-    .left__side
-        transform: translate(-30%, 0)
-        opacity: 0
-        transition: 1.5s
-    .center__block
-        transform: translate(-50%, -50%)
-        opacity: 0
-        transition: 1.5s
-    .right__side
-        transform: translate(100%, 0)
-        opacity: 0
-        transition: 1.5s
-    .active__element
-        &.right__side,
-        &.center__block,
-        &.left__side
-            transform: translate(0, 0)
-            opacity: 1
-    .center__block.active__element
-        transform: translate(0, -50%)
+    .header__nav
+        .features,
+        .offer,
+        .pricing,
+        .clients,
+        .facts,
+        .projects,
+        .team,
+        .contact
+            -webkit-transform: translate(0, -100%)
+            -webkit-transition: .2s
+            -webkit-opacity: 0
 
-//we are perfect team
-.we__are__perfect__team
-    h1, 
-    p 
-        transform: translate(0, -300%)
-        opacity: 0
-        transition: 1.5s
-    .active__element
-        transform: translate(0, 0)
-        opacity: 1
-                    
-.team__item
-    h3,
-    p 
-        transform: translate(0, -100%)
-        opacity: 0
-        ttransition: 3s
-    .team_img1,
-    .team_img2,
-    .team_img3,
-    .team_img4,
-    .team_img5
-        transform: scale(0)
-        transition: .2s
-        border-radius: 50%
-    .active__element
-        &.team_img1,
-        &.team_img2,
-        &.team_img3,
-        &.team_img4,
-        &.team_img5
-            transform: scale(1)
-            border-radius: 0rem
+        .features
+            -webkit-transition: .3s
 
-.team__item
-    .team_img2
-        transition: 1s
-.team__item
-    .team_img3
-        transition: 1.8s
-.team__item
-    .team_img4
-        transition: 2.6s
-.team__item
-    .team_img5
-        transition: 3.2s
+        .offer
+            -webkit-transition: .4s
 
-//Anita Alen 
-.Anita__left__block 
-    h1, 
-    h3, 
-    p 
-        transform: translate(-30%, 0)
-        opacity: 0
-        transition: .5s
-    h3 
-        transition: 1s
-    p 
-        transition: 2s 
-    .active__element
-        transform: translate(0, 0)
-        opacity: 1
-                     
-.Creativity,
-    &::before
-        width: 0
-        transition: 1s
-    &.active__element::before
-        width: 95%
+        .pricing
+            -webkit-transition: .5s
 
-.Team__work    
-    &::before
-        width: 0
-        transition: 1.5s
-    &.active__element::before
-        width: 80%
+        .clients
+            -webkit-transition: .6s
 
-.Designing
-    &::before
-        width: 0
-        transition: 2s
-    &.active__element::before
-        width: 90%
+        .facts
+            -webkit-transition: .7s
 
-.Anita__right__block
-    .Anita__photo,
-    .social__icon__item
-        img 
-            transform: scale(0)
-            transition: 3.5s
-            border-radius: 50%
+        .projects
+            -webkit-transition: .8s
+
+        .team
+            -webkit-transition: .9s
+
+        .contact
+            -webkit-transition: 1s
+
         .active__element
-            transform: scale(1)
-            border-radius: 0
+            &.features,
+            &.offer,
+            &.pricing,
+            &.clients,
+            &.facts,
+            &.projects,
+            &.team,
+            &.contact
+                -webkit-transform: translate(0, 0)
+                -webkit-opacity: 1
 
-.Anita__social
-    p 
-        transform: translate(-30%, 0)
-        opacity: 0
-        transition: 2s
-    .active__element
-        transform: translate(0, 0)
-        opacity: 1 
-
-//take your website
-.professional
-    h2,
-    h3, 
-    p 
-        transform: translate(0, -50%)
-        opacity: 0
-        transition: 2s
-    .active__element
-        transform: translate(0, 0)
-        opacity: 1
-
-.Our__Best
-    h1,
-    h3, 
-    p 
-        transform: translate(0, -100%)
-        opacity: 0
-        transition: 2s
-    li 
-        transform: translate(-200%, 0)
-        opacity: 0
-    li:nth-child(1)
-        transition: .5s
-    li:nth-child(2)
-        transition: .8s
-    li:nth-child(3)
-        transition: 1.1s
-    li:nth-child(4)
-        transition: 1.4s
-    li:nth-child(5)
-        transition: 1.7s
-    li:nth-child(6)
-        transition: 2s
-    button 
-        transform: translate(0, 300%) 
-        transition: 2s
-    .active__element
-        transform: translate(0, 0)
-        opacity: 1
-
-.take__your__website
-    .website__right__side
+    //first block
+    .first__block
         h1
-            transform: translate(0, -200%)
-            opacity: 0
-            transition: 2s
-        p
-            transform: translate(-20%, 0)
-            opacity: 0
-            transition: 2s
+            -webkit-transform: translate(0rem, -50%)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        h2 
+            -webkit-transform: translate(-50%, 0)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        p 
+            -webkit-transform: translate(50%, 0)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        button
+            -webkit-transform: translate(0, 100%)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
         .active__element
-            transform: translate(0, 0)
-            opacity: 1
+            -webkit-transform: translate(0, 0)
+            -webkit-opacity: 1
 
-//get in touch
-.get__in__touch
-    h1
-        transform: translate(0, -50%)
-        opacity: 0
-        transition: 1s
-    .active__element
-        transform: translate(0, 0)
-        opacity: 1
+    .progress__block
+        .progress__item
+            -webkit-transform: scale(0)
+            -webkit-transition: 1s
+            -webkit-border-radius: 50%
+            p 
+                -webkit-transform: translate(0, 0)
+                -webkit-opacity: 1
+        .active__element
+            -webkit-transform: scale(1)
+            -webkit-border-radius: 1rem
 
-.get__social__block   
-    .get__social__item
-        transform: scale(0)
-        opacity: 0
-        transition: 1s
-        border-radius: 50%
-    .active__element
-        transform: scale(1)
-        opacity: .6
-        border-radius: 0rem
+    //we are creative agency 
+    .wrap__creative__agency
+        img
+            -webkit-transform: scale(0)
+            -webkit-height: 1rem
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        .active__element
+            -webkit-transform: scale(1)
+            -webkit-height: 100%
+            -webkit-opacity: 1
+    
+    .left__block,
+    .right__block
+        -webkit-transform: translate(-50%, 0)
+        -webkit-opacity: 0
+        -webkit-transition: 1s
+    .right__block
+        -webkit-transform: translate(50%, 0)
+        .active__element
+            .left__block,
+            .right__block
+                -webkit-transform: translate(0, 0)
+                -webkit-width: 38%
+                -webkit-opacity: 1
 
-//footer
-.mail__icon,
-.call__Us__icon,
-.address__icon
-    img 
-        transform: translate(0, -50%)
-        opacity: 0
-        transition: 1.5s
-    .active__element
-        transform: translate(0, 0)
-        opacity: 1
+    //amazing features
+    .image__block
+        .features_element1,
+        .features_element3
+            -webkit-transform: translate(-100%, 0)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        .features_element2,
+        .features_element4
+            -webkit-transform: translate(100%, 0)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        .active__element
+            &.features_element1,
+            &.features_element3,
+            &.features_element2,
+            &.features_element4
+                -webkit-transform: translate(0, 0)
+                -webkit-opacity: 1
 
-.mail__text,
-.call__Us__text,
-.address__text
-    h3,
-    a 
-        transform: translate(-50%, 0)
-        opacity: 0
-        transition: 1.5s
-    .active__element
-        transform: translate(0, 0)
-        opacity: 1
+    .amazing__features
+        .amazing_text__block
+            h1,
+            p, 
+            button
+                -webkit-opacity: 0
+                -webkit-transition: 1s
+            .active__element
+                -webkit-opacity: 1
 
+    // services we provide
+    .services__we__provide
+        .left__side
+            -webkit-transform: translate(-30%, 0)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        .center__block
+            -webkit-transform: translate(-50%, -50%)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        .right__side
+            -webkit-transform: translate(100%, 0)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        .active__element
+            &.right__side,
+            &.center__block,
+            &.left__side
+                -webkit-transform: translate(0, 0)
+                -webkit-opacity: 1
+        .center__block.active__element
+            -webkit-transform: translate(0, -50%)
+
+    //we are perfect team
+    .we__are__perfect__team
+        h1, 
+        p 
+            -webkit-transform: translate(0, -300%)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        .active__element
+            -webkit-transform: translate(0, 0)
+            -webkit-opacity: 1
+
+    .team__item
+        h3,
+        p 
+            -webkit-transform: translate(0, -100%)
+            -webkit-opacity: 0
+            -webkit-ttransition: 1s
+        .team_img1,
+        .team_img2,
+        .team_img3,
+        .team_img4,
+        .team_img5
+            -webkit-transform: scale(0)
+            -webkit-transition: .2s
+            -webkit-border-radius: 50%
+        .active__element
+            &.team_img1,
+            &.team_img2,
+            &.team_img3,
+            &.team_img4,
+            &.team_img5
+                -webkit-transform: scale(1)
+                -webkit-border-radius: 0rem
+
+    .team__item
+        .team_img2
+            -webkit-transition: .4s
+    .team__item
+        .team_img3
+            -webkit-transition: .6s
+    .team__item
+        .team_img4
+            -webkit-transition: .8s
+    .team__item
+        .team_img5
+            -webkit-transition: 1s
+
+    //Anita Alen 
+    .Anita__left__block 
+        h1, 
+        h3, 
+        p 
+            -webkit-transform: translate(-30%, 0)
+            -webkit-opacity: 0
+            -webkit-transition: .5s
+        h3 
+            -webkit-transition: 1s
+        p 
+            -webkit-transition: 1s 
+        .active__element
+            -webkit-transform: translate(0, 0)
+            -webkit-opacity: 1
+
+    .Creativity,
+        &::before
+            width: 0
+            transition: 1s
+        &.active__element::before
+            width: 95%
+
+    .Team__work    
+        &::before
+            width: 0
+            transition: 1s
+        &.active__element::before
+            width: 80%
+
+    .Designing
+        &::before
+            width: 0
+            transition: 1s
+        &.active__element::before
+            width: 90%
+
+    .Anita__right__block
+        .Anita__photo,
+        .social__icon__item
+            img 
+                -webkit-transform: scale(0)
+                -webkit-transition: 1s
+                -webkit-border-radius: 50%
+            .active__element
+                -webkit-transform: scale(1)
+                -webkit-border-radius: 0
+
+    .Anita__social
+        p 
+            -webkit-transform: translate(-30%, 0)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        .active__element
+            -webkit-transform: translate(0, 0)
+            -webkit-opacity: 1 
+
+    //take your website
+    .professional
+        h2,
+        h3, 
+        p 
+            -webkit-transform: translate(0, -50%)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        .active__element
+            -webkit-transform: translate(0, 0)
+            -webkit-opacity: 1
+
+    .Our__Best
+        h1,
+        h3, 
+        p 
+            -webkit-transform: translate(0, -100%)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        li 
+            -webkit-transform: translate(-200%, 0)
+            -webkit-opacity: 0
+        li:nth-child(1)
+            -webkit-transition: .2s
+        li:nth-child(2)
+            -webkit-transition: .3s
+        li:nth-child(3)
+            -webkit-transition: .4s
+        li:nth-child(4)
+            -webkit-transition: .5s
+        li:nth-child(5)
+            -webkit-transition: .6s
+        li:nth-child(6)
+            transition: .7s
+        button 
+            -webkit-transform: translate(0, 300%) 
+            -webkit-transition: 1s
+        .active__element
+            -webkit-transform: translate(0, 0)
+            -webkit-opacity: 1
+
+    .take__your__website
+        .website__right__side
+            h1
+                -webkit-transform: translate(0, -200%)
+                -webkit-opacity: 0
+                -webkit-transition: 1s
+            p
+                -webkit-transform: translate(-20%, 0)
+                -webkit-opacity: 0
+                -webkit-transition: 1s
+            .active__element
+                -webkit-transform: translate(0, 0)
+                -webkit-opacity: 1
+
+    //get in touch
+    .get__in__touch
+        h1
+            -webkit-transform: translate(0, -50%)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        .active__element
+            -webkit-transform: translate(0, 0)
+            -webkit-opacity: 1
+
+    .get__social__block   
+        .get__social__item
+            -webkit-transform: scale(0)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+            -webkit-border-radius: 50%
+        .active__element
+            -webkit-transform: scale(1)
+            -webkit-opacity: .6
+            -webkit-border-radius: 0rem
+
+    //footer
+    .mail__icon,
+    .call__Us__icon,
+    .address__icon
+        img 
+            -webkit-transform: translate(0, -50%)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        .active__element
+            -webkit-transform: translate(0, 0)
+            -webkit-opacity: 1
+
+    .mail__text,
+    .call__Us__text,
+    .address__text
+        h3,
+        a 
+            -webkit-transform: translate(-50%, 0)
+            -webkit-opacity: 0
+            -webkit-transition: 1s
+        .active__element
+            -webkit-transform: translate(0, 0)
+            -webkit-opacity: 1
         
 
 
