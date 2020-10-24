@@ -164,8 +164,8 @@ p {
   color: #020202;
   text-transform: uppercase;
   border-radius: 3rem;
-  padding: .6rem 1.6rem;
-  -ms-padding: 2rem 1.5rem;
+  padding: 1rem 1.6rem;
+  line-height: .2rem;
   border: solid #fff;
   cursor: pointer;
   -webkit-transition: .2s;
@@ -1300,6 +1300,8 @@ p {
     color: #fff;
     -webkit-transform: scale(1);
             transform: scale(1);
+    -webkit-transition: 0s;
+    transition: 0s;
   }
   #menu__toggle:checked ~ .menu__button span {
     -webkit-transform: rotate(45deg);
@@ -1320,7 +1322,7 @@ p {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
-    margin-bottom: 30rem;
+    margin-bottom: 36rem;
   }
   .first__block h1 {
     font-size: 4rem;
@@ -1371,11 +1373,14 @@ p {
   }
   .creative__agency {
     width: 100%;
-    height: 94rem;
+    height: 97rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 2.5rem;
+    margin: 2.5rem 0;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .wrap__creative__agency {
     width: 100%;
@@ -1592,6 +1597,15 @@ p {
     width: 95%;
     max-width: 50rem;
     margin-bottom: 4rem;
+  }
+  .Team__work::before {
+    width: 80%;
+  }
+  .Designing::before {
+    width: 90%;
+  }
+  .Creativity::before {
+    width: 95%;
   }
   .Anita__right__block {
     width: 100%;
@@ -1859,11 +1873,14 @@ p {
   }
   .creative__agency {
     width: 100%;
-    height: 75rem;
+    height: 82rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 5rem;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .wrap__creative__agency {
     width: 100%;
@@ -2069,6 +2086,15 @@ p {
   .Team__work,
   .Designing {
     margin: 0 1rem 3rem 1rem;
+  }
+  .Team__work::before {
+    width: 80%;
+  }
+  .Designing::before {
+    width: 90%;
+  }
+  .Creativity::before {
+    width: 95%;
   }
   .Designing {
     margin-bottom: 6rem;
@@ -2693,11 +2719,11 @@ p {
   .header__logo img {
     -webkit-transform: scale(0);
     -webkit-transition: .5s;
-    -webkit-border-radius: 50%;
+    border-radius: 50%;
   }
   .header__logo .active__element {
     -webkit-transform: scale(1);
-    -webkit-border-radius: 0rem;
+    border-radius: 0rem;
   }
   .header__nav .features,
   .header__nav .offer,

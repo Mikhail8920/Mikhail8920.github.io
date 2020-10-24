@@ -75,9 +75,10 @@
     //creative__agency
     .creative__agency
         width: 100%
-        height: 75rem
+        height: 82rem
         display: flex
         margin-bottom: 5rem
+        align-items: flex-start
         
     .wrap__creative__agency
         width: 100%
@@ -187,8 +188,7 @@
             max-width: 50rem
             text-align: center
             padding: 0 1rem
-        
-
+    
     .team__block
         width: 89%
         flex-wrap: wrap
@@ -199,7 +199,6 @@
         &::before
             height: 60%
         
-
     //anita__block
     .Anita__block
         margin-bottom: 2rem
@@ -232,7 +231,19 @@
     .Creativity,
     .Team__work,
     .Designing
-        margin: 0 1rem 3rem 1rem    
+        margin: 0 1rem 3rem 1rem
+    
+    .Team__work,    
+        &::before
+            width: 80%
+
+    .Designing,    
+        &::before
+            width: 90%
+             
+    .Creativity,    
+        &::before
+            width: 95%
 
     .Designing
         margin-bottom: 6rem
