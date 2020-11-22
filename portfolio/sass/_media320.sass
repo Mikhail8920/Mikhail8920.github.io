@@ -34,6 +34,9 @@
             font-size: 1.4rem
 
     //about
+    .about
+        height: 243rem
+
     .about__me
         font-size: 3.8rem
         &::after
@@ -73,7 +76,8 @@
 
     //portfolio
     .portfolio
-        height: 170rem
+        height: 265rem
+        padding-top: 6rem
 
     .my__works
         font-size: 3.8rem
@@ -83,13 +87,13 @@
 
     .work__block
         width: 28rem
-        height: 101rem
+        height: 250rem
         flex-direction: column
         flex-wrap: nowrap
 
     .work__item
         width: 26rem
-        height: 35rem
+        height: 40rem
         margin: 0rem 0rem 3rem 0rem
         justify-content: flex-start
 
@@ -108,7 +112,6 @@
     
     .work__item__background
         width: 26rem
-        left: .5rem
 
     .work__wrap img 
         width: 26rem
@@ -137,25 +140,20 @@
         margin-bottom: 3rem
 
     .contact__block
-        width: 28rem
+        width: 87.5%
         height: 14rem
-        align-items: center
-
-    .contact__phone__and__mail
-        flex-direction: column
-        justify-content: center
+        flex-wrap: wrap
+        justify-content: space-evenly
         align-items: center
 
     .contact__phone,
     .contact__mail,
-    .contact__git
+    .contact__mail,
+    .contact__gitlab
+        width: 22rem
 
-        margin: 0rem 0rem 1rem 0rem
-
-    .contact__git
-        justify-content: center
-    
     .contact__phone a,
     .contact__mail a,
-    .contact__git a 
+    .contact__github a, 
+    .contact__gitlab a 
         font-size: 1.4rem

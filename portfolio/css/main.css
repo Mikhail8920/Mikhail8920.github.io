@@ -304,7 +304,7 @@ a {
 }
 
 .portfolio {
-  height: 110rem;
+  height: 175rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -344,7 +344,7 @@ a {
 }
 
 .work__block {
-  width: 100rem;
+  width: 95.5%;
   height: 80rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -361,7 +361,7 @@ a {
 
 .work__item {
   width: 30rem;
-  height: 38rem;
+  height: 48rem;
   text-align: center;
   border-radius: 1rem;
   margin: 2rem 1rem;
@@ -522,30 +522,24 @@ a {
 
 .contact__block {
   width: 68rem;
-  height: 20rem;
+  height: 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.contact__phone__and__mail {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .contact__phone,
-.contact__mail {
+.contact__mail,
+.contact__github,
+.contact__gitlab {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -555,10 +549,10 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 1rem 4rem 2rem 4rem;
+  margin: 0 2rem;
 }
 
-.contact__git {
+.contact__gitlab {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -573,14 +567,16 @@ a {
   padding-right: .8rem;
 }
 
-.contact__git img {
-  width: 1.7rem;
-  height: 1.7rem;
+.contact__github img,
+.contact__gitlab img {
+  width: 2.1rem;
+  height: 2.1rem;
 }
 
 .contact__phone a,
 .contact__mail a,
-.contact__git a {
+.contact__github a,
+.contact__gitlab a {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem;
   text-transform: lowercase;
@@ -588,7 +584,8 @@ a {
   cursor: pointer;
 }
 
-.contact__git a {
+.contact__github a,
+.contact__gitlab a {
   padding-left: .8rem;
 }
 
@@ -630,6 +627,9 @@ a {
   .name__and__position h2 {
     width: 100%;
     font-size: 1.4rem;
+  }
+  .about {
+    height: 243rem;
   }
   .about__me {
     font-size: 3.8rem;
@@ -677,7 +677,8 @@ a {
     margin-left: 0rem;
   }
   .portfolio {
-    height: 170rem;
+    height: 265rem;
+    padding-top: 6rem;
   }
   .my__works {
     font-size: 3.8rem;
@@ -688,7 +689,7 @@ a {
   }
   .work__block {
     width: 28rem;
-    height: 101rem;
+    height: 250rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -698,7 +699,7 @@ a {
   }
   .work__item {
     width: 26rem;
-    height: 35rem;
+    height: 40rem;
     margin: 0rem 0rem 3rem 0rem;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -719,7 +720,6 @@ a {
   }
   .work__item__background {
     width: 26rem;
-    left: .5rem;
   }
   .work__wrap img {
     width: 26rem;
@@ -748,37 +748,27 @@ a {
     margin-bottom: 3rem;
   }
   .contact__block {
-    width: 28rem;
+    width: 87.5%;
     height: 14rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .contact__phone__and__mail {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .contact__phone,
   .contact__mail,
-  .contact__git {
-    margin: 0rem 0rem 1rem 0rem;
-  }
-  .contact__git {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  .contact__mail,
+  .contact__gitlab {
+    width: 22rem;
   }
   .contact__phone a,
   .contact__mail a,
-  .contact__git a {
+  .contact__github a,
+  .contact__gitlab a {
     font-size: 1.4rem;
   }
 }
@@ -816,7 +806,7 @@ a {
   }
   .portfolio {
     width: 100%;
-    height: 145rem;
+    height: 225rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -837,7 +827,13 @@ a {
     display: none;
   }
   .contact__block {
-    width: 100%;
+    width: 87.5%;
+  }
+  .contact__phone,
+  .contact__mail,
+  .contact__mail,
+  .contact__gitlab {
+    width: 40%;
   }
   .contacts p {
     text-align: center;
@@ -845,7 +841,7 @@ a {
   }
 }
 
-@media (min-width: 1366px) and (max-width: 2560px) {
+@media (min-width: 1366px) {
   .name__and__position h2 {
     font-size: 1.8rem;
   }
@@ -861,6 +857,9 @@ a {
   .about__text__about,
   .skills {
     width: 132rem;
+  }
+  .portfolio {
+    height: 125rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

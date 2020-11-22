@@ -31,23 +31,23 @@
 
 .contact__block
     width: 68rem
-    height: 20rem
+    height: 10rem
     display: flex
-    flex-direction: column
-    justify-content: flex-start
+    flex-wrap: wrap
+    justify-content: center
     align-items: center
 
-.contact__phone__and__mail
-    display: flex
-
 .contact__phone,
-.contact__mail
+.contact__mail,
+.contact__github,
+.contact__gitlab
     display: flex
     justify-content: center
     align-items: center
-    margin: 1rem 4rem 2rem 4rem
+    margin: 0 2rem
 
-.contact__git
+.contact__github
+.contact__gitlab
     display: flex
     align-items: center
 
@@ -56,19 +56,22 @@
     width: 2.5rem
     padding-right: .8rem
 
-.contact__git img
-    width: 1.7rem
-    height: 1.7rem
+.contact__github img,
+.contact__gitlab img,
+    width: 2.1rem
+    height: 2.1rem
 
 .contact__phone a,
 .contact__mail a,
-.contact__git a 
+.contact__github a,
+.contact__gitlab a     
     font-family: 'Open Sans', sans-serif 
     font-size: 1.6rem
     text-transform: lowercase
     color: #000
     cursor: pointer
 
-.contact__git a 
+.contact__github a, 
+.contact__gitlab a 
     padding-left: .8rem
 
