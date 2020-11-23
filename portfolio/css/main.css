@@ -520,7 +520,8 @@ a {
   margin-bottom: 1rem;
 }
 
-.contact__block {
+.contact__block,
+.git__block {
   width: 68rem;
   height: 10rem;
   display: -webkit-box;
@@ -561,16 +562,24 @@ a {
           align-items: center;
 }
 
-.contact__phone img,
-.contact__mail img {
-  width: 2.5rem;
+.contact__phone img {
+  width: 3rem;
   padding-right: .8rem;
 }
 
-.contact__github img,
+.contact__mail img {
+  width: 3rem;
+  padding-right: .8rem;
+}
+
+.contact__github img {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
 .contact__gitlab img {
-  width: 2.1rem;
-  height: 2.1rem;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .contact__phone a,
@@ -578,7 +587,7 @@ a {
 .contact__github a,
 .contact__gitlab a {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-transform: lowercase;
   color: #000;
   cursor: pointer;
@@ -747,7 +756,8 @@ a {
     padding: 0rem 2rem;
     margin-bottom: 3rem;
   }
-  .contact__block {
+  .contact__block,
+  .git__block {
     width: 87.5%;
     height: 14rem;
     -ms-flex-wrap: wrap;
@@ -826,7 +836,8 @@ a {
   .work__item__empty {
     display: none;
   }
-  .contact__block {
+  .contact__block,
+  .git__block {
     width: 87.5%;
   }
   .contact__phone,
