@@ -1,0 +1,51 @@
+@media (min-width:320px) and (max-width:575px)
+
+    .hamburger__menu
+        & input
+            display: none
+
+    #menu__toggle
+        opacity: 0
+
+    .menu__button
+        display: flex
+        align-items: center
+        position: absolute
+        top: 1.5rem
+        right: 1.5rem
+        width: 2rem
+        height: 2rem
+        cursor: pointer
+        z-index: 2
+        span,
+        span::before,
+        span::after
+            display: block
+            position: absolute
+            width: 100%
+            height: 0.2rem
+            background-color: #85B657
+            transition: .2s
+
+    .menu__button span::before
+        content: ""
+        top: -1rem
+
+    .menu__button span::after
+        content: ""
+        top: 1rem
+
+    .navbar-nav
+        visibility: hidden
+        z-index: 1
+
+    #menu__toggle:checked ~ .menu__button span
+        transform: rotate(45deg)
+
+    #menu__toggle:checked ~ .menu__button span::before
+        top: 0
+        transform: rotate(0)
+
+    #menu__toggle:checked ~ .menu__button span::after
+        top: 0rem
+        transform: rotate(90deg)
