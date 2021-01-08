@@ -147,8 +147,6 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   padding: .5rem 2.2rem;
-  -webkit-transition: all .2s;
-  transition: all .2s;
 }
 
 .header__menu__nav__item:hover {
@@ -1010,8 +1008,6 @@ main {
     background-color: #f0c536;
     -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
             box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
     visibility: hidden;
   }
   .header__menu__nav {
@@ -1041,8 +1037,6 @@ main {
     height: 2rem;
     cursor: pointer;
     z-index: 1;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
   }
   .menu__button span,
   .menu__button span::before,
@@ -1052,8 +1046,6 @@ main {
     width: 100%;
     height: 0.2rem;
     background-color: #f0c536;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
   }
   .menu__button span::before {
     content: "";
