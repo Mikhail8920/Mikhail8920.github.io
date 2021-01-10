@@ -1,0 +1,76 @@
+.about
+    width: 100%
+    display: flex
+    justify-content: center
+    margin-top: 8rem
+
+.about__wrap
+    max-width: 120rem
+
+.about__image
+    width: 42%
+    position: relative
+
+.about__image::after
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 38rem
+    @include gradient
+    opacity: .5
+    
+.about__content
+    display: flex
+    justify-content: space-between
+
+.button
+    @include button
+
+.about__info
+    width: 58%
+    padding: 0 8rem
+
+.about__info-header
+    font-family: 'Roboto', sans-serif
+    font-size: 3.6rem
+    font-weight: 400
+    margin: 4rem 0
+
+.about__info-text
+    font-family: 'Roboto', sans-serif
+    font-size: 1.8rem
+    font-weight: 400
+
+.button
+    margin: 2rem 0
+
+.servises
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    margin-top: 8rem
+
+.servises__elem
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 35rem
+    margin: 1.5rem 2rem
+
+.servises__elem-icon
+    margin-bottom: 2rem
+
+.servises__elem-header
+    font-family: 'Roboto', sans-serif
+    font-size: 1.8rem
+    font-weight: 700
+    margin-bottom: 2rem
+
+.servises__elem-text
+    font-family: 'Roboto', sans-serif
+    font-size: 1.6rem
+    font-weight: 400
+    text-align: center

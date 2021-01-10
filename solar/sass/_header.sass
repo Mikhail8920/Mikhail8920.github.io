@@ -9,17 +9,18 @@
     flex-direction: column
     align-items: center
 
-.header__gradient
+.header::after
+    content: ''
     position: absolute
     top: 0
     left: 0
     width: 100%
     height: 45rem
-    background: linear-gradient(to bottom right, #fd8a33 0%, #5b7bff 100%)
+    @include gradient
     opacity: .5
 
 .header__top-line
-    width: 83rem
+    width: 120rem
     display: flex
     justify-content: space-between
     margin-top: 2.5rem
@@ -28,6 +29,7 @@
     z-index: 5
 
 .logo__text
+    font-family: 'Roboto', sans-serif
     font-size: 2.4rem
     color: #ffffff
     font-weight: 700
@@ -41,10 +43,41 @@
     align-items: center
 
 .nav-bar__list-elem
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 7rem
+    height: 3rem
     margin: 0 1rem
     z-index: 5
 
 .nav-bar__link
+    font-family: 'Roboto', sans-serif
     font-size: 1.4rem
     color: #ffffff
     font-weight: 700
+
+.nav-bar__list-elem--active,
+.nav-bar__list-elem:hover
+    transition: .2s
+    background: #07b569
+
+
+.header-content
+    width: 90rem
+    text-align: center
+    margin-top: 12rem
+    z-index: 5
+
+.header-content__text
+    font-family: 'Roboto', sans-serif
+    font-weight: 400
+    font-size: 5.4rem
+    line-height: 5.4rem
+    color: #ffffff
+
+.header-content__span
+    font-weight: 700
+
+
+
