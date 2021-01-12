@@ -274,14 +274,16 @@ button:focus {
 .servises__elem-header {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
+  font-weight: 400;
   font-weight: 700;
   margin-bottom: 2rem;
 }
 
 .servises__elem-text {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 400;
+  font-size: 1.6rem;
   text-align: center;
 }
 
@@ -296,7 +298,7 @@ button:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 8rem;
+  margin: 8rem 0 6rem 0;
 }
 
 .project__header {
@@ -330,6 +332,48 @@ button:focus {
   background: -webkit-gradient(linear, left top, right bottom, from(#007850), to(#025181));
   background: linear-gradient(to bottom right, #007850 0%, #025181 100%);
   opacity: .7;
+}
+
+.portfolio__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 45rem;
+  background: -webkit-gradient(linear, left top, right bottom, from(#007850), to(#025181));
+  background: linear-gradient(to bottom right, #007850 0%, #025181 100%);
+}
+
+.portfolio__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.portfolio__quotes {
+  font-size: 10rem;
+  line-height: 8rem;
+  margin-top: 7rem;
+}
+
+.portfolio__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  max-width: 80rem;
+  font-size: 1.4rem;
+  text-align: center;
 }
 
 .contacts {
@@ -403,8 +447,9 @@ button:focus {
 .map-block__adress {
   width: 10rem;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 400;
+  margin-bottom: 1rem;
 }
 
 .input-block__input,
@@ -422,6 +467,10 @@ button:focus {
 
 .contacts__block-button {
   margin: 2.5rem 0 0 0;
+}
+
+.footer {
+  margin-top: 8rem;
 }
 
 .footer__wrap {
@@ -472,6 +521,7 @@ button:focus {
       -ms-flex-align: start;
           align-items: flex-start;
   color: #ffffff;
+  z-index: 5;
 }
 
 .content-elem {
@@ -483,6 +533,7 @@ button:focus {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 18rem;
+  margin: 0 5rem;
 }
 
 .content-elem--wide {
@@ -493,11 +544,24 @@ button:focus {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.content-elem__adress {
+  width: 10rem;
+  margin-bottom: 2rem;
 }
 
 .content-elem__text {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.content-elem__contacts,
+.content-elem__mail {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
