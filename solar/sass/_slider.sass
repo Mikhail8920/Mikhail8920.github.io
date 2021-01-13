@@ -1,0 +1,70 @@
+.slider 
+    width: 55rem
+    position: relative
+    overflow: hidden
+
+.slider__wrapper 
+    height: 18rem
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: transform 0.6s ease
+
+.slider__item 
+    display: flex
+    flex-direction: column
+    align-items: center
+    flex: 0 0 20%
+    max-width: 20%
+
+.slider__item-name,
+.slider__item-position
+    font-size: .8rem
+
+.slider__control 
+    position: absolute
+    top: 50%
+    display: none
+    align-items: center
+    justify-content: center
+    width: 1rem
+    color: #fff
+    text-align: center
+    opacity: 0.5
+    height: 4rem
+    transform: translateY(-50%)
+    opacity: 0.3
+
+.slider__control--show 
+    display: flex
+
+.slider__control:hover,
+.slider__control:focus 
+    color: #fff
+    text-decoration: none
+    outline: 0
+    opacity: .9
+
+.slider__control--left 
+    left: 0
+
+.slider__control--right 
+    right: 0
+
+.slider__control::before 
+    content: ''
+    display: inline-block
+    width: 2rem
+    height: 2rem
+    background: transparent no-repeat center center
+    background-size: 100% 100%
+
+.slider__control--left::before 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+
+.slider__control--right::before 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+
+// .slider__item>div 
+//     height: 10rem
+//     text-align: center
