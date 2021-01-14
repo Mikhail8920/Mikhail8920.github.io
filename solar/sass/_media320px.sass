@@ -1,1 +1,83 @@
 @media (min-width:320px) and (max-width:767px)
+
+    .header__top-line
+        width: 100%
+
+    .nav-bar
+        width: 100%
+
+
+    .hamburger__menu  
+        display: flex
+        align-items: center
+
+    #menu__toggle
+        opacity: 0
+
+    .menu__button
+        display: flex
+        align-items: center
+        position: absolute
+        top: 1.5rem
+        left: 1.5rem
+        width: 2rem
+        height: 2rem
+        cursor: pointer
+        z-index: 1
+        span,
+        span::before,
+        span::after
+            display: block
+            position: absolute
+            width: 100%
+            height: 0.2rem
+            background-color: #b4b2b2
+
+    .menu__button span::before
+        content: ""
+        top: -1rem
+
+    .menu__button span::after
+        content: ""
+        top: 1rem
+
+    .nav-bar__list
+        display: flex
+        flex-direction: column
+        align-items: start
+        margin: 0
+        padding: 8rem 0rem
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        opacity: 0.9
+        background-color: #fc4263 
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2)
+        visibility: hidden
+
+    .nav-bar__link
+        display: block
+        top: 0
+        left: 0
+        font-size: 1.8rem
+        font-weight: 700
+        padding: 0rem 0rem 2rem 2rem 
+        color: #222222
+        &:hover
+            color: #fff
+
+    .header__nav span
+        display: none
+
+    #menu__toggle:checked ~ .menu__button span
+        transform: rotate(45deg)
+
+    #menu__toggle:checked ~ .menu__button span::before
+        top: 0
+        transform: rotate(0)
+
+    #menu__toggle:checked ~ .menu__button span::after
+        top: 0rem
+        transform: rotate(90deg)
