@@ -1,11 +1,23 @@
 @media (min-width:320px) and (max-width:767px)
 
+    //header
+    .header
+        background-size: auto
+        height: 32rem
+
+    .header::after
+        height: 32rem
+
     .header__top-line
         width: 100%
+        justify-content: flex-end
+        margin-top: 1rem
+
+    .logo
+        margin-right: 1.5rem
 
     .nav-bar
-        width: 100%
-
+        width: 0
 
     .hamburger__menu  
         display: flex
@@ -23,7 +35,7 @@
         width: 2rem
         height: 2rem
         cursor: pointer
-        z-index: 1
+        z-index: 100
         span,
         span::before,
         span::after
@@ -46,16 +58,20 @@
         flex-direction: column
         align-items: start
         margin: 0
-        padding: 8rem 0rem
+        padding-top: 5rem
         position: absolute
         top: 0
         left: 0
         width: 100%
-        height: 100%
+        height: 32rem
         opacity: 0.9
-        background-color: #fc4263 
+        background-color: #228f6e 
         box-shadow: 1px 0px 6px rgba(0, 0, 0, .2)
         visibility: hidden
+        z-index: 99
+
+    .nav-bar__list-elem
+        width: 10rem
 
     .nav-bar__link
         display: block
@@ -63,8 +79,8 @@
         left: 0
         font-size: 1.8rem
         font-weight: 700
-        padding: 0rem 0rem 2rem 2rem 
-        color: #222222
+        padding: 2rem 0
+        color: #ffffff
         &:hover
             color: #fff
 
@@ -81,3 +97,104 @@
     #menu__toggle:checked ~ .menu__button span::after
         top: 0rem
         transform: rotate(90deg)
+
+    .header-content
+        width: 100%
+        margin-top: 5rem
+
+    //about
+    .about
+        margin-top: 1rem
+    .about__wrap
+        width: 100%
+
+
+    .about__content
+        display: flex
+        flex-direction: column
+
+    .header-content__text
+        font-size: 3.5rem
+
+    .about__image img
+        width: 32rem
+
+    .about__image
+        width: 100%
+
+    .about__image::after
+        height: 24rem
+
+    .about__info
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: 0 1.5rem
+
+    //servises
+    .servises
+        margin-top: 2rem
+
+    .servises__elem
+        width: 100%
+        margin: 2.5rem 0 0 0
+        padding: 0 1.5rem
+
+    //project
+    .project
+        margin: 5rem 0 0 0 
+
+    .project__header
+        margin: 0 0 1rem 0 
+
+    .project__images-block
+        flex-direction: column
+
+    //portfolio
+    .portfolio__wrap
+        height: 65rem
+
+    .portfolio__quotes
+        margin-top: 2rem
+
+    .portfolio__text
+        padding: 0 1rem
+
+    .slider
+        width: 95%
+
+    //contacts
+    .contacts
+        margin-top: 2rem
+
+    .contacts__header
+        text-align: center
+        margin-bottom: 1.5rem
+
+    .contacts__block
+        flex-direction: column
+
+    .map-block,
+    .inputs-block
+        width: 100%
+        align-items: center
+
+    .map-block
+        margin-bottom: 3rem
+
+    .map-block__adress
+        text-align: center
+
+    .input-block__input
+        margin-bottom: 1rem
+
+    //footer
+    .footer__content
+        width: 100%
+        flex-direction: column
+
+    .content-elem 
+        width: 100%
+        margin: 2rem 0
+        padding: 1rem
