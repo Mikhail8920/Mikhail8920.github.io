@@ -9,12 +9,9 @@
         height: 32rem
 
     .header__top-line
-        width: 100%
+        width: 95%
         justify-content: flex-end
         margin-top: 1rem
-
-    .logo
-        margin-right: 1.5rem
 
     .nav-bar
         width: 0
@@ -31,7 +28,7 @@
         align-items: center
         position: absolute
         top: 1.5rem
-        left: 1.5rem
+        left: 1rem
         width: 2rem
         height: 2rem
         cursor: pointer
@@ -72,6 +69,7 @@
 
     .nav-bar__list-elem
         width: 10rem
+        margin-bottom: 1rem
 
     .nav-bar__link
         display: block
@@ -100,37 +98,44 @@
 
     .header-content
         width: 100%
+        display: flex
+        justify-content: center
         margin-top: 5rem
-
+        
     //about
     .about
         margin-top: 1rem
+
     .about__wrap
         width: 100%
-
 
     .about__content
         display: flex
         flex-direction: column
+        align-items: center
 
     .header-content__text
+        width: 95%
         font-size: 3.5rem
 
     .about__image img
-        width: 32rem
+        width: 100%
 
     .about__image
         width: 100%
 
     .about__image::after
-        height: 24rem
+        height: 100%
 
     .about__info
-        width: 100%
+        width: 95%
         display: flex
         flex-direction: column
         align-items: center
-        padding: 0 1.5rem
+        padding: 0 
+
+    .about__info-text
+        text-align: center
 
     //servises
     .servises
@@ -139,7 +144,9 @@
     .servises__elem
         width: 100%
         margin: 2.5rem 0 0 0
-        padding: 0 1.5rem
+
+    .servises__elem-text
+        width: 95%
 
     //project
     .project
@@ -149,24 +156,30 @@
         margin: 0 0 1rem 0 
 
     .project__images-block
+        width: 100%
         flex-direction: column
 
     //portfolio
     .portfolio__wrap
-        height: 65rem
+        height: 43rem
 
     .portfolio__quotes
+        font-size: 6rem
+        line-height: 6rem
         margin-top: 2rem
 
     .portfolio__text
-        padding: 0 1rem
+        width: 95%
 
     .slider
-        width: 95%
+        display: none
 
     //contacts
     .contacts
         margin-top: 2rem
+
+    .contacts__wrap
+        width: 100%
 
     .contacts__header
         text-align: center
@@ -174,6 +187,7 @@
 
     .contacts__block
         flex-direction: column
+        align-items: center
 
     .map-block,
     .inputs-block
@@ -186,15 +200,31 @@
     .map-block__adress
         text-align: center
 
-    .input-block__input
+    .map-block__map
+        text-align: center
+        width: 100%
+
+    .input-block__input,
+    .input-block__textarea
+        width: 95%
         margin-bottom: 1rem
 
     //footer
+    .footer
+        margin-top: 5rem
+
+    .footer__wrap::after
+        height: 66rem
+
+    .footer__wrap
+        height: 66rem
+        justify-content: flex-start
+
     .footer__content
         width: 100%
         flex-direction: column
+        align-items: center
 
     .content-elem 
-        width: 100%
+        width: 95%
         margin: 2rem 0
-        padding: 1rem
