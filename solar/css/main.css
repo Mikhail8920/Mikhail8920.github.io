@@ -247,9 +247,9 @@ button:focus {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -268,7 +268,7 @@ button:focus {
       -ms-flex-align: center;
           align-items: center;
   width: 35rem;
-  margin: 1.5rem 2rem;
+  margin: 2rem 0;
 }
 
 .servises__elem-icon {
@@ -309,7 +309,7 @@ button:focus {
   font-family: 'Roboto', sans-serif;
   font-size: 3.6rem;
   font-weight: 400;
-  margin: 0rem 88rem 3rem 0rem;
+  margin-bottom: 3rem;
 }
 
 .project__buttom {
@@ -317,6 +317,7 @@ button:focus {
 }
 
 .project__images-block {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -340,7 +341,7 @@ button:focus {
   top: 0;
   left: 0;
   width: 100%;
-  height: 99%;
+  height: 99.5%;
   background: -webkit-gradient(linear, left top, right bottom, from(#007850), to(#025181));
   background: linear-gradient(to bottom right, #007850 0%, #025181 100%);
   opacity: .7;
@@ -407,13 +408,14 @@ button:focus {
 }
 
 .contacts__wrap {
-  max-width: 120rem;
+  width: 120rem;
 }
 
 .contacts__header {
   font-family: 'Roboto', sans-serif;
   font-size: 3.6rem;
   font-weight: 400;
+  text-align: center;
   margin-bottom: 4rem;
 }
 
@@ -438,6 +440,9 @@ button:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   margin-bottom: 1rem;
 }
 
@@ -476,9 +481,13 @@ button:focus {
   margin-bottom: 1rem;
 }
 
+.map-block__map {
+  width: 100%;
+}
+
 .input-block__input,
 .input-block__textarea {
-  width: 32rem;
+  width: 100%;
   font-size: 1.4rem;
   padding: 1rem;
   border: .1rem solid #c0c0c0e0;
@@ -489,7 +498,7 @@ button:focus {
 }
 
 .contacts__block-button {
-  margin: 2.5rem 0 0 0;
+  margin: 3.5rem 0 0 0;
 }
 
 .footer {
@@ -497,15 +506,12 @@ button:focus {
 }
 
 .footer__wrap {
-  height: 45rem;
+  height: 32rem;
   background-image: url("../images/footer/footer_background.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   position: relative;
-}
-
-.footer__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -519,7 +525,6 @@ button:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: relative;
 }
 
 .footer__wrap::after {
@@ -528,12 +533,13 @@ button:focus {
   top: 0;
   left: 0;
   width: 100%;
-  height: 45rem;
+  height: 32rem;
   background: #07507d;
   opacity: .7;
 }
 
 .footer__content {
+  width: 120rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -555,12 +561,11 @@ button:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 18rem;
-  margin: 0 5rem;
+  width: 25rem;
 }
 
 .content-elem--wide {
-  width: 36rem;
+  width: 50rem;
 }
 
 .content-elem__header {
@@ -630,7 +635,7 @@ button:focus {
 
 .slider__item-name,
 .slider__item-position {
-  font-size: .8rem;
+  font-size: 1.1rem;
 }
 
 .slider__control {
@@ -870,11 +875,11 @@ button:focus {
     text-align: center;
   }
   .servises {
-    margin-top: 2rem;
+    margin-top: 0;
   }
   .servises__elem {
     width: 100%;
-    margin: 2.5rem 0 0 0;
+    margin: 3.5rem 0 0 0;
   }
   .servises__elem-text {
     width: 95%;
@@ -883,7 +888,7 @@ button:focus {
     margin: 5rem 0 0 0;
   }
   .project__header {
-    margin: 0 0 1rem 0;
+    margin: 0 0 2rem 0;
   }
   .project__images-block {
     width: 100%;
@@ -893,7 +898,7 @@ button:focus {
             flex-direction: column;
   }
   .portfolio__wrap {
-    height: 43rem;
+    height: 44rem;
   }
   .portfolio__quotes {
     font-size: 6rem;
@@ -1050,13 +1055,12 @@ button:focus {
   }
   .servises {
     margin-top: 4rem;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .servises__elem {
     width: 34rem;
-    margin: 2rem 0;
   }
   .project {
     margin: 4rem 0;
@@ -1080,6 +1084,21 @@ button:focus {
     font-size: 8.5rem;
     line-height: 8rem;
     margin-top: 3rem;
+  }
+  .contacts__wrap {
+    width: 73rem;
+  }
+  .footer {
+    margin-top: 4rem;
+  }
+  .footer__wrap {
+    height: 28rem;
+  }
+  .footer__wrap::after {
+    height: 28rem;
+  }
+  .footer__content {
+    width: 73rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
