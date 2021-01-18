@@ -304,7 +304,6 @@ a {
 }
 
 .portfolio {
-  height: 175rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -695,7 +694,7 @@ a {
     margin-left: 0rem;
   }
   .portfolio {
-    height: 418rem;
+    height: 459rem;
     padding-top: 6rem;
   }
   .my__works {
@@ -707,7 +706,7 @@ a {
   }
   .work__block {
     width: 28rem;
-    height: 405rem;
+    height: 449rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -885,7 +884,7 @@ a {
 
 @media (min-width: 1676px) {
   .portfolio {
-    height: 122rem;
+    height: 130rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
