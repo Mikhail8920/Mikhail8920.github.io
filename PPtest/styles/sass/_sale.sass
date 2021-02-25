@@ -1,0 +1,51 @@
+.sale
+    display: flex
+    flex-direction: column
+    align-items: center
+    background: #000
+
+.sale__title-text
+    @include fontSet(13rem, 'AktivGrotesk-Bold')
+    color: #fff
+    text-transform: uppercase
+    margin-top: 15rem
+
+.sale__timer
+    display: flex
+    justify-content: space-between
+    width: 25rem
+    color: #fff
+    margin: 13rem 0 4rem 0
+
+.sale__units-time
+    display: flex
+    flex-direction: column
+    align-items: center
+
+#sale__days-text,
+#sale__hours-text,
+#sale__minutes-text,
+#sale__seconds-text
+    @include fontSet(.8rem, 'CenturyGothic')
+    text-align: left
+
+#days,
+#hours,
+#minutes,
+#seconds
+    @include fontSet(3rem, 'CenturyGothic-Bold')
+
+.sale__separator
+    margin-top: .7rem
+    font-size: 3.5rem
+    color: #fff
+
+.sale__buttons
+    margin-bottom: 4.5rem
+
+.sale__button
+    @include button
+    background: #fff
+    color: #000
+
+        

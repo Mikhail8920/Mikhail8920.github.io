@@ -1,0 +1,14 @@
+@mixin fontSet($size: 1.2rem, $family: "CenturyGothic")
+    font-family: $family
+    font-size: $size
+
+@mixin button
+    width: 26rem
+    @include fontSet(1.7rem, 'CenturyGothic-Bold')
+    background: #000
+    color: #fff
+    text-transform: uppercase
+    border: none
+    padding: 1.5rem 
+    margin: 0 5rem
+

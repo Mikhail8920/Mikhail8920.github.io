@@ -1,0 +1,80 @@
+html 
+    font-size: 10px
+
+body 
+    font-size: 1rem
+    margin: 0
+
+main    
+    overflow-x: hidden
+
+*, *:after, *:before
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+
+li 
+    list-style-type: none
+
+ul 
+    margin-left: 0
+    padding-left: 0
+
+a 
+    text-decoration: none
+    cursor: pointer
+
+p 
+    line-height: 3rem
+
+button, 
+button:active, 
+button:focus 
+    outline: none
+
+.common__image-block
+    background: #000
+
+.common__image-block img
+    width: 100%
+   
+.common__text-block
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.buttons-group
+    display: flex
+    justify-content: center
+    margin-bottom: 6.5rem
+
+.common__title
+    @include fontSet(4.8rem, 'CenturyGothic-Bold')
+    text-align: center
+    text-transform: uppercase
+    margin-top: 3rem
+    padding: 0 1.5rem
+
+.common__under-title-text
+    width: 60%
+    @include fontSet(1.8rem, 'CenturyGothic')
+    margin-bottom: 2.5rem
+    text-align: center
+
+.left-button,
+.right-button
+    @include button
+    margin: 0 6rem
+
+.common__one-button
+    @include button
+    margin-bottom: 6.5rem
+
+.tm-span
+    @include fontSet(5rem, 'MyriadPro-Regular')
+    padding-bottom: 1rem
+
+.tm-span--small
+    @include fontSet(1.8rem, 'MyriadPro-Regular')
+    padding-bottom: 1rem
+

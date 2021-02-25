@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./styles/css/main.css" />
+    <title>PP</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__free-shopping">
+        <h2 class="header__title">free shoppig on all orders</h2>
+        <div class="header__close-title">
+          <a class="header__close-link" href="#">
+            <img src="./images/icons/close.png" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="header__top-line">
+        <div class="header__country-and-logo">
+          <div class="header__logo">
+            <a class="header__logo-link" href="#">
+              <img src="./images/header/logo.png" alt="philipp plein" />
+            </a>
+          </div>
+          <nav class="header__select">
+            <div class="header__select-menu">
+              <p class="header__select-title">ship to united kingdom</p>
+              <p><i class="header__arrow-down"></i></p>
+            </div>
+            <ul class="header__select-list">
+              <li class="header__select-item">united kingdom</li>
+              <li class="header__select-item">USA</li>
+              <li class="header__select-item">Russia</li>
+              <li class="header__select-item">France</li>
+              <li class="header__select-item">Germany</li>
+              <li class="header__select-item">Italy</li>
+              <li class="header__select-item">Japan</li>
+              <li class="header__select-item">Canada</li>
+            </ul>
+          </nav>
+          <p class="header__selected-country">English</p>
+        </div>
+        <div class="header__main-menu">
+          <div class="header__main-title">
+            <h1 class="header__main-text">philipp plein</h1>
+          </div>
+          <nav class="header__nav-bar">
+            <div class="hamburger__menu">
+              <input id="menu__toggle" type="checkbox" />
+              <label class="menu__button" for="menu__toggle">
+                <span></span>
+              </label>
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link">sale</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link">fragrance</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link">woman</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link">men</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link">sport</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link">junior</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link">world</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="header__singIn-and-interaction">
+          <div class="header__singIn">
+            <a href="#" class="header__magnifier"
+              ><img
+                src="./images/icons/magnifier.png"
+                alt="#"
+                class="header__magnifier-link"
+            /></a>
+            <nav class="header__select header__select--narrow">
+              <div class="header__select-menu">
+                <p class="header__select-title">sing in</p>
+                <p><i class="header__arrow-down"></i></p>
+              </div>
+              <ul class="header__select-list header__select-list--short">
+                <li class="header__select-item header__select-item--narrow">
+                  sing out
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__interaction">
+            <a href="#" class="header__interaction-item">
+              <img src="./images/icons/star.png" alt="#" /> </a
+            ><a href="#" class="header__interaction-item">
+              <img src="./images/icons/telephone.png" alt="#" /> </a
+            ><a href="#" class="header__interaction-item">
+              <img src="./images/icons/envelope.png" alt="#" /> </a
+            ><a href="#" class="header__interaction-item">
+              <img src="./images/icons/package.png" alt="#" />
+            </a>
+            <div class="header__quantity-goods">
+              <p class="header__quantaty-text">(0)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="sale">
+        <div class="sale__title">
+          <h1 class="sale__title-text">sale</h1>
+        </div>
+        <div class="sale__timer">
+          <div class="sale__units-time">
+            <h3 id="sale__days-text">Days</h3>
+            <h1 id="days"></h1>
+          </div>
+          <span class="sale__separator">:</span>
+          <div class="sale__units-time">
+            <h3 id="sale__hours-text">Hours</h3>
+            <h1 id="hours"></h1>
+          </div>
+          <span class="sale__separator">:</span>
+          <div class="sale__units-time">
+            <h3 id="sale__minutes-text">Minutes</h3>
+            <h1 id="minutes"></h1>
+          </div>
+          <span class="sale__separator">:</span>
+          <div class="sale__units-time">
+            <h3 id="sale__seconds-text">Secondes</h3>
+            <h1 id="seconds"></h1>
+          </div>
+        </div>
+        <div class="sale__buttons">
+          <button class="sale__button">men</button
+          ><button class="sale__button">woman</button>
+        </div>
+      </section>
+      <section class="teddy-bear">
+        <div class="teddy-bear__image">
+          <img src="./images/under_sale_block/background.png" alt="#" />
+        </div>
+        <div class="common__text-block">
+          <h2 class="common__title">
+            teddy bear<span class="tm-span">™</span> capsule
+          </h2>
+          <p class="common__under-title-text">
+            Teddy bears, Monograms and Shiny Crystals are the main focus focus
+            for this New Capsule Collection for him and her
+          </p>
+          <div class="buttons-group">
+            <button class="left-button">men</button
+            ><button class="right-button">woman</button>
+          </div>
+        </div>
+      </section>
+      <section class="men">
+        <div class="men__title-block">
+          <h3 class="men__pre-fall">pre-fall 2020</h3>
+          <h2 class="men__teddy-bear">Teaddy Bear Collection</h2>
+        </div>
+        <div class="men__collection">
+          <div class="men__main-image-block">
+            <img
+              id="men__mein-image"
+              src="./images/teddy_bear_men/men1.jpg"
+              alt="men"
+            />
+            <div class="hexagon men__jackets">
+              <div class="hexagon-inside">
+                <div class="hexagon-image men__hexagon-jackets">
+                  <div class="hexagon-description">
+                    <a class="hexagon-name">Jackets</a>
+                    <a class="hexagon-buy">shop now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="men__middle-hexagon">
+              <div class="hexagon men__hoodies">
+                <div class="hexagon-inside">
+                  <div class="hexagon-image men__hexagon-hoodies">
+                    <div class="hexagon-description">
+                      <a class="hexagon-name">Hoodies</a>
+                      <a class="hexagon-buy">shop now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="men__bottom-right-hexagon">
+              <div class="hexagon men__shoes">
+                <div class="hexagon-inside">
+                  <div class="hexagon-image men__hexagon-shoes">
+                    <div class="hexagon-description">
+                      <a class="hexagon-name">shoes</a>
+                      <a class="hexagon-buy">shop now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="spring-summer">
+          <div class="row">
+            <div class="spring-summer__geometry">
+              <div class="spring-summer__men-left">
+                <h3 class="spring-summer__men-title">spring summer 2020</h3>
+                <p class="spring-summer__men-text">Hot Stuff</p>
+                <img src="./images/teddy_bear_men/cap.png" alt="#" />
+              </div>
+              <div class="spring-summer__men-right">
+                <div class="hexagon spring-summer__men-hexagon">
+                  <div class="hexagon-inside">
+                    <div class="hexagon-image spring-summer__men-image">
+                      <div class="hexagon-description"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="woman">
+        <div class="woman__title-block">
+          <h3 class="woman__pre-fall">pre-fall 2020</h3>
+          <h2 class="woman__teddy-bear">Teaddy Bear Collection</h2>
+        </div>
+        <div class="woman__collection">
+          <div class="woman__main-image-block">
+            <img
+              id="woman__mein-image"
+              src="./images/teady_bear_woman/woman1.jpg"
+              alt="woman"
+            />
+            <div class="hexagon woman__jackets">
+              <div class="hexagon-inside">
+                <div class="hexagon-image woman__hexagon-jackets">
+                  <div class="hexagon-description">
+                    <a class="hexagon-name">Jackets</a>
+                    <a class="hexagon-buy">shop now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="woman__middle-hexagon">
+              <div class="hexagon woman__denim">
+                <div class="hexagon-inside">
+                  <div class="hexagon-image woman__hexagon-denim">
+                    <div class="hexagon-description">
+                      <a class="hexagon-name">Hoodies</a>
+                      <a class="hexagon-buy">shop now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="woman__bottom-right-hexagon">
+              <div class="hexagon woman__heels">
+                <div class="hexagon-inside">
+                  <div class="hexagon-image woman__hexagon-heels">
+                    <div class="hexagon-description">
+                      <a class="hexagon-name">shoes</a>
+                      <a class="hexagon-buy">shop now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="spring-summer">
+          <div class="row">
+            <div class="spring-summer__geometry">
+              <div class="spring-summer__woman-right">
+                <h3 class="spring-summer__woman-title">spring summer 2020</h3>
+                <p class="spring-summer__woman-text">Hot Stuff</p>
+                <img src="./images/teady_bear_woman/bag.png" alt="#" />
+              </div>
+              <div class="spring-summer__woman-left">
+                <div class="hexagon spring-summer__woman-hexagon">
+                  <div class="hexagon-inside">
+                    <div class="hexagon-image spring-summer__woman-image">
+                      <div class="hexagon-description"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skeleton">
+        <div class="skeleton__top-image">
+          <img src="./images/the_skeleton/background.png" alt="#" />
+        </div>
+        <div class="common__text-block">
+          <h2 class="common__title">
+            the $keleton<span class="tm-span">™</span>
+          </h2>
+          <p class="common__under-title-text">
+            PHILIPP PLEIN combines the traditional world of artisan shoe-making
+            tjgether whith the futuristic technology of 3D printing. THE
+            $KELETON collection is an homage to the advance and futuristic world
+            od 3D printing.
+          </p>
+          <button class="common__one-button">shop now</button>
+        </div>
+        <div class="skeleton__bottom-image">
+          <img src="./images/the_skeleton/T-shirt.png" alt="#" />
+        </div>
+      </section>
+      <section class="no-limits">
+        <div class="common__image-block">
+          <img src="./images/no_limits/banner.png" alt="#" />
+        </div>
+        <div class="common__text-block">
+          <h2 class="common__title">
+            no limit$<span class="tm-span">™</span> travel size
+          </h2>
+          <p
+            class="common__under-title-text common__under-title-text--uppercase"
+          >
+            2 pack 50ml now available!
+          </p>
+          <div class="buttons-group">
+            <button class="left-button">shop 2pack 50ml</button>
+            <button class="right-button">shop 90ml</button>
+          </div>
+        </div>
+      </section>
+      <section class="king-plein">
+        <div class="common__image-block">
+          <img
+            src="./images/king_plein/background.png"
+            alt="#"
+            class="king-plein__image"
+          />
+        </div>
+        <div class="common__text-block">
+          <h2 class="common__title">
+            king plein<span class="tm-span">™</span> capsule
+          </h2>
+          <p class="common__under-title-text">
+            welcome to the Phillip Plein Jungle. Discover the New King
+            Plein<span class="tm-span--small">™</span> Drop.
+          </p>
+          <div class="buttons-group">
+            <button class="left-button">men</button>
+            <button class="right-button">woman</button>
+          </div>
+        </div>
+      </section>
+      <section class="rainbow-collection">
+        <div class="common__image-block">
+          <img src="./images/rainbow_collection/background.png" alt="#" />
+        </div>
+        <div class="common__text-block">
+          <h2 class="common__title">rainbow collection</h2>
+          <p class="common__under-title-text">
+            Discover all the shades of the New Philipp Plein Collection!
+          </p>
+          <button class="common__one-button">shop now</button>
+        </div>
+      </section>
+      <section class="godsilla-sneaker">
+        <div class="godsilla-sneaker__image-block">
+          <img
+            src="./images/godsilla_sneaker/sneaker.png"
+            alt="#"
+            class="godsilla-sneaker__image"
+          />
+        </div>
+        <div class="common__text-block">
+          <h2 class="common__title">
+            god$illa<span class="tm-span">™</span> sneaker
+          </h2>
+          <p class="common__under-title-text">
+            Discower the God$illa Sneakers now back in stock! For Him and Her
+          </p>
+          <button class="common__one-button">shop now</button>
+        </div>
+      </section>
+      <section class="mask">
+        <div class="common__image-block">
+          <img src="./images/philipp_plein_mask/background.png" alt="#" />
+        </div>
+        <div class="common__text-block">
+          <h2 class="common__title">
+            philipp plein<span class="tm-span">™</span> mask
+          </h2>
+          <p class="common__under-title-text">
+            Discover brand new philipp Plein<span class="tm-span--small"
+              >™</span
+            >
+            Face Mask Collection
+          </p>
+          <button class="common__one-button">shop now</button>
+        </div>
+      </section>
+      <section class="social">
+        <div class="social__wrap">
+          <a href="#" class="social__link"
+            ><img
+              src="./images/icons/facebook.png"
+              alt="facebook"
+              class="social__image" /></a
+          ><a href="#" class="social__link"
+            ><img
+              src="./images/icons/instagram.png"
+              alt="instagram"
+              class="social__image" /></a
+          ><a href="#" class="social__link"
+            ><img
+              src="./images/icons/twitter.png"
+              alt="twitter"
+              class="social__image" /></a
+          ><a href="#" class="social__link"
+            ><img
+              src="./images/icons/youtube.png"
+              alt="youtube"
+              class="social__image"
+          /></a>
+        </div>
+      </section>
+      <section class="sing-up">
+        <div class="sing-up__block">
+          <h3 class="sing-up__title">Sing Up to Shop first</h3>
+          <p class="sing-up__text">
+            Sing up for exclusive access to our Promotions plus the Latest
+            Arrivals
+          </p>
+          <div class="sing-up__send-form">
+            <input
+              class="sing-up__input"
+              placeholder="Enter Email Adress"
+              type="text"
+            />
+            <button class="sing-up__button" type="submit">send</button>>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__our-world">
+          <h3 class="about__title">our world</h3>
+          <ul class="about__list">
+            <li class="about__item">about philipp plein</li>
+            <li class="about__item">campaign</li>
+            <li class="about__item">collections</li>
+            <li class="about__item">store locator</li>
+            <li class="about__item">news</li>
+          </ul>
+        </div>
+        <div class="about__customer-care">
+          <h3 class="about__title">customer care</h3>
+          <ul class="about__list">
+            <li class="about__item">payments</li>
+            <li class="about__item">delivery and return</li>
+            <li class="about__item">size guide</li>
+            <li class="about__item">faq</li>
+            <li class="about__item">contact us</li>
+          </ul>
+        </div>
+        <div class="about__corporate-info">
+          <h3 class="about__title">corporate info</h3>
+          <ul class="about__list">
+            <li class="about__item">impint</li>
+            <li class="about__item">privacy policy</li>
+            <li class="about__item">cookie policy</li>
+            <li class="about__item">term & conditions</li>
+            <li class="about__item">career</li>
+            <li class="about__item">stop fake</li>
+          </ul>
+        </div>
+      </section>
+      <section class="junior-and-outlet">
+        <div class="junior-and-outlet__block">
+          <div class="junior-and-outlet__left-block">
+            <a href="#" class="junior-and-outlet__link">
+              <img
+                src="./images/icons/junior.png"
+                alt="junior"
+                class="junior-and-outlet__image"
+              />
+            </a>
+            <h3 class="junior-and-outlet__title">philipp plein junior</h3>
+            <p class="junior-and-outlet__text">for kids only</p>
+          </div>
+          <div class="junior-and-outlet__right-block">
+            <a href="#" class="junior-and-outlet__link">
+              <img
+                src="./images/icons/outlet.png"
+                alt="junior"
+                class="junior-and-outlet__image"
+              />
+            </a>
+            <h3 class="junior-and-outlet__title">philipp plein outlet</h3>
+            <p class="junior-and-outlet__text">
+              discounted original and certified philipp plein products
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="footer__text">©2020 Phillip Plein - All rights reserved</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
