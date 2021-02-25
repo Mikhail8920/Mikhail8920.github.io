@@ -28,9 +28,9 @@ setInterval(timer, 1000);
 
 //change hexagons
 let mainMenArr = [
-  './images/teddy_bear_men/men1.jpg',
-  './images/teddy_bear_men/men2.jpg',
-  './images/teddy_bear_men/men3.jpg'
+  "./images/teddy_bear_men/men1.jpg",
+  "./images/teddy_bear_men/men2.jpg",
+  "./images/teddy_bear_men/men3.jpg",
 ];
 
 let hexagonMenJacketsArr = [
@@ -52,9 +52,9 @@ let hexagonMenShoesArr = [
 ];
 
 let mainWomanArr = [
-  './images/teady_bear_woman/woman1.jpg',
-  './images/teady_bear_woman/woman2.jpg',
-  './images/teady_bear_woman/woman3.jpg'
+  "./images/teady_bear_woman/woman1.jpg",
+  "./images/teady_bear_woman/woman2.jpg",
+  "./images/teady_bear_woman/woman3.jpg",
 ];
 
 let hexagonWomanJacetsArr = [
