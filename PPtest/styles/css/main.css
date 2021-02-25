@@ -449,7 +449,7 @@ i {
 .hexagon-image {
   width: 100%;
   height: 100%;
-  background-image: url("../../images/teddy_bear_men/men1_1.png");
+  background-image: none;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 60%;
@@ -680,16 +680,28 @@ i {
   right: -63rem;
 }
 
+.men__hexagon-jackets {
+  background-image: url("../../images/teddy_bear_men/men1_1.png");
+}
+
 .men__hoodies {
   position: absolute;
   top: 36%;
   left: -63rem;
 }
 
+.men__hexagon-hoodies {
+  background-image: url("../../images/teddy_bear_men/men1_2.png");
+}
+
 .men__shoes {
   position: absolute;
   bottom: 13rem;
   right: -63rem;
+}
+
+.men__hexagon-shoes {
+  background-image: url("../../images/teddy_bear_men/men1_3.png");
 }
 
 .spring-summer {
@@ -804,16 +816,28 @@ i {
   left: -63rem;
 }
 
+.woman__hexagon-jackets {
+  background-image: url("../../images/teady_bear_woman/woman1_1.png");
+}
+
 .woman__denim {
   position: absolute;
   top: 36%;
   right: -63rem;
 }
 
+.woman__hexagon-denim {
+  background-image: url("../../images/teady_bear_woman/woman1_2.png");
+}
+
 .woman__heels {
   position: absolute;
   bottom: 13rem;
   left: -63rem;
+}
+
+.woman__hexagon-heels {
+  background-image: url("../../images/teady_bear_woman/woman1_3.png");
 }
 
 .spring-summer__woman-right {
@@ -905,10 +929,6 @@ i {
 
 .section__under-title-text--uppercase {
   text-transform: uppercase;
-}
-
-.king-plein__image-block {
-  background-color: #fdfffe;
 }
 
 .godsilla-sneaker__image-block img {
