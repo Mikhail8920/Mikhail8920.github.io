@@ -1,0 +1,85 @@
+.catalog
+    display: flex
+    flex-direction: column
+    align-items: center
+    position: relative
+
+.catalog::before
+    position: absolute
+    top: 50%
+    left: 5%
+    content: ''
+    width: 90%
+    height: .1rem
+    background: #000
+
+.catalog__leather-jackets,
+.catlog__jackets
+    width: 90%
+    height: 148rem
+    overflow-y: scroll
+
+.catlog__block
+    display: flex
+    flex-direction: column
+
+.catalog__title
+    @include fontSet(2.2rem, 'CenturyGothic')
+    text-transform: uppercase
+    margin-bottom: 4rem
+    margin-top: 6rem
+
+.catalog__products-list
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+
+
+.catalog__product-item
+    width: 39.5rem
+    height: 66rem
+    display: flex
+    flex-direction: column
+
+.catalog__product-visual
+    position: relative
+    background-color: #f7f7f7
+
+.catalog__product-image
+    width: 100%
+
+.catalog__product-rating
+    width: 3rem
+
+.catalog__product-rating
+    position: absolute
+    top: 1rem
+    right: 1rem
+
+.catalog__product-info
+    display: flex
+    flex-direction: column
+
+.catalog__product-name
+    @include fontSet(1.6rem, 'CenturyGothic')
+    text-transform: uppercase
+
+.catalog__product-price
+    @include fontSet(1.6rem, 'CenturyGothic-Bold')
+
+.catalog__product-color
+    @include fontSet(1.6rem, 'CenturyGothic')
+
+.catalog__product-size
+    @include fontSet(1.6rem, 'CenturyGothic')
+
+.teddy-monogram__select-form
+    margin: 0 .5rem
+
+.teddy-monogram__select-size,
+.teddy-monogram__select-color,
+.teddy-monogram__select-sorting
+    border: none
+
+
+

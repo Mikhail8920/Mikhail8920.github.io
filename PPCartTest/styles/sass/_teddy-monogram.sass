@@ -1,0 +1,134 @@
+.teddy-monogram
+    position: relative
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+
+.teddy-monogram::before
+    position: absolute
+    top: 0
+    left: 0
+    content: ''
+    width: 100%
+    height: .1rem
+    background: #000
+
+.teddy-monogram::after
+    position: absolute
+    bottom: 0
+    left: 5%
+    content: ''
+    width: 90%
+    height: .1rem
+    background: #000
+
+.teddy-monogram__title-block
+    width: 50%
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    padding-left: 2rem
+    margin: .5rem 0 6rem 0
+
+.teddy-monogram__path
+    width: 50%
+    display: flex
+
+.teddy-monogram__men-text,
+.teddy-monogram__stories-text
+    @include fontSet(1.4rem, 'CenturyGothic-Bold')
+    text-transform: uppercase
+    margin-right: 2rem
+
+.teddy-monogram__mein-text
+    @include fontSet(2rem, 'CenturyGothic-Bold')
+    text-transform: uppercase
+
+.teddy-monogram__filter-block
+    display: flex
+    justify-content: flex-end
+    width: 50%
+    padding-right: 6rem
+
+.teddy-monogram__select
+    display: inline-block
+    position: relative
+    margin: 0 1rem
+
+.teddy-monogram__select-menu
+    display: flex
+    justify-content: space-between
+    border: none
+    cursor: pointer
+    text-transform: uppercase
+
+.teddy-monogram__select-title
+    @include fontSet(1.2rem, 'CenturyGothic')
+    height: 1rem
+    margin-right: 1rem
+    line-height: 3.3rem
+
+i
+    border: solid black
+    border-width: 0 .1rem .1rem 0
+    display: inline-block
+    padding: .3rem
+
+.teddy-monogram__arrow-down 
+    transform: rotate(45deg)
+    margin-right: .5rem
+
+.teddy-monogram__select-list 
+    height: 16rem
+    background: #adadad
+    text-align: center
+    opacity: .8
+    display: none
+    z-index: 99
+
+.teddy-monogram__select-item
+    @include fontSet(1.2rem, 'CenturyGothic')
+    text-transform: uppercase
+    cursor: pointer
+
+.teddy-monogram__select-item:hover
+    color: #ffffff
+
+.teddy-monogram__select-list .teddy-monogram__select-item
+    padding: .5rem
+    text-decoration: none
+    display: block
+
+.teddy-monogram__select-list .teddy-monogram__select-item
+    padding-left: 0
+
+.teddy-monogram__select:hover .teddy-monogram__select-list 
+    display: block
+
+.teddy-monogram__mein-text
+    @include fontSet(1.6rem, 'CenturyGothic')
+    padding: 2rem
+
+.teddy-monogram__video-and-text
+    width: 100%
+    display: flex
+    justify-content: center
+    margin-bottom: 10rem
+
+.teddy-monogram__text-block
+    width: 73rem
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+.teddy-monogram__plain-title
+    @include fontSet(3.2rem, 'CenturyGothic-Bold')
+    text-transform: uppercase
+    text-align: center
+    margin-bottom: 1.5rem
+
+.teddy-monogram__plain-text
+    @include fontSet(1.6rem, 'CenturyGothic')
+    width: 35rem
+    text-align: center

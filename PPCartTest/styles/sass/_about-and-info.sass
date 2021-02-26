@@ -1,0 +1,33 @@
+.about
+    height: 35.5rem
+    display: flex
+    justify-content: space-evenly
+    position: relative
+
+.about::after 
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 5%
+    width: 90%
+    height: .1rem
+    background: #000
+
+.about__our-world,
+.about__customer-care,
+.about__corporate-info
+    height: 25rem
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    justify-content: flex-start
+    margin-top: 6.5rem
+
+.about__title
+    @include fontSet(2rem, 'CenturyGothic')
+    text-transform: uppercase
+
+.about__item
+    @include fontSet(1.4rem, 'CenturyGothic')
+    text-transform: uppercase
+    margin: 2rem 0
