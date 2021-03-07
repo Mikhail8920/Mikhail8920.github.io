@@ -68,6 +68,7 @@ button,
 button:active,
 button:focus {
   outline: none;
+  cursor: pointer;
 }
 
 .common__image-block {
@@ -541,20 +542,20 @@ i {
           align-items: center;
 }
 
-#sale__days-text,
-#sale__hours-text,
-#sale__minutes-text,
-#sale__seconds-text {
+.sale__days-text,
+.sale__hours-text,
+.sale__minutes-text,
+.sale__seconds-text {
   font-family: "CenturyGothic";
   font-size: 0.8rem;
   text-align: left;
 }
 
-#days,
-#hours,
-#minutes,
-#seconds {
-  font-family: "CenturyGothic-Bold";
+.days,
+.hours,
+.minutes,
+.seconds {
+  font-family: "CenturyGothic";
   font-size: 3rem;
 }
 
@@ -648,7 +649,7 @@ i {
   position: relative;
 }
 
-#men__mein-image {
+.men__mein-image {
   width: 100%;
 }
 
