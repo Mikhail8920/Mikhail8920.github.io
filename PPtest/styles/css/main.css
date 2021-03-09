@@ -1248,7 +1248,8 @@ footer {
   .header__free-shopping,
   .header__title,
   .header__logo,
-  .header__selected-country {
+  .header__selected-country,
+  .header__select--narrow {
     display: none;
   }
   .header__top-line {
@@ -1324,13 +1325,17 @@ footer {
         -ms-flex-align: start;
             align-items: start;
     position: absolute;
-    top: 17rem;
+    top: -100%;
     left: 0;
     width: 100%;
     height: 55rem;
     background: #fff;
-    visibility: hidden;
     z-index: 99;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  .header__nav-list.active {
+    top: 17rem;
   }
   .header__nav-item {
     width: 100%;
@@ -1366,13 +1371,18 @@ footer {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
-  .header__select {
+  .header__select--wide {
     position: absolute;
-    top: 68rem;
+    top: -100%;
     left: 0;
-    visibility: hidden;
     margin: 0 0 0 2rem;
     z-index: 100;
+  }
+  .header__select--wide {
+    top: -100%;
+  }
+  .header__select--wide.active {
+    top: 68rem;
   }
   .header__singIn-and-interaction {
     width: 100%;

@@ -1,5 +1,5 @@
 //timer
-const finaleDate = new Date("March 7, 2021 00:00:00").getTime();
+const finaleDate = new Date("March 15, 2021 00:00:00").getTime();
 
 const timer = () => {
   const now = new Date().getTime();
@@ -155,70 +155,6 @@ setInterval(function auto() {
   springSummerWoman[0].style.backgroundImage = springSummerWomanHexagon[j];
 }, 1000);
 
-//hamburger menu
-document.querySelector("#menu__toggle").onclick = function change2() {
-  let off = document.querySelector("#menu__toggle");
-  if (
-    document.querySelector(".header__nav-list").style.visibility == "hidden" &&
-    document.querySelector(".header__select").style.visibility == "hidden" &&
-    off.checked == true
-  ) {
-    document.querySelector(".header__nav-list").style.visibility = "visible";
-    document.querySelector(".header__select").style.visibility = "visible";
-  } else if (
-    document.querySelector(".header__nav-list").style.visibility == "visible" &&
-    document.querySelector(".header__select").style.visibility == "visible" &&
-    off.checked == false
-  ) {
-    document.querySelector(".header__nav-list").style.visibility = "hidden";
-    document.querySelector(".header__select").style.visibility = "hidden";
-  } else if (off.checked == true) {
-    document.querySelector(".header__nav-list").style.visibility = "visible";
-    document.querySelector(".header__select").style.visibility = "visible";
-  }
-};
-
-for (item of document.querySelector("header__nav-link")) {
-  item.onclick = function () {
-    const navigation = document.querySelector("header__nav-list");
-    const navigation2 = document.querySelector("header__select");
-    navigation.style.visibility = "hidden";
-    navigation2.style.visibility = "hidden";
-    let off = document.querySelector("#menu__toggle");
-    off.checked = false;
-  };
-}
-
-
-// $("#menu__toggle").click(function() {
-//   let off = $("#menu__toggle");
-//   if (
-//     document.querySelector(".header__nav-list").style.visibility == "hidden" &&
-//     document.querySelector(".header__select").style.visibility == "hidden" &&
-//     off.attr("checked") == true
-//   ) {
-//     document.querySelector(".header__nav-list").style.visibility = "visible";
-//     document.querySelector(".header__select").style.visibility = "visible";
-//   } else if (
-//     document.querySelector(".header__nav-list").style.visibility == "visible" &&
-//     document.querySelector(".header__select").style.visibility == "visible" &&
-//     off.attr("checked") == false
-//   ) {
-//     document.querySelector(".header__nav-list").style.visibility = "hidden";
-//     document.querySelector(".header__select").style.visibility = "hidden";
-//   } else if (off.attr("checked") == true) {
-//     document.querySelector(".header__nav-list").style.visibility = "visible";
-//     document.querySelector(".header__select").style.visibility = "visible";
-//   }
-// });
-
-// for (item of document.querySelector("header__nav-link")) {
-//   item.onclick = function () {
-//     const navigation = document.querySelector("header__nav-list");
-//     const navigation2 = document.querySelector("header__select");
-//     navigation.style.visibility = "hidden";
-//     navigation2.style.visibility = "hidden";
-//     let off = $("#menu__toggle");
-//     off.attr("checked") = false;
-//   };
-// }
+$("#menu__toggle").click(function (event) {
+  $("#menu__toggle,.header__nav-list,.header__select").toggleClass("active");
+});
