@@ -76,6 +76,7 @@ i
     background: #adadad
     text-align: center
     opacity: .8
+    overflow: auto
     display: none
     z-index: 99
 
@@ -111,7 +112,7 @@ i
     flex-basis: 33.33%
     display: flex
     flex-direction: column
-    justify-content: space-between
+    justify-content: flex-start
 
 .header__main-text
     @include fontSet(4.7rem, 'CenturyGothic, serif')
@@ -122,6 +123,7 @@ i
 .header__nav-list
     display: flex
     justify-content: space-between
+    margin-top: .25rem
 
 .header__nav-item
     flex-basis: 9rem
