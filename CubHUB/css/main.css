@@ -1000,15 +1000,19 @@ main {
     margin: 0;
     padding-top: 4rem;
     position: absolute;
-    top: 0;
+    top: -31rem;
     left: 0;
     width: 103%;
     height: 211%;
     opacity: 0.9;
     background-color: #f0c536;
+    -webkit-transition: all .3s;
+    transition: all .3s;
     -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
             box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
-    visibility: hidden;
+  }
+  .header__menu.active {
+    top: 0;
   }
   .header__menu__nav {
     padding-top: .8rem;
