@@ -1,44 +1,43 @@
-document.querySelectorAll(".product__item-text").forEach(function (p) {
-  p.querySelector("a").addEventListener("click", function () {
-    p.classList.toggle("show");
-    this.textContent = p.classList.contains("show") ? "Show Less" : "Lern more";
-  });
+$(".product__item-text").each(function () {
+  $(this)
+    .children("a")
+    .on("click", function () {
+      $(this).parent().toggleClass("show");
+      $(this).text(
+        $(this).parent().hasClass("show") ? "Show Less" : "Lern more"
+      );
+    });
 });
 
-document.querySelectorAll(".product__all").forEach(function (p) {
-  p.querySelector(".button__view__all").addEventListener("click", function () {
-    p.classList.toggle("show");
-    this.textContent = p.classList.contains("show")
-      ? ((document.querySelector(".button__view__all").style.marginTop =
-          "180px"),
-        "Less products")
-      : ((document.querySelector(".button__view__all").style.marginTop = "0px"),
-        "View All Our Products");
-  });
+// document.querySelectorAll(".product__item-text").forEach(function (p) {
+//   p.querySelector("a").addEventListener("click", function () {
+//     p.classList.toggle("show");
+//     this.textContent = p.classList.contains("show") ? "Show Less" : "Lern more";
+//   });
+// });
+
+$(".button__view__all").on("click", function () {
+  $(".product__all").toggleClass("show");
+  $(".product__all").hasClass("show")
+    ? ($(".button__view__all").css({ marginTop: "180px" }), "Less products")
+    : ($(".button__view__all").css({ marginTop: "0px" }),
+      "View All Our Products");
 });
 
-document.querySelector("#menu__toggle").onclick = function change2() {
-  let off = document.querySelector("#menu__toggle");
-  if (
-    document.querySelector(".navbar-nav").style.visibility == "hidden" &&
-    off.checked == true
-  ) {
-    document.querySelector(".navbar-nav").style.visibility = "visible";
-  } else if (
-    document.querySelector(".navbar-nav").style.visibility == "visible" &&
-    off.checked == false
-  ) {
-    document.querySelector(".navbar-nav").style.visibility = "hidden";
-  } else if (off.checked == true) {
-    document.querySelector(".navbar-nav").style.visibility = "visible";
-  }
-};
+// document.querySelectorAll(".product__all").forEach(function (p) {
+//   p.querySelector(".button__view__all").addEventListener("click", function () {
+//     p.classList.toggle("show");
+//     this.textContent = p.classList.contains("show")
+//       ? ((document.querySelector(".button__view__all").style.marginTop =
+//           "180px"),
+//         "Less products")
+//       : ((document.querySelector(".button__view__all").style.marginTop = "0px"),
+//         "View All Our Products");
+//   });
+// });
 
-for (item of document.querySelector("nav-link")) {
-  item.onclick = function () {
-    const navigation = document.querySelector("navbar-nav");
-    navigation.style.visibility = "hidden";
-    let off = document.querySelector("#menu__toggle");
-    off.checked = false;
-  };
-}
+$("#menu__toggle").click(function () {
+  $("#menu__toggle,.navbar-nav").toggleClass("active");
+});
+
+

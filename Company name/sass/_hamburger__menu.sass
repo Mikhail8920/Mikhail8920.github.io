@@ -35,9 +35,18 @@
         content: ""
         top: 1rem
 
+    .header__navbar
+        position: relative
+
     .navbar-nav
-        visibility: hidden
-        z-index: 1
+        position: absolute
+        top: 4rem
+        right: -200%
+        transition: all .3s
+        z-index: 0
+
+    .navbar-nav.active
+        right: -5%
 
     #menu__toggle:checked ~ .menu__button span
         transform: rotate(45deg)

@@ -532,9 +532,19 @@ a:active {
     content: "";
     top: 1rem;
   }
+  .header__navbar {
+    position: relative;
+  }
   .navbar-nav {
-    visibility: hidden;
-    z-index: 1;
+    position: absolute;
+    top: 4rem;
+    right: -200%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    z-index: 0;
+  }
+  .navbar-nav.active {
+    right: -5%;
   }
   #menu__toggle:checked ~ .menu__button span {
     -webkit-transform: rotate(45deg);
