@@ -1,11 +1,11 @@
 //timer
-const finaleDate = new Date("March 15, 2021 00:00:00").getTime();
+const finaleDate = new Date("March 16, 2021 00:00:00").getTime();
 
 const timer = () => {
   const now = new Date().getTime();
   let diff = finaleDate - now;
   if (diff < 0) {
-    $(".sale__timer").hide();
+    document.querySelector(".sale__timer").style.display = "none";
   }
 
   let days = Math.floor(diff / (1000 * 60 * 60 * 24));
@@ -18,10 +18,10 @@ const timer = () => {
   minutes <= 9 ? (minutes = `0${minutes}`) : minutes;
   seconds <= 9 ? (seconds = `0${seconds}`) : seconds;
 
-  $(".days").text(days);
-  $(".hours").text(hours);
-  $(".minutes").text(minutes);
-  $(".seconds").text(seconds);
+  document.querySelector("#days").textContent = days;
+  document.querySelector("#hours").textContent = hours;
+  document.querySelector("#minutes").textContent = minutes;
+  document.querySelector("#seconds").textContent = seconds;
 };
 timer();
 setInterval(timer, 1000);
@@ -80,16 +80,18 @@ let springSummerWomanHexagon = [
   'url("./images/teady_bear_woman/second_layer_hexagon.png")',
 ];
 
-let mainMen = $(".men__mein-image");
-let jacketsMen = $(".men__hexagon-jackets");
-let hoodiesMen = $(".men__hexagon-hoodies");
-let shoesMen = $(".men__hexagon-shoes");
+let mainMen = document.getElementById("men__mein-image");
+let jacketsMen = document.getElementsByClassName("men__hexagon-jackets");
+let hoodiesMen = document.getElementsByClassName("men__hexagon-hoodies");
+let shoesMen = document.getElementsByClassName("men__hexagon-shoes");
 
-let mainWoman = $(".woman__mein-image");
-let jacketsWoman = $(".woman__hexagon-jackets");
-let denimWoman = $(".woman__hexagon-denim");
-let heelsWoman = $(".woman__hexagon-heels");
-let springSummerWoman = $(".spring-summer__woman-image");
+let mainWoman = document.getElementById("woman__mein-image");
+let jacketsWoman = document.getElementsByClassName("woman__hexagon-jackets");
+let denimWoman = document.getElementsByClassName("woman__hexagon-denim");
+let heelsWoman = document.getElementsByClassName("woman__hexagon-heels");
+let springSummerWoman = document.getElementsByClassName(
+  "spring-summer__woman-image"
+);
 
 let a = 0;
 let b = 0;
@@ -104,7 +106,7 @@ let j = 0;
 setInterval(function auto() {
   a++;
   if (a === mainMenArr.length) a = 0;
-  mainMen.attr("src", mainMenArr[a]);
+  mainMen.src = mainMenArr[a];
 }, 1000);
 
 setInterval(function auto() {
@@ -128,7 +130,7 @@ setInterval(function auto() {
 setInterval(function auto() {
   e++;
   if (e === mainWomanArr.length) e = 0;
-  mainWoman.attr("src", mainWomanArr[e]);
+  mainWoman.src = mainWomanArr[a];
 }, 1000);
 
 setInterval(function auto() {
@@ -155,6 +157,42 @@ setInterval(function auto() {
   springSummerWoman[0].style.backgroundImage = springSummerWomanHexagon[j];
 }, 1000);
 
+// //hamburger menu
+// document.querySelector("#menu__toggle").onclick = function change2() {
+//   let off = document.querySelector("#menu__toggle");
+//   if (
+//     document.querySelector(".header__nav-list").style.visibility == "hidden" &&
+//     document.querySelector(".header__select").style.visibility == "hidden" &&
+//     off.checked == true
+//   ) {
+//     document.querySelector(".header__nav-list").style.visibility = "visible";
+//     document.querySelector(".header__select").style.visibility = "visible";
+//   } else if (
+//     document.querySelector(".header__nav-list").style.visibility == "visible" &&
+//     document.querySelector(".header__select").style.visibility == "visible" &&
+//     off.checked == false
+//   ) {
+//     document.querySelector(".header__nav-list").style.visibility = "hidden";
+//     document.querySelector(".header__select").style.visibility = "hidden";
+//   } else if (off.checked == true) {
+//     document.querySelector(".header__nav-list").style.visibility = "visible";
+//     document.querySelector(".header__select").style.visibility = "visible";
+//   }
+// };
+
+// for (item of document.querySelector("header__nav-link")) {
+//   item.onclick = function () {
+//     const navigation = document.querySelector("header__nav-list");
+//     const navigation2 = document.querySelector("header__select");
+//     navigation.style.visibility = "hidden";
+//     navigation2.style.visibility = "hidden";
+//     let off = document.querySelector("#menu__toggle");
+//     off.checked = false;
+//   };
+// }
+
 $("#menu__toggle").click(function (event) {
-  $("#menu__toggle,.header__nav-list,.header__select").toggleClass("active");
+  $("#menu__toggle,.header__nav-list,.header__select-list").toggleClass(
+    "active"
+  );
 });

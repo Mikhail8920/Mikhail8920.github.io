@@ -194,6 +194,7 @@ a {
           flex-direction: column;
   position: relative;
   background-color: #c2c2c233;
+  pading-bottom: 3rem;
 }
 
 .about__me {
@@ -245,7 +246,7 @@ a {
 }
 
 .about img {
-  width: 25rem;
+  width: 21rem;
   height: 28rem;
   background-color: #555;
   -webkit-box-shadow: 2px 1px 3px #777;
@@ -307,7 +308,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 232rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -345,7 +345,6 @@ a {
 
 .work__block {
   width: 95.5%;
-  height: 120rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -479,7 +478,7 @@ a {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem;
   width: 30rem;
-  height: 33rem;
+  height: 6rem;
   text-align: center;
   border-radius: 1rem;
   margin: 0rem 1rem;
@@ -646,9 +645,6 @@ a {
     width: 100%;
     font-size: 1.4rem;
   }
-  .about {
-    height: 241rem;
-  }
   .about__me {
     font-size: 3.8rem;
   }
@@ -695,7 +691,6 @@ a {
     margin-left: 0rem;
   }
   .portfolio {
-    height: 508rem;
     padding-top: 6rem;
   }
   .my__works {
@@ -707,7 +702,6 @@ a {
   }
   .work__block {
     width: 28rem;
-    height: 449rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -792,7 +786,7 @@ a {
   }
 }
 
-@media (min-width: 640px) and (max-width: 936px) {
+@media (min-width: 640px) and (max-width: 1340px) {
   .header__nav__item {
     width: 100%;
   }
@@ -825,7 +819,6 @@ a {
   }
   .portfolio {
     width: 100%;
-    height: 329rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -836,14 +829,10 @@ a {
   }
   .work__block {
     width: 96%;
-    height: 50rem;
   }
   .work__item,
   .work__item__soon {
     width: 28rem;
-  }
-  .work__item__empty {
-    display: none;
   }
   .contact__block,
   .git__block {
@@ -877,21 +866,6 @@ a {
   .about__text__about,
   .skills {
     width: 132rem;
-  }
-  .portfolio {
-    height: 180rem;
-  }
-}
-
-@media (min-width: 1676px) {
-  .portfolio {
-    height: 175rem;
-  }
-}
-
-@media (min-width: 937px) and (max-width: 1005px) {
-  .portfolio {
-    height: 334rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/css/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <title>Philipp Plein</title>
+    <link rel="stylesheet" href="./styles/css/main.css" />
+    <title>PP</title>
   </head>
   <body>
     <header>
@@ -25,7 +25,7 @@
               <img src="./images/header/logo.png" alt="philipp plein" />
             </a>
           </div>
-          <nav class="header__select header__select--wide">
+          <nav class="header__select">
             <div class="header__select-menu">
               <p class="header__select-title">ship to united kingdom</p>
               <p><i class="header__arrow-down"></i></p>
@@ -123,32 +123,28 @@
         </div>
         <div class="sale__timer">
           <div class="sale__units-time">
-            <h3 class="sale__days-text">Days</h3>
-            <h1 class="days"></h1>
+            <h3 id="sale__days-text">Days</h3>
+            <h1 id="days"></h1>
           </div>
           <span class="sale__separator">:</span>
           <div class="sale__units-time">
-            <h3 class="sale__hours-text">Hours</h3>
-            <h1 class="hours"></h1>
+            <h3 id="sale__hours-text">Hours</h3>
+            <h1 id="hours"></h1>
           </div>
           <span class="sale__separator">:</span>
           <div class="sale__units-time">
-            <h3 class="sale__minutes-text">Minutes</h3>
-            <h1 class="minutes"></h1>
+            <h3 id="sale__minutes-text">Minutes</h3>
+            <h1 id="minutes"></h1>
           </div>
           <span class="sale__separator">:</span>
           <div class="sale__units-time">
-            <h3 class="sale__seconds-text">Secondes</h3>
-            <h1 class="seconds"></h1>
+            <h3 id="sale__seconds-text">Secondes</h3>
+            <h1 id="seconds"></h1>
           </div>
         </div>
         <div class="sale__buttons">
-          <form action="there will be some kind of link" target="_blank">
-            <button class="sale__button">men</button>
-          </form>
-          <form action="there will be some kind of link" target="_blank">
-            <button class="sale__button">woman</button>
-          </form>
+          <button class="sale__button">men</button
+          ><button class="sale__button">woman</button>
         </div>
       </section>
       <section class="teddy-bear">
@@ -167,12 +163,8 @@
             for this New Capsule Collection for him and her
           </p>
           <div class="buttons-group">
-            <form action="there will be some kind of link" target="_blank">
-              <button class="left-button">men</button>
-            </form>
-            <form action="there will be some kind of link" target="_blank">
-              <button class="right-button">woman</button>
-            </form>
+            <button class="left-button">men</button
+            ><button class="right-button">woman</button>
           </div>
         </div>
       </section>
@@ -184,7 +176,7 @@
         <div class="men__collection">
           <div class="men__main-image-block">
             <img
-              class="men__mein-image"
+              id="men__mein-image"
               src="./images/teddy_bear_men/men1.jpg"
               alt="men"
             />
@@ -254,7 +246,6 @@
           <div class="woman__main-image-block">
             <img
               id="woman__mein-image"
-              class="woman__mein-image"
               src="./images/teady_bear_woman/woman1.jpg"
               alt="woman"
             />
@@ -329,9 +320,7 @@
             $KELETON collection is an homage to the advance and futuristic world
             od 3D printing.
           </p>
-          <form action="there will be some kind of link" target="_blank">
-            <button class="common__one-button">shop now</button>
-          </form>
+          <button class="common__one-button">shop now</button>
         </div>
         <div class="skeleton__bottom-image">
           <img src="./images/the_skeleton/T-shirt.png" alt="T-shirt" />
@@ -351,12 +340,8 @@
             2 pack 50ml now available!
           </p>
           <div class="buttons-group">
-            <form action="there will be some kind of link" target="_blank">
-              <button class="left-button">shop 2pack 50ml</button>
-            </form>
-            <form action="there will be some kind of link" target="_blank">
-              <button class="right-button">shop 90ml</button>
-            </form>
+            <button class="left-button">shop 2pack 50ml</button>
+            <button class="right-button">shop 90ml</button>
           </div>
         </div>
       </section>
@@ -377,12 +362,8 @@
             Plein<span class="tm-span--small">™</span> Drop.
           </p>
           <div class="buttons-group">
-            <form action="there will be some kind of link" target="_blank">
-              <button class="left-button">men</button>
-            </form>
-            <form action="there will be some kind of link" target="_blank">
-              <button class="right-button">woman</button>
-            </form>
+            <button class="left-button">men</button>
+            <button class="right-button">woman</button>
           </div>
         </div>
       </section>
@@ -398,9 +379,7 @@
           <p class="common__under-title-text">
             Discover all the shades of the New Philipp Plein Collection!
           </p>
-          <form action="there will be some kind of link" target="_blank">
-            <button class="common__one-button">shop now</button>
-          </form>
+          <button class="common__one-button">shop now</button>
         </div>
       </section>
       <section id="sneaker" class="godsilla-sneaker">
@@ -418,9 +397,7 @@
           <p class="common__under-title-text">
             Discower the God$illa Sneakers now back in stock! For Him and Her
           </p>
-          <form action="there will be some kind of link" target="_blank">
-            <button class="common__one-button">shop now</button>
-          </form>
+          <button class="common__one-button">shop now</button>
         </div>
       </section>
       <section class="mask">
@@ -440,9 +417,7 @@
             >
             Face Mask Collection
           </p>
-          <form action="there will be some kind of link" target="_blank">
-            <button class="common__one-button">shop now</button>
-          </form>
+          <button class="common__one-button">shop now</button>
         </div>
       </section>
       <section class="social">

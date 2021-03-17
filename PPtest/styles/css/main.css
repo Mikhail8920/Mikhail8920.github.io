@@ -68,7 +68,6 @@ button,
 button:active,
 button:focus {
   outline: none;
-  cursor: pointer;
 }
 
 .common__image-block {
@@ -276,7 +275,6 @@ i {
   background: #adadad;
   text-align: center;
   opacity: .8;
-  overflow: auto;
   display: none;
   z-index: 99;
 }
@@ -329,9 +327,9 @@ i {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header__main-text {
@@ -349,7 +347,6 @@ i {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: .25rem;
 }
 
 .header__nav-item {
@@ -544,20 +541,20 @@ i {
           align-items: center;
 }
 
-.sale__days-text,
-.sale__hours-text,
-.sale__minutes-text,
-.sale__seconds-text {
+#sale__days-text,
+#sale__hours-text,
+#sale__minutes-text,
+#sale__seconds-text {
   font-family: "CenturyGothic";
   font-size: 0.8rem;
   text-align: left;
 }
 
-.days,
-.hours,
-.minutes,
-.seconds {
-  font-family: "CenturyGothic";
+#days,
+#hours,
+#minutes,
+#seconds {
+  font-family: "CenturyGothic-Bold";
   font-size: 3rem;
 }
 
@@ -568,9 +565,6 @@ i {
 }
 
 .sale__buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-bottom: 4.5rem;
 }
 
@@ -654,7 +648,7 @@ i {
   position: relative;
 }
 
-.men__mein-image {
+#men__mein-image {
   width: 100%;
 }
 
@@ -1330,17 +1324,17 @@ footer {
         -ms-flex-align: start;
             align-items: start;
     position: absolute;
-    top: 17rem;
-    left: -100%;
+    top: -111%;
+    left: 0;
     width: 100%;
-    height: 55rem;
     background: #fff;
-    z-index: 99;
+    height: 55rem;
     -webkit-transition: all .3s;
     transition: all .3s;
+    z-index: 99;
   }
   .header__nav-list.active {
-    left: 0;
+    top: 17rem;
   }
   .header__nav-item {
     width: 100%;
@@ -1376,17 +1370,14 @@ footer {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
-  .header__select--wide {
+  .header__select {
     position: absolute;
     top: -100%;
     left: 0;
     margin: 0 0 0 2rem;
     z-index: 100;
   }
-  .header__select--wide {
-    top: -100%;
-  }
-  .header__select--wide.active {
+  .header__select {
     top: 68rem;
   }
   .header__singIn-and-interaction {
@@ -1723,12 +1714,6 @@ footer {
   .header__main-menu {
     -ms-flex-preferred-size: 66%;
         flex-basis: 66%;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .header__nav-list {
-    margin: 0 0 .7rem 0;
   }
   .header__singIn-and-interaction {
     -ms-flex-preferred-size: 17%;
